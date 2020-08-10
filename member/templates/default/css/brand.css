@@ -1,0 +1,239 @@
+body {
+    background: #f6f6f6;
+    font-family: "方正黑体";
+}
+
+.brand-banner {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.brand-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.brand-main {
+    width: 1200px;
+    margin: 20px auto 0;
+    overflow: hidden;
+}
+
+.brand-left {
+    float: left;
+    width: 298px;
+}
+
+.brand-hot {
+    border: 1px solid #ddd;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.brand-hot li {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.brand-hot li:last-child {
+    border-bottom: none;
+}
+
+.brand-hot-head {
+    overflow: hidden;
+    margin: 20px 0 20px 20px;
+}
+
+.brand-hot-head .title {
+    float: left;
+    width: 180px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    background: url(../images/brand-title-bg.png) no-repeat;
+}
+
+.brand-title-more {
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    margin-top: 23px;
+    background: url(../images/brand-more.png) no-repeat;
+}
+
+.brand-hot-title,
+.brand-hot-content {
+    overflow: hidden;
+    padding: 0 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.brand-hot li i {
+    float: left;
+    font-style: italic;
+    color: #666;
+}
+
+.brand-hot li p {
+    margin-left: 40px;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.brand-hot-more {
+    float: right;
+    color: #999;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.brand-left-banner {
+    width: 300px;
+    height: 400px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.brand-left-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.brand-right {
+    margin-left: 310px;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    background: #fff;
+    padding: 0 24px 150px;
+}
+
+.service-system .title {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #666;
+    line-height: 40px;
+    font-family: "华文彩云";
+    letter-spacing: 4px;
+}
+
+.service-system .sub-title {
+    text-align: center;
+    letter-spacing: 6px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.service-title {
+    position: relative;
+    display: inline-block;
+    height: 32px;
+    margin-bottom: 20px;
+    line-height: 32px;
+    padding: 0 10px;
+    color: #fff;
+    background: #b363ea;
+    font-size: 16px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.service-title::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #b363ea;
+}
+
+.service-wrap {
+    font-family: "方正黑体";
+    color: #000;
+}
+
+.service-wrap p {
+    text-indent: 2em;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.new-retail-title {
+    position: relative;
+    left: 4px;
+    top: 4px;
+    width: 834px;
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #999;
+    margin: 30px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #9737df;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.new-retail .new-retail-title {
+    color: #eb5344;
+}
+
+.new-retail-title::before {
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    content: "";
+    width: 834px;
+    height: 48px;
+    border: 1px solid #999;
+}
+
+.brand-right-banner1 {
+    width: 100%;
+    height: 300px;
+    margin: 40px 0;
+    overflow: hidden;
+}
+
+.brand-right-banner2 {
+    width: 100%;
+    height: 200px;
+    margin: 40px 0;
+    overflow: hidden;
+}
+
+.brand-right-banner1 img,
+.brand-right-banner2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.new-retail-detail p {
+    font-size: 14px;
+    text-indent: 2em;
+}
+
+.new-retail-detail h1 {
+    font-size: 32px;
+    color:#9737df;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px 0;
+    text-align: center;
+    font-family: "方正黑体";
+    letter-spacing: 10px;
+}
+
+.new-retail-detail h1 span {
+    color: #333;
+}

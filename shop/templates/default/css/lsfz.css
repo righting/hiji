@@ -1,0 +1,114 @@
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+.lsfz-banner {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.lsfz-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.lsfz-main {
+    width: 1180px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-bottom: 45px;
+    overflow: hidden;
+}
+
+.lsfz-aside {
+    float: left;
+    width: 212px;
+    font-family: "microsoft yahei";
+}
+
+.lsfz-aside-nav {
+    padding-bottom: 5px;
+    background: #4fb702;
+}
+
+.lsfz-aside-nav h5 {
+    height: 53px;
+    border-bottom: 2px solid rgba(255,255,255,.2);
+    text-align: center;
+    line-height: 53px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.lsfz-aside-nav li {
+    height: 53px;
+    line-height: 53px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+.lsfz-aside-nav a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+}
+
+.lsfz-aside-nav i {
+    display: inline-block;
+    width: 21px;
+    height: 24px;
+    margin: 0 15px 5px 22px;
+    vertical-align: middle;
+    background-image: url(../images/lsfz-bg.png);
+    background-repeat: no-repeat;
+}
+
+.lsfz-aside-nav li:first-child i {
+    background-position: 0 0;
+}
+
+.lsfz-aside-nav li:nth-child(2) i {
+    background-position: -25px 0;
+}
+
+.lsfz-aside-nav li:last-child i {
+    background-position: -50px 0;
+}
+
+.lsfz-aside-nav a:hover,
+.lsfz-last-nav a:hover {
+    background: #468d47;
+}
+
+.lsfz-aside-banner {
+    margin: 2px 0;
+}
+
+.lsfz-last-nav {
+    background: #4fb702;;
+}
+
+.lsfz-last-nav a {
+    display: block;
+    height: 85px;
+    padding-top: 25px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.lsfz-last-nav h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+.lsfz-layout {
+    float: left;
+    margin-left: 20px;
+}
+

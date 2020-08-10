@@ -1,0 +1,264 @@
+blockquote,
+body,
+dd,
+div,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+input,
+li,
+ol,
+p,
+pre,
+ul {
+	padding: 0;
+	margin: 0
+}
+address,
+caption,
+cite,
+code,
+em,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+strong,
+table,
+td,
+th {
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 400
+}
+strong {
+	font-weight: 700
+}
+ol,
+ul {
+	list-style: none outside none
+}
+fieldset,
+img {
+	border: medium none;
+	vertical-align: middle
+}
+caption,
+th {
+	text-align: left
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+body {
+	font: 12px/20px "Hiragino Sans GB", "Microsoft Yahei", arial, 宋体, "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+	color: #333;
+	background: #FFF none repeat scroll 0 0;
+	min-width: 1200px
+}
+input,
+select,
+textarea {
+	font: 12px/20px Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif
+}
+cite,
+em,
+i {
+	font-style: normal
+}
+button,
+input,
+select,
+textarea {
+	outline: 0
+}
+html {
+	min-height: 101%
+}
+a {
+	color: #333;
+	text-decoration: none;
+	outline: medium none;
+	-webkit-transition-property: color;
+	-webkit-transition-duration: .3s;
+	-webkit-transition-timing-function: ease
+}
+a:active,
+a:link,
+a:visited {
+	text-decoration: none
+}
+a:hover {
+	color: #C81623;
+	text-decoration: none
+}
+.over_hidden {
+	display: block;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden
+}
+html[xmlns] .clearfix {
+	display: block
+}
+*html .clearfix {
+	height: 1%
+}
+time {
+	color: #777
+}
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+	display: block
+}
+.banner {
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+.main {
+    width: 100%;
+    background: #f3f3f3;
+    font-family: "方正黑体简体";
+}
+.provide {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+.provide-left {
+    float: left;
+    width: 278px;
+    overflow: hidden;
+}
+.provide-left p{
+    width: 255px;
+    height: 86px;
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 86px;
+}
+.provide-left p>span{
+    width: 115px;
+    display: inline-block;
+    height: 100%;
+    margin-left: 100px
+}
+.provide-left-a {
+    background: url("./fixation/images/provide1.png");
+    background-size: contain;
+}
+.provide-left-b {
+    background: url("./fixation/images/provide2.png");
+    background-size: contain;
+}
+.provide-left-c {
+    background: url("./fixation/images/provide3.png");
+    background-size: contain;
+}
+.provide-right {
+    float: left;
+    width: 910px;
+    overflow: hidden;
+}
+.provide-right-a {
+    margin-top: 20px;
+    width: 900px;
+    border: 1px solid #e6e6e6;
+}
+.provide-a {
+    display: flex;
+    justify-content: center;
+}
+.provide-right-a1  {
+    position: relative;
+    height: 32px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #9737d9;
+    line-height: 32px;
+    font-size: 18px;
+}
+.provide-right-a1:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    width: 100%;
+    height: 3px;
+    background: #9737d9;
+}
+.provide-right-a2 {
+    width: 870px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+.provide-right-a3 {
+    text-indent:25px;
+    font-size: 14px;
+    color: #000000;
+}
+.provide-b {
+    width: 396px;
+    height: 40px;
+    border-bottom: 2px solid #ffcf3d;
+    margin:  0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.provide-b1 {
+    width: 288px;
+    height: 37px;
+    margin: 0 auto;
+    background: url("./fixation/images/provide5.png");
+    color: #FFFFFF;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+}
+.provide-c {
+    width: 422px;
+    height: 208px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.provide-right-b {
+    width: 100%;
+    height: 79px;
+}
+.provide-right-b img {
+    width: 100%;
+}

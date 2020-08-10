@@ -1,0 +1,713 @@
+body {
+    background: #fff;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.smart-banner {
+    width: 100%;
+    height: 400px;
+}
+
+.smart-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.smart-part1 {
+    margin: 40px auto!important;
+}
+
+.smart-part1 li {
+    float: left;
+    width: 25%;
+    height: 110px;
+    line-height: 110px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.smart-part1 li img {
+    margin-right: 20px;
+}
+
+.smart-video {
+    position: relative;
+    float: left;
+    width: 435px;
+    height: 287px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.smart-video-poster {
+    width: 435px;
+    height: 287px;
+}
+
+.smart-video-poster img {
+    width: 100%;
+    height: 100%;
+}
+
+.smart-video:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #00000033;
+    transition: all .5s;
+}
+
+.smart-video:hover {
+    color: #333;
+}
+
+.smart-video:hover:after {
+    background: #0000001a;
+}
+
+.smart-video-play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: -50px;
+    background: url(../images/smart-store/play.png) no-repeat;
+}
+
+.smart-video-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 435px;
+    height: 45px;
+    color: #fff;
+    background: #ffffff1a;
+    line-height: 45px;
+    font-size: 14px;
+}
+
+.smart-video-title h2 {
+    float: right;
+    height: 45px;
+    margin-right: 25px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.smart-carousel {
+    position: relative;
+    float: left;
+    width: 230px;
+    height: 287px;
+    margin: 0 10px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.smart-slider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.smart-slider li {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.smart-slider li a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+    z-index: 2;
+}
+
+.smart-page {
+    position: absolute;
+    bottom: 15px;
+    z-index: 9;
+    width: 230px;
+    height: 9px;
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/;
+    text-align: center;
+
+}
+
+.smart-page li {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline/*IE6、7*/
+    ;
+    width: 7px;
+    height: 7px;
+    margin-left: 6px;
+    border: 1px solid #9737df;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    *zoom: 1;
+}
+
+.smart-page a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    text-indent: -9999px;
+}
+
+.smart-page .current {
+    background: #9737df;
+}
+
+.smart-store-model {
+    float: right;
+    width: 510px;
+    height: 285px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.smart-store-model img {
+    width: 100%;
+    height: 100%;
+}
+
+.smart-part3 {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.smart-part3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.smart-part4 .title {
+    position: relative;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.smart-part4 .title::before {
+    content: "";
+    position: absolute;
+    left:0;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background: #9737df;
+}
+
+
+.smart-part4 .title h1 {
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+    border: 2px solid #9737df;
+    font-size: 16px;
+    z-index: 10;
+    background: #fff;
+}
+
+.sub-title {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.sub-title li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+    height: 45px;
+    padding: 31px 0;
+    font-size: 16px;
+    background: url(../images/smart-store/circle_01.png) no-repeat;
+}
+
+.smart-feature {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.smart-feature li {
+    border: 1px solid #ddd;
+}
+
+.smart-feature li img {
+    width: 213px;
+    height: 200px;
+}
+
+.smart-feature-order {
+    position: relative;
+    float: left;
+    border-width: 30px 20px 30px 20px;
+    border-style: solid;
+}
+
+.smart-feature-order.order1 {
+    border-color: #27b8bb #f1f1ef #f1f1ef #27b8bb;
+}
+
+.smart-feature-order.order2 {
+    border-color: #2286a6 #f1f1ef #f1f1ef #2286a6;
+}
+
+.smart-feature-order.order3 {
+    border-color: #f4a81f #f1f1ef #f1f1ef #f4a81f;
+}
+
+.smart-feature-order.order4 {
+    border-color: #da161a #f1f1ef #f1f1ef #da161a;
+}
+
+.smart-feature-order span {
+    position: absolute;
+    left: -15px;
+    top: -25px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.smart-feature-title {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.smart-feature-title h1 {
+    height: 36px;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #333;
+}
+
+.smart-part5 {
+    width: 100%;
+    height: 175px;
+    overflow: hidden;
+}
+
+.smart-part5 img {
+    width: 100%;
+    height: 100%;
+}
+
+.smart-part6 {
+    position: relative;
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.smart-part6>div {
+    position: relative;
+    height: 150px;
+    padding-left: 75px;
+    border: 1px solid #9737df;
+    border-radius: 3px;
+    z-index: 10;
+     background: #fff url(../images/smart-store/smart-bg.jpg) center center no-repeat;
+}
+
+.smart-part6:after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 2px;
+    width: 1200px;
+    height: 150px;
+    border: 1px solid #9737df;
+    border-radius: 3px;
+    z-index: 3;
+}
+
+.smart-part6 h1 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 28px;
+}
+
+.smart-part6 h2 {
+    font-size: 18px;
+    line-height: 26px
+}
+
+.smart-part7 {
+    height: 100px;
+    margin-top: 25px;
+    border: 1px dashed #000;
+}
+
+.smart-part7 h1 {
+    line-height: 100px;
+    font-size: 46px;
+    text-align: center;
+}
+
+.smart-part8 {
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    line-height: 100px;
+}
+
+.smart-part8-left {
+    float: left;
+    width: 300px;
+}
+
+.smart-part8-left h1 {
+    height: 34px;
+    margin-bottom: 5px;
+    line-height: 40px;
+    font-size: 24px;
+}
+
+.smart-part8-left h2 {
+    font-size: 16px;
+    line-height: 26px
+}
+
+.smart-part8-right {
+    float: left;
+}
+
+.smart-part8-right h3 {
+    color: #9737df;
+    font-size: 16px;
+}
+
+.smart-part8-right h3 span {
+    font-size: 22px;
+}
+
+.smart-part9 h1 {
+    height: 40px;
+    border: 1px solid #9737df;
+    border-radius: 3px;
+    line-height: 40px;
+    color: #9737df;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1em;
+}
+
+.smart-part9-text {
+    height: 140px;
+    padding-top: 100px;
+    text-align: center;
+    background: url(../images/smart-store/smart-sotre_05.jpg) no-repeat;
+}
+
+.smart-part9-text h2 {
+    width: 790px;
+    height: 50px;
+    margin: 5px auto;
+    font-size: 38px;
+    color: #fff;
+    line-height: 50px;
+    letter-spacing: 33px;
+    text-indent: 33px;
+}
+
+.smart-part10 {
+    margin-top: 50px;
+}
+
+.smart-part10 .title {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.smart-part10 .title-left {
+    float: left;
+    width: 190px;
+    height: 0;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #ccc;
+}
+
+.smart-part10 em {
+    width: 188px;
+    height: 0;
+    font-size: 16px;
+    text-align: center;
+    line-height: 28px;
+    color: #000;
+    border-bottom: 28px solid #fff;
+}
+
+.smart-part10 .title-left em {
+    display: inline-block;
+    margin: 1px;
+    border-right: 29px solid transparent;
+}
+
+.smart-part10 .title-right {
+    position: relative;
+    float: right;
+    width: 190px;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid #ccc;
+}
+
+.smart-part10 .title-right em {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    border-left: 29px solid transparent;
+}
+
+.smart-part10 .title-mid {
+    float: left;
+    width: 760px;
+    height: 29px;
+    border-bottom: 1px solid #ddd;
+    line-height: 29px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1em;
+}
+
+.samrt-part10-way {
+    overflow: hidden;
+}
+
+.smart-part10-way li {
+    float: left;
+    width: 295px;
+    height: 210px;
+    margin-left: 75px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background: url(../images/smart-store/smart-bg01.png) no-repeat;
+}
+
+.smart-part10-way li h1 {
+    width: 80px;
+    height: 28px;
+    margin: 50px auto 10px;
+    border-bottom: 2px solid #fff;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.smart-message {
+    margin: 45px auto;
+}
+
+.hotline {
+	float: left;
+	width: 415px;
+	height: 210px;
+	padding-top: 35px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	background: #333333;
+    border-radius: 3px;
+}
+
+.hotline h2 {
+    height: 32px;
+	font-size: 18px;
+	line-height: 32px;
+	letter-spacing: 1px;
+}
+
+.hotline-box {
+	width: 315px;
+	height: 76px;
+	margin: 10px auto;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+
+.hotline-box h1 {
+	height: 38px;
+	line-height: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hotline-box span {
+	display: block;
+	height: 38px;
+	width: 315px;
+	background: url(../images/smart-store/smart-hotline.png) no-repeat;
+}
+
+.message-submit {
+	position: relative;
+	float: left;
+	width: 430px;
+	height: 235px;
+	margin-left: 10px;
+    border-radius: 3px;
+	padding: 10px 70px 0 20px;
+	background: #333;
+	color: #fff;
+	font-size: 16px;
+}
+
+.message-submit label {
+	float: left;
+	margin-top: 15px;
+}
+
+.message-submit input {
+	width: 148px;
+	height: 28px;
+	line-height: 28px;
+	margin-left: 3px;
+	margin-top: 10px;
+	padding: 0 10px;
+	border: 1px solid #fff;
+    background: #333;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.message-submit button {
+	display: block;
+	width: 72px;
+	height: 36px;
+    margin: 25px auto;
+	line-height: 30px;
+	text-align: center;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+	background: url(../images/smart-store/smart-submit-bg.png) no-repeat;
+}
+
+.message-submit span {
+    font-size: 14px;
+}
+
+.members-message {
+	float: right;
+	width: 245px;
+	height: 245px;
+    border-radius: 3px;
+	background: #333;
+	color: #fff;
+}
+
+.members-message h2 {
+	margin: 10px;
+    font-size: 18px;
+}
+
+.members-message textarea {
+	width: 225px;
+	height: 185px;
+	border: none;
+	padding: 10px;
+	background: #333;
+	color: #fff;
+	font-size: 14px;
+	overflow: hidden;
+	resize: none;
+}
+
+
+/* 视频播放 */
+.video-js {
+    width: 890px!important;
+    height: 530px!important;
+}
+
+.bg{
+    position: fixed;
+    background: rgba(0,0,0,0.3);
+    top:0px;
+    left: 0px;
+    display: none;
+    z-index: 999;
+}
+
+.video-js .vjs-big-play-button {
+   left: 50%!important;
+   top: 50%!important;
+   margin-left: -45px;
+   margin-top: -22px;
+}
+
+.sharemodule-video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	/* width: 500px; */
+	height: 570px;
+	margin-left: -445px;
+	margin-top: -285px;
+}
+
+.sharemodule-video-guan {
+    height: 40px;
+    width: 890px;
+    background-color: #FFFFFF;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.sharemodule-video-guan span{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sharemodule-video-guan-a {
+    width: 700px;
+    height: 100%;
+    overflow: hidden;
+    text-indent: 8px;
+}
+
+.sharemodule-video-guan-b {
+    width: 16px;
+    height: 16px;
+    background: url("../images/smart-store/close.png") no-repeat;
+    background-size: contain;
+    margin-left: 150px;
+	border-radius: 50%;
+}

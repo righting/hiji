@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+	margin:0;
+	padding:0;
+}
+body { padding:0px;
+	font-size: 12px;
+	line-height: 1.5em;
+	font-family: tahoma, "微软雅黑", Simsun, Mingliu, Arial, Helvetica;
+	color: #333333;
+	background:#fff;
+	width:100%;
+	overflow-x:hidden;
+}
+img {
+	border:0;
+	vertical-align:middle;
+}
+ul,li{
+	list-style-type: none;
+}
+table,td{ 
+	border-collapse:collapse
+}
+address,em{
+	font-style:normal;
+}
+a{
+	color:#7b7b7b;
+	text-decoration:none;
+}
+a:hover{
+	color: #000;
+	text-decoration:none;
+}
+.red{
+	color: #e44141;
+}
+input:focus{ outline: none;}
+button:focus{ outline: none;}
+textarea:focus{ outline: none;}
+
+
+/*通用样式结束*/
+
+
+/*炫酷品牌*/
+
+.cool-main{ width: 100%; height: auto; overflow: hidden; background: url(../../images/brand/cool_bg.png) no-repeat center -30px #f6f6f6;}
+
+.cool-big{ width: 1200px; height: auto; overflow: hidden; margin: 0 auto 10px;}
+.cool-big h3{ width: 100%; height: 86px; text-align: center; line-height: 0; margin: 40px 0 20px;}
+.cool-big h4{ width: 170px; height: 40px; background: #9737df; color: #fff; font-size: 24px; margin: 0 auto 30px; font-weight: bold; text-align: center; line-height: 40px;}
+.cool-big ul{}
+.cool-big ul li{ float: left; overflow: hidden; margin-right: 20px; margin-bottom: 20px; position: relative;}
+.cool-big ul li:first-child{ width: 285px; height: 390px;}
+.cool-big ul li:nth-child(2){ width: 585px; height: 390px;}
+.cool-big ul li:nth-child(3){ width: 285px; height: 390px; margin-right: 0;}
+.cool-big ul li:nth-child(4){ width: 590px; height: 390px;}
+.cool-big ul li:last-child{ width: 590px; height: 390px; margin-right: 0;}
+.big-img{ width: 100%; height: 100%;}
+.big-img img{ width: 100%; height: 100%; transition: all 0.5s; opacity: 1;}
+.big-img:hover img{ opacity: 0.8;}
+.big-sign{ width: 95px; height: 95px; background:#fff; border-radius: 50%; bottom: 10px; left: 25px; z-index: 10; position: absolute; line-height: 95px; text-align: center;}
+.big-text{ width: 100%; height: 58px; background: rgba(0,0,0,0.4); position: absolute; left: 0; bottom: 0; line-height: 58px; color: #fff; font-size: 20px; text-indent: 135px;}
+
+
+.never{ width: 1200px; height: auto; margin: 0 auto;}
+.never h3{ width: 100%; height: 15px; border-bottom: 1px solid #9737df;}
+.never h4{ width: 140px; height: 30px; margin: -16px auto 30px; line-height: 30px; text-align: center; font-size: 24px; color: #9737df; background: #f6f6f6;}
+.never dl{ width: 900px; margin: 0 auto 10px; overflow: hidden;}
+.never dl dd{ float: left; margin-right: 20px; line-height: 25px; font-size: 16px; margin-bottom: 10px; position: relative;}
+.never dl dd a{ color: #5e5e5e; margin-right: 20px; position: relative; line-height: 25px; display: block;border-bottom: 2px solid transparent;}
+.never dl dd a:hover{border-bottom: 2px solid #9737df;}
+.never dl dd:after{ content: "/"; display: block; position: absolute; right: 0; top:0}
+.never dl dd:nth-child(8n):after{content: "/"; display: none;}
+.never dl dd a.on{ border-bottom: 2px solid #9737df;}
+.never ul{ display: table;}
+.never ul li{ border:7px solid #fff; float: left; margin-right: 16px; margin-bottom: 15px;}
+.never ul li img{ width: 100%; height: 100%;}
+.never ul li:hover{ box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);}
+.never ul li:first-child{ width: 375px; height: 275px; }
+.never ul li:nth-child(2){ width: 375px; height: 275px; }
+.never ul li:nth-child(3){ width: 375px; height: 579px; margin-right: 0; float: right;}
+.never ul li:nth-child(4){ width: 780px; height: 275px; }
+.never ul li:nth-child(5){ width: 375px; height: 275px; }
+.never ul li:nth-child(6){ width: 780px; height: 275px; margin-right: 0; float: right;}
+.never ul li:nth-child(7){ width: 575px; height: 275px; }
+.never ul li:nth-child(8){ width: 575px; height: 275px; margin-right: 0; float: right;}
+.never ul li:nth-child(9){ width: 375px; height: 579px; }
+.never ul li:nth-child(10){ width: 375px; height: 275px; }
+.never ul li:nth-child(11){ width: 375px; height: 275px; margin-right: 0; float: right;}
+.never ul li:last-child{ width: 780px; height: 275px; float: right; margin-right: 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

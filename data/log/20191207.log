@@ -1,0 +1,63 @@
+[2019-12-07 11:00:56] /shop/index.php?action=index&area_id=16&ci=4&controller=cate&gift=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '16' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-07 11:36:06] /shop/index.php?action=index&ci=3_1&controller=cate&key=&order= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-07 11:54:18] /shop/index.php?controller=cate&action=index&cate_id=5519&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5519' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-07 12:05:52] /shop/index.php?action=index&area_id=1&cate_id=3135&ci=3&controller=cate ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-07 12:29:48] /shop/index.php?controller=cate&action=index&cate_id=5548&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5548' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-07 12:37:28] /shop/index.php?controller=cate&action=index&cate_id=5568&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5568' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-07 12:42:15] /shop/index.php?action=index&area_id=28&ci=1&controller=cate&gift=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '28' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-07 12:47:23] /shop/index.php?controller=cate&action=index&cate_id=1068&ci=1&key=2&order=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-07 13:27:20] /shop/index.php?controller=cate&action=index&cate_id=5530&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5530' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-07 13:39:57] /shop/index.php?controller=cate&action=index&cate_id=5528&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5528' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-07 14:26:08] /shop/index.php?controller=cate&action=index&cate_id=5533&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5533' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-07 14:49:39] /shop/index.php?action=index&ci=4&controller=cate&key=1&order=2&yx=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( is_select = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-07 15:22:46] /shop/index.php?action=index&area_id=33&ci=3&controller=cate&type=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '33' ) AND ( is_own_shop = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-07 15:33:50] /shop/index.php?action=index&area_id=3&ci=4&controller=cate&gift=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '3' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-07 17:42:15] /shop/index.php?action=index&area_id=10&cate_id=484&ci=3_1&controller=cate ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '10' ) AND ( contract_3 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-07 21:07:00] /shop/index.php?controller=show_store&action=ajax_flowstat_record&store_id=1&goods_id=128&act_param=goods&op_param=comments_list ( act=show_store&action=ajax_flowstat_record ) 
+ERR: Db Error: Table 'hiji100_com.flowstat_1' doesn't exist
+SELECT * FROM `flowstat_1` WHERE ( stattime = '1575648000' ) AND ( store_id = '1' ) AND ( type = 'sum' ) LIMIT 1  
+[2019-12-07 21:07:00] /shop/index.php?controller=show_store&action=ajax_flowstat_record&store_id=1&goods_id=128&act_param=goods&op_param=comments_list ( act=show_store&action=ajax_flowstat_record ) 
+ERR: Db Error: Table 'hiji100_com.flowstat_1' doesn't exist
+INSERT INTO `flowstat_1` (stattime,clicknum,store_id,type,goods_id) VALUES ('1575648000','1','1','sum','0')
+[2019-12-07 22:26:39] /shop/index.php?action=index&cate_id=266&ci=2_3&controller=cate&gift=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-07 23:01:43] /shop/index.php?action=index&area_id=33&ci=2_1&controller=cate&new=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '33' ) AND ( is_new_arrival = '1' ) AND ( contract_2 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-07 23:49:24] /shop/index.php?controller=show_store&action=ajax_flowstat_record&store_id=1&goods_id=&act_param=show_store&op_param=goods_all ( act=show_store&action=ajax_flowstat_record ) 
+ERR: Db Error: Table 'hiji100_com.flowstat_1' doesn't exist
+SELECT * FROM `flowstat_1` WHERE ( stattime = '1575648000' ) AND ( store_id = '1' ) AND ( type = 'sum' ) LIMIT 1  
+[2019-12-07 23:49:24] /shop/index.php?controller=show_store&action=ajax_flowstat_record&store_id=1&goods_id=&act_param=show_store&op_param=goods_all ( act=show_store&action=ajax_flowstat_record ) 
+ERR: Db Error: Table 'hiji100_com.flowstat_1' doesn't exist
+INSERT INTO `flowstat_1` (stattime,clicknum,store_id,type,goods_id) VALUES ('1575648000','1','1','sum','0')

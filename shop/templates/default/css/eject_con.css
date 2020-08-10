@@ -1,0 +1,32 @@
+
+/* 弹出框体 */
+#dialog_manage_screen_locker .div { _zoom: 1;}
+
+/* 通用弹出式窗口样式*/
+.eject_con { background-color: #FFF; overflow: hidden;}
+.eject_con .alert { display: none; margin: 10px;}
+.eject_con .alert .error { color: inherit; display: block; clear: both;}
+.eject_con dl { font-size: 0; *word-spacing:-1px/*IE6、7*/; line-height: 20px; display: block; clear: both; overflow:hidden;}
+.eject_con dl dt { font-size: 12px; line-height: 32px; vertical-align: top; letter-spacing: normal; word-spacing: normal; text-align: right; display: inline-block; *display: inline/*IE6,7*/; width: 29%; padding: 10px 1% 10px 0; margin: 0; zoom: 1;}
+.eject_con dl dt i.required { font: 12px/16px Tahoma; color: #F30; vertical-align: middle; margin-right: 4px; }
+.hint { font-size: 12px; line-height: 16px; color: #BBB; margin-top: 10px; }
+.eject_con dl dd { font-size: 12px; line-height: 32px; vertical-align: top; letter-spacing: normal; word-spacing: normal; display: inline-block; *display: inline/*IE6,7*/; width: 69%; padding: 10px 0 10px 0; zoom:1;}
+.eject_con h2 { line-height:20px; font-weight: 600; background-color:#FEFEDA; color: #630; text-align: left; width: 90%; padding:8px 16px; margin: 5px auto 5px auto; border: solid 1px #FFE8C2;}
+.eject_con span.num { font-weight: 600; color: #390;}
+.eject_con ul { overflow: hidden;}
+.eject_con li h2 { font-size: 16px; font-weight: 600; line-height: 32px; color: #555; width: 98%; text-align: left; margin: 0 auto; border-bottom: dashed 1px #E7E7E7;}
+.eject_con .checked { float: left; padding: 0; margin: 0;}
+.eject_con .checked li { line-height: 16px; height: 16px; padding: 4px 0;}
+.eject_con li p { float: left; }
+.eject_con .strong { padding-left: 10px; color: #ff4e00; }
+.eject_con .bottom { background-color:#F9F9F9; text-align: center; border-top: 1px solid #EAEAEA; overflow: hidden; }
+.eject_con .ncsc-upload-btn,
+.eject_con .ncsc-upload-btn span,
+.eject_con .ncsc-upload-btn .input-file { width: 80px; height: 30px;}
+.eject_con .ncsc-upload-btn p { color: #666; width: 78px; height: 20px;}
+/*弹出框体中的列表*/
+.eject-con-list { font-size: 0; *word-spacing:-1px/*IE6、7*/; padding: 9px;}
+.eject-con-list li { font-size: 12px; line-height: 20px; vertical-align: top; letter-spacing: normal; word-spacing: normal; display: inline-block; *display: inline/*IE6,7*/; width: 19%; height: 20px; padding: 4px 0 4px 1%; zoom: 1;}
+.eject-con-list li .checkbox,
+.eject-con-list li label { vertical-align: middle; display: inline-block; *display: inline; *zoom: 1;}
+.eject-con-list li .checkbox { margin-right: 6px;}

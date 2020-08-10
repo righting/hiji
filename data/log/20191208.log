@@ -1,0 +1,1072 @@
+[2019-12-08 01:39:29] /shop/index.php?controller=cate&action=index&cate_id=96&ci=4&key=3&order=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 01:48:58] /shop/index.php?controller=cate&action=index&cate_id=96&ci=4&type=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( is_own_shop = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+1575743401.5547
+1575743401.5643
+1575743401.5719
+分红日志
+预存款变更日志
+[2019-12-08 02:30:01] /crontab/index.php?controller=date ( act=date&action=index ) 
+ERR: Db Error: Query was empty
+
+预存款修改sql:
+1575743401.5826
+2019-12-08 02:30:01天计划任务执行成功
+1575743401.586
+1575743401.5868
+1575743401.5884
+1575743401.5938
+1575743401.5948
+1575743401.5954
+1575743401.5967
+1575743401.6001
+1575743401.6002
+1575743401.6016
+1575743402.267
+1575743406.3317
+$o1575743406.3327
+$p1575743406.3509
+[2019-12-08 03:02:42] /shop/index.php?action=index&area_id=2&cate_id=839&ci=2_3&controller=cate&key=&order= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '2' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 03:39:36] /shop/index.php?action=index&area_id=2&ci=4&controller=cate&yx=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '2' ) AND ( is_select = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 04:53:37] /shop/index.php?controller=cate&action=index&cate_id=5503&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5503' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 04:53:39] /shop/index.php?controller=cate&action=index&cate_id=5503&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5503' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 04:53:42] /shop/index.php?controller=cate&action=index&cate_id=5503&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5503' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 04:53:43] /shop/index.php?controller=cate&action=index&cate_id=5503&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5503' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 04:55:35] /shop/index.php?controller=cate&action=index&cate_id=5482&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5482' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 04:55:37] /shop/index.php?controller=cate&action=index&cate_id=5482&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5482' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 04:55:39] /shop/index.php?controller=cate&action=index&cate_id=5482&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5482' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 04:55:41] /shop/index.php?controller=cate&action=index&cate_id=5482&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5482' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 04:57:15] /shop/index.php?controller=cate&action=index&cate_id=5497&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5497' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 04:57:17] /shop/index.php?controller=cate&action=index&cate_id=5497&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5497' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 04:57:19] /shop/index.php?controller=cate&action=index&cate_id=5497&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5497' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 04:57:21] /shop/index.php?controller=cate&action=index&cate_id=5497&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5497' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 04:59:00] /shop/index.php?controller=cate&action=index&cate_id=5498&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5498' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 04:59:02] /shop/index.php?controller=cate&action=index&cate_id=5498&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5498' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 04:59:04] /shop/index.php?controller=cate&action=index&cate_id=5498&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5498' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 04:59:06] /shop/index.php?controller=cate&action=index&cate_id=5498&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5498' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:00:45] /shop/index.php?controller=cate&action=index&cate_id=5499&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5499' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:00:47] /shop/index.php?controller=cate&action=index&cate_id=5499&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5499' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:00:49] /shop/index.php?controller=cate&action=index&cate_id=5499&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5499' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:00:51] /shop/index.php?controller=cate&action=index&cate_id=5499&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5499' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:02:36] /shop/index.php?controller=cate&action=index&cate_id=5483&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5483' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:02:42] /shop/index.php?controller=cate&action=index&cate_id=5483&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5483' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:02:44] /shop/index.php?controller=cate&action=index&cate_id=5483&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5483' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:02:46] /shop/index.php?controller=cate&action=index&cate_id=5483&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5483' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:04:31] /shop/index.php?controller=cate&action=index&cate_id=5500&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5500' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:04:33] /shop/index.php?controller=cate&action=index&cate_id=5500&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5500' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:04:38] /shop/index.php?controller=cate&action=index&cate_id=5500&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5500' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:04:41] /shop/index.php?controller=cate&action=index&cate_id=5500&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5500' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:06:22] /shop/index.php?controller=cate&action=index&cate_id=5501&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5501' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:06:24] /shop/index.php?controller=cate&action=index&cate_id=5501&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5501' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:06:27] /shop/index.php?controller=cate&action=index&cate_id=5501&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5501' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:06:30] /shop/index.php?controller=cate&action=index&cate_id=5501&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5501' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:08:25] /shop/index.php?controller=cate&action=index&cate_id=5502&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5502' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:08:28] /shop/index.php?controller=cate&action=index&cate_id=5502&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5502' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:08:30] /shop/index.php?controller=cate&action=index&cate_id=5502&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5502' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:08:32] /shop/index.php?controller=cate&action=index&cate_id=5502&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5502' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:10:03] /shop/index.php?controller=cate&action=index&cate_id=5484&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5484' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:10:05] /shop/index.php?controller=cate&action=index&cate_id=5484&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5484' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:10:07] /shop/index.php?controller=cate&action=index&cate_id=5484&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5484' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:10:09] /shop/index.php?controller=cate&action=index&cate_id=5484&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5484' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:11:40] /shop/index.php?controller=cate&action=index&cate_id=5485&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5485' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:11:42] /shop/index.php?controller=cate&action=index&cate_id=5485&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5485' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:11:44] /shop/index.php?controller=cate&action=index&cate_id=5485&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5485' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:11:46] /shop/index.php?controller=cate&action=index&cate_id=5485&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5485' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:13:26] /shop/index.php?controller=cate&action=index&cate_id=5486&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5486' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:13:29] /shop/index.php?controller=cate&action=index&cate_id=5486&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5486' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:13:30] /shop/index.php?controller=cate&action=index&cate_id=5486&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5486' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:13:33] /shop/index.php?controller=cate&action=index&cate_id=5486&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5486' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:15:00] /shop/index.php?controller=cate&action=index&cate_id=5487&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5487' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:15:02] /shop/index.php?controller=cate&action=index&cate_id=5487&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5487' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:15:05] /shop/index.php?controller=cate&action=index&cate_id=5487&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5487' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:15:07] /shop/index.php?controller=cate&action=index&cate_id=5487&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5487' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:16:45] /shop/index.php?controller=cate&action=index&cate_id=5488&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5488' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:16:48] /shop/index.php?controller=cate&action=index&cate_id=5488&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5488' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:16:50] /shop/index.php?controller=cate&action=index&cate_id=5488&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5488' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:16:52] /shop/index.php?controller=cate&action=index&cate_id=5488&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5488' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:18:35] /shop/index.php?controller=cate&action=index&cate_id=5489&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5489' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:18:36] /shop/index.php?controller=cate&action=index&cate_id=5489&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5489' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:18:38] /shop/index.php?controller=cate&action=index&cate_id=5489&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5489' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:18:41] /shop/index.php?controller=cate&action=index&cate_id=5489&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5489' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:20:20] /shop/index.php?controller=cate&action=index&cate_id=5490&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5490' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:20:22] /shop/index.php?controller=cate&action=index&cate_id=5490&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5490' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:20:24] /shop/index.php?controller=cate&action=index&cate_id=5490&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5490' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:20:26] /shop/index.php?controller=cate&action=index&cate_id=5490&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5490' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:22:02] /shop/index.php?controller=cate&action=index&cate_id=5491&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5491' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:22:05] /shop/index.php?controller=cate&action=index&cate_id=5491&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5491' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:22:07] /shop/index.php?controller=cate&action=index&cate_id=5491&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5491' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:22:10] /shop/index.php?controller=cate&action=index&cate_id=5491&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5491' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:24:01] /shop/index.php?controller=cate&action=index&cate_id=5492&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5492' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:24:02] /shop/index.php?controller=cate&action=index&cate_id=5492&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5492' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:24:04] /shop/index.php?controller=cate&action=index&cate_id=5492&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5492' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:24:07] /shop/index.php?controller=cate&action=index&cate_id=5492&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5492' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:25:39] /shop/index.php?controller=cate&action=index&cate_id=5493&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5493' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:25:42] /shop/index.php?controller=cate&action=index&cate_id=5493&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5493' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:25:44] /shop/index.php?controller=cate&action=index&cate_id=5493&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5493' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:25:46] /shop/index.php?controller=cate&action=index&cate_id=5493&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5493' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:27:26] /shop/index.php?controller=cate&action=index&cate_id=5494&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5494' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:27:28] /shop/index.php?controller=cate&action=index&cate_id=5494&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5494' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:27:31] /shop/index.php?controller=cate&action=index&cate_id=5494&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5494' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:27:32] /shop/index.php?controller=cate&action=index&cate_id=5494&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5494' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:29:00] /shop/index.php?controller=cate&action=index&cate_id=5495&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5495' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:29:02] /shop/index.php?controller=cate&action=index&cate_id=5495&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5495' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:29:04] /shop/index.php?controller=cate&action=index&cate_id=5495&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5495' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:29:07] /shop/index.php?controller=cate&action=index&cate_id=5495&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_2 = '5495' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:30:35] /shop/index.php?action=index&area_id=20&cate_id=760&ci=2_3&controller=cate ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '20' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:36:01] /shop/index.php?controller=cate&action=index&cate_id=5540 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'gc_id_' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid,',',color_id)) AS nc_count FROM `goods` WHERE ( gc_id_ = '5540' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2019-12-08 05:36:01] /shop/index.php?controller=cate&action=index&cate_id=5540 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'gc_id_' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_ = '5540' ) LIMIT 1  
+[2019-12-08 05:36:01] /shop/index.php?controller=cate&action=index&cate_id=5540 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'gc_id_' in 'where clause'
+SELECT * FROM `goods` WHERE ( gc_id_ = '5540' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) ORDER BY goods_salenum desc LIMIT 5  
+[2019-12-08 05:36:03] /shop/index.php?controller=cate&action=index&cate_id=5541 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'gc_id_' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid,',',color_id)) AS nc_count FROM `goods` WHERE ( gc_id_ = '5541' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2019-12-08 05:36:03] /shop/index.php?controller=cate&action=index&cate_id=5541 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'gc_id_' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_ = '5541' ) LIMIT 1  
+[2019-12-08 05:36:03] /shop/index.php?controller=cate&action=index&cate_id=5541 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'gc_id_' in 'where clause'
+SELECT * FROM `goods` WHERE ( gc_id_ = '5541' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) ORDER BY goods_salenum desc LIMIT 5  
+[2019-12-08 05:36:05] /shop/index.php?controller=cate&action=index&cate_id=5542 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'gc_id_' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid,',',color_id)) AS nc_count FROM `goods` WHERE ( gc_id_ = '5542' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2019-12-08 05:36:05] /shop/index.php?controller=cate&action=index&cate_id=5542 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'gc_id_' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_ = '5542' ) LIMIT 1  
+[2019-12-08 05:36:05] /shop/index.php?controller=cate&action=index&cate_id=5542 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'gc_id_' in 'where clause'
+SELECT * FROM `goods` WHERE ( gc_id_ = '5542' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) ORDER BY goods_salenum desc LIMIT 5  
+[2019-12-08 05:36:07] /shop/index.php?controller=cate&action=index&cate_id=5543 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'gc_id_' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid,',',color_id)) AS nc_count FROM `goods` WHERE ( gc_id_ = '5543' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2019-12-08 05:36:07] /shop/index.php?controller=cate&action=index&cate_id=5543 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'gc_id_' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_ = '5543' ) LIMIT 1  
+[2019-12-08 05:36:07] /shop/index.php?controller=cate&action=index&cate_id=5543 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'gc_id_' in 'where clause'
+SELECT * FROM `goods` WHERE ( gc_id_ = '5543' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) ORDER BY goods_salenum desc LIMIT 5  
+[2019-12-08 05:36:42] /shop/index.php?controller=cate&action=index&cate_id=2137&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:36:44] /shop/index.php?controller=cate&action=index&cate_id=2137&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:36:47] /shop/index.php?controller=cate&action=index&cate_id=2137&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:36:48] /shop/index.php?controller=cate&action=index&cate_id=2137&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:39:37] /shop/index.php?controller=cate&action=index&cate_id=2148&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:39:40] /shop/index.php?controller=cate&action=index&cate_id=2148&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:39:41] /shop/index.php?controller=cate&action=index&cate_id=2148&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:39:43] /shop/index.php?controller=cate&action=index&cate_id=2148&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:41:25] /shop/index.php?controller=cate&action=index&cate_id=2141&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:41:26] /shop/index.php?controller=cate&action=index&cate_id=2141&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:41:29] /shop/index.php?controller=cate&action=index&cate_id=2141&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:41:30] /shop/index.php?controller=cate&action=index&cate_id=2141&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:43:18] /shop/index.php?controller=cate&action=index&cate_id=2193&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:43:21] /shop/index.php?controller=cate&action=index&cate_id=2193&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:43:23] /shop/index.php?controller=cate&action=index&cate_id=2193&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:43:26] /shop/index.php?controller=cate&action=index&cate_id=2193&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:45:12] /shop/index.php?controller=cate&action=index&cate_id=2236&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:45:14] /shop/index.php?controller=cate&action=index&cate_id=2236&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:45:15] /shop/index.php?controller=cate&action=index&cate_id=2236&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:45:17] /shop/index.php?controller=cate&action=index&cate_id=2236&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:47:06] /shop/index.php?controller=cate&action=index&cate_id=2235&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:47:09] /shop/index.php?controller=cate&action=index&cate_id=2235&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:47:10] /shop/index.php?controller=cate&action=index&cate_id=2235&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:47:12] /shop/index.php?controller=cate&action=index&cate_id=2235&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:48:57] /shop/index.php?controller=cate&action=index&cate_id=2232&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:49:00] /shop/index.php?controller=cate&action=index&cate_id=2232&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:49:02] /shop/index.php?controller=cate&action=index&cate_id=2232&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:49:04] /shop/index.php?controller=cate&action=index&cate_id=2232&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:50:54] /shop/index.php?controller=cate&action=index&cate_id=2239&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:50:56] /shop/index.php?controller=cate&action=index&cate_id=2239&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:50:58] /shop/index.php?controller=cate&action=index&cate_id=2239&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:51:00] /shop/index.php?controller=cate&action=index&cate_id=2239&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:54:52] /shop/index.php?controller=cate&action=index&cate_id=1068&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:54:53] /shop/index.php?controller=cate&action=index&cate_id=1068&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:54:56] /shop/index.php?controller=cate&action=index&cate_id=1068&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:54:58] /shop/index.php?controller=cate&action=index&cate_id=1068&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:56:59] /shop/index.php?controller=cate&action=index&cate_id=1&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:57:02] /shop/index.php?controller=cate&action=index&cate_id=1&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:57:03] /shop/index.php?controller=cate&action=index&cate_id=1&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:57:05] /shop/index.php?controller=cate&action=index&cate_id=1&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 05:58:47] /shop/index.php?controller=cate&action=index&cate_id=2&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 05:58:50] /shop/index.php?controller=cate&action=index&cate_id=2&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 05:58:52] /shop/index.php?controller=cate&action=index&cate_id=2&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 05:58:53] /shop/index.php?controller=cate&action=index&cate_id=2&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 06:00:35] /shop/index.php?controller=cate&action=index&cate_id=3&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 06:00:38] /shop/index.php?controller=cate&action=index&cate_id=3&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 06:00:40] /shop/index.php?controller=cate&action=index&cate_id=3&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 06:00:42] /shop/index.php?controller=cate&action=index&cate_id=3&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 06:02:27] /shop/index.php?action=index&cate_id=2235&ci=4&controller=cate&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 06:02:29] /shop/index.php?controller=cate&action=index&cate_id=256&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 06:02:32] /shop/index.php?controller=cate&action=index&cate_id=256&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 06:02:34] /shop/index.php?controller=cate&action=index&cate_id=256&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 06:02:36] /shop/index.php?controller=cate&action=index&cate_id=256&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 06:04:23] /shop/index.php?controller=cate&action=index&cate_id=308&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 06:04:25] /shop/index.php?controller=cate&action=index&cate_id=308&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 06:04:27] /shop/index.php?controller=cate&action=index&cate_id=308&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 06:04:30] /shop/index.php?controller=cate&action=index&cate_id=308&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 06:06:16] /shop/index.php?controller=cate&action=index&cate_id=636&ci=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 06:06:18] /shop/index.php?controller=cate&action=index&cate_id=636&ci=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 06:06:20] /shop/index.php?controller=cate&action=index&cate_id=636&ci=3 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 06:06:25] /shop/index.php?controller=cate&action=index&cate_id=636&ci=4 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 06:13:37] /member/index.php?controller=help&action=show_list&ac_id=81 ( act=help&action=show_list ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `newhelp` as `newhelp`  WHERE  newhelp.ac_id in(Array) order by article_sort asc,article_id desc
+[2019-12-08 06:13:39] /member/index.php?controller=help&action=show_list&ac_id=82 ( act=help&action=show_list ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `newhelp` as `newhelp`  WHERE  newhelp.ac_id in(Array) order by article_sort asc,article_id desc
+[2019-12-08 06:13:41] /member/index.php?controller=help&action=show_list&ac_id=83 ( act=help&action=show_list ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `newhelp` as `newhelp`  WHERE  newhelp.ac_id in(Array) order by article_sort asc,article_id desc
+[2019-12-08 06:13:43] /member/index.php?controller=help&action=show_list&ac_id=91 ( act=help&action=show_list ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `newhelp` as `newhelp`  WHERE  newhelp.ac_id in(Array) order by article_sort asc,article_id desc
+[2019-12-08 06:13:45] /member/index.php?controller=help&action=show_list&ac_id=92 ( act=help&action=show_list ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `newhelp` as `newhelp`  WHERE  newhelp.ac_id in(Array) order by article_sort asc,article_id desc
+[2019-12-08 06:13:48] /member/index.php?controller=help&action=show_list&ac_id=93 ( act=help&action=show_list ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `newhelp` as `newhelp`  WHERE  newhelp.ac_id in(Array) order by article_sort asc,article_id desc
+[2019-12-08 06:13:49] /member/index.php?controller=help&action=show_list&ac_id=94 ( act=help&action=show_list ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `newhelp` as `newhelp`  WHERE  newhelp.ac_id in(Array) order by article_sort asc,article_id desc
+[2019-12-08 06:13:51] /member/index.php?controller=help&action=show_list&ac_id=95 ( act=help&action=show_list ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `newhelp` as `newhelp`  WHERE  newhelp.ac_id in(Array) order by article_sort asc,article_id desc
+[2019-12-08 06:13:52] /member/index.php?controller=help&action=show_list&ac_id=96 ( act=help&action=show_list ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `newhelp` as `newhelp`  WHERE  newhelp.ac_id in(Array) order by article_sort asc,article_id desc
+[2019-12-08 06:13:54] /member/index.php?controller=help&action=show_list&ac_id=97 ( act=help&action=show_list ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `newhelp` as `newhelp`  WHERE  newhelp.ac_id in(Array) order by article_sort asc,article_id desc
+[2019-12-08 06:13:55] /member/index.php?controller=help&action=show_list&ac_id=98 ( act=help&action=show_list ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `newhelp` as `newhelp`  WHERE  newhelp.ac_id in(Array) order by article_sort asc,article_id desc
+[2019-12-08 06:13:57] /member/index.php?controller=help&action=show_list&ac_id=100 ( act=help&action=show_list ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `newhelp` as `newhelp`  WHERE  newhelp.ac_id in(Array) order by article_sort asc,article_id desc
+[2019-12-08 06:13:59] /member/index.php?controller=help&action=show_list&ac_id=101 ( act=help&action=show_list ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `newhelp` as `newhelp`  WHERE  newhelp.ac_id in(Array) order by article_sort asc,article_id desc
+[2019-12-08 09:07:43] /shop/index.php?action=index&cate_id=728&ci=4&controller=cate&new= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 10:20:50] /shop/index.php?action=index&area_id=24&ci=1&controller=cate&gift=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '24' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 10:44:24] /shop/index.php?action=index&cate_id=5520&ci=4&controller=cate&new= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_3 = '5520' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 11:34:39] /shop/index.php?action=index&area_id=10&ci=4&controller=cate&gift=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '10' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 12:12:15] /shop/index.php?action=index&cate_id=384&ci=2&controller=cate&new=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( is_new_arrival = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 12:51:38] /shop/index.php?controller=cate&action=index&cate_id=2386&ci=3&order=&key= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 13:29:35] /shop/index.php?action=index&area_id=29&cate_id=223&ci=2_3&controller=cate ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '29' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 14:01:20] /shop/index.php?action=index&area_id=17&cate_id=223&ci=2_3&controller=cate ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '17' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 14:35:00] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=27&new=1&ci=3_4&yx=1&key=3&order=2&gift=&type=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '27' ) AND ( is_own_shop = '1' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 14:37:13] /shop/index.php?action=index&area_id=8&cate_id=3785&ci=3&controller=cate ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '8' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 15:14:15] /shop/index.php?action=index&cate_id=4304&ci=1_4&controller=cate&new=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( is_new_arrival = '1' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 15:23:56] /member/index.php?controller=help&action=show_list&ac_id=93 ( act=help&action=show_list ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `newhelp` as `newhelp`  WHERE  newhelp.ac_id in(Array) order by article_sort asc,article_id desc
+[2019-12-08 15:36:18] /shop/index.php?controller=show_store&action=ajax_flowstat_record&store_id=1&goods_id=&act_param=show_store&op_param=goods_all ( act=show_store&action=ajax_flowstat_record ) 
+ERR: Db Error: Table 'hiji100_com.flowstat_1' doesn't exist
+SELECT * FROM `flowstat_1` WHERE ( stattime = '1575734400' ) AND ( store_id = '1' ) AND ( type = 'sum' ) LIMIT 1  
+[2019-12-08 15:36:18] /shop/index.php?controller=show_store&action=ajax_flowstat_record&store_id=1&goods_id=&act_param=show_store&op_param=goods_all ( act=show_store&action=ajax_flowstat_record ) 
+ERR: Db Error: Table 'hiji100_com.flowstat_1' doesn't exist
+INSERT INTO `flowstat_1` (stattime,clicknum,store_id,type,goods_id) VALUES ('1575734400','1','1','sum','0')
+[2019-12-08 15:51:30] /shop/index.php?controller=cate&action=index&cate_id=5435&new=&ci=4_2&key=3&order=2&gift=&yx=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( is_select = '1' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 17:04:30] /shop/index.php?action=index&area_id=10&cate_id=439&ci=3&controller=cate&gift=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '10' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 17:35:40] /shop/index.php?controller=cate&action=index&cate_id=3622&gift=&ci=2_4&area_id=32&new=1&order=2&key=2&yx=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '32' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 17:44:55] /shop/index.php?action=index&area_id=34&cate_id=411&ci=4&controller=cate&key=&order= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '34' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 18:18:28] /shop/index.php?action=index&area_id=20&ci=1&controller=cate&type=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '20' ) AND ( is_own_shop = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 18:57:57] /shop/index.php?action=index&area_id=16&ci=2&controller=cate&yx= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '16' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 19:00:51] /shop/index.php?controller=cate&action=index&cate_id=3642&area_id=20&yx=1&ci=4&order=&key=&gift=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '20' ) AND ( is_select = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 19:48:12] /shop/index.php?controller=cate&action=index&cate_id=3184&new=1&ci=4&key=2&order=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( is_new_arrival = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 19:49:03] /shop/index.php?action=index&cate_id=474&ci=3_2&controller=cate&yx= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_3 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 20:35:31] /shop/index.php?controller=cate&action=index&cate_id=2414&ci=4&yx=1&new=1&key=3&order=2 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 20:44:25] /shop/index.php?action=index&area_id=16&ci=4_1&controller=cate&new= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '16' ) AND ( contract_4 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 21:03:56] /shop/index.php?controller=cate&action=index&cate_id=2866&key=1&order=2&ci=4&gift=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 21:10:49] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=28&new=&ci=1_2_3&yx=1&key=1&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '28' ) AND ( is_select = '1' ) AND ( contract_1 = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 21:11:37] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=21&new=&ci=4_3&yx=&key=2&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '21' ) AND ( contract_4 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 21:13:43] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=&new=&ci=2_4_1&yx=&key=3&order=2&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 21:13:57] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=17&new=1&ci=2&yx=&key=2&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '17' ) AND ( is_new_arrival = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 21:16:44] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=25&new=1&ci=3_4&yx=1&key=2&order=1&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '25' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 21:17:22] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=13&new=1&ci=2&yx=&key=1&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '13' ) AND ( is_new_arrival = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 21:18:02] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=22&new=&ci=4_2&yx=&key=3&order=2&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '22' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 21:18:50] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=15&new=1&ci=1_3&yx=1&key=1&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '15' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_1 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 21:18:56] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=21&new=&ci=3_2&yx=&key=1&order=2&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '21' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 21:19:56] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=22&new=1&ci=3_2&yx=1&key=1&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '22' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 21:22:30] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=28&new=&ci=1_4_3_2&yx=&key=3&order=1&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '28' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 21:24:54] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=20&new=&ci=4_2&yx=&key=&order=&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '20' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 21:26:20] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=10&new=1&ci=3_2_4&yx=&key=&order=&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '10' ) AND ( is_new_arrival = '1' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 21:28:17] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=18&new=&ci=1_2_3&yx=&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '18' ) AND ( contract_1 = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 21:30:43] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=25&new=1&ci=4_3&yx=&key=2&order=1&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '25' ) AND ( is_new_arrival = '1' ) AND ( contract_4 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 21:33:06] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=24&new=&ci=4_2&yx=&key=&order=&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '24' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 21:33:52] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=27&new=&ci=2&yx=&key=2&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '27' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 21:34:46] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=29&new=1&ci=2_1&yx=&key=&order=&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '29' ) AND ( is_new_arrival = '1' ) AND ( contract_2 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 21:37:34] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=27&new=&ci=4_2&yx=&key=2&order=1&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '27' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 21:37:54] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=25&new=&ci=4_2&yx=1&key=2&order=2&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '25' ) AND ( is_select = '1' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 21:41:03] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=16&new=&ci=1_3&yx=&key=&order=&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '16' ) AND ( is_own_shop = '1' ) AND ( contract_1 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 21:44:51] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=1&new=1&ci=1_3&yx=1&key=3&order=1&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '1' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_1 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 21:46:52] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=29&new=&ci=1_4_3&yx=&key=2&order=2&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '29' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 21:48:17] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=22&new=&ci=4_3_1&yx=&key=&order=&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '22' ) AND ( contract_4 = '1' ) AND ( contract_3 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 21:49:16] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=11&new=&ci=3&yx=1&key=3&order=1&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '11' ) AND ( is_own_shop = '1' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 21:50:05] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=15&new=1&ci=3_4&yx=1&key=1&order=2&gift=&type=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '15' ) AND ( is_own_shop = '1' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 21:51:14] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=24&new=&ci=3&yx=1&key=2&order=1&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '24' ) AND ( is_own_shop = '1' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 21:53:39] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=26&new=1&ci=2_4_1_3&yx=1&key=&order=&gift=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '26' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) AND ( contract_1 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 21:54:03] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=&new=&ci=2_4_1&yx=&key=&order=&type=1&gift=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( is_own_shop = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 21:54:31] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=13&new=&ci=1_4_2&yx=&key=2&order=1&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '13' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 21:56:07] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=17&new=1&ci=4_2&yx=&key=&order=&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '17' ) AND ( is_new_arrival = '1' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 21:56:18] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=10&new=1&ci=2_4_3&yx=1&key=&order=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '10' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 21:56:50] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=25&new=&ci=1&yx=&key=1&order=2&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '25' ) AND ( is_own_shop = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 21:57:00] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=11&new=1&ci=2_1_4&yx=&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '11' ) AND ( is_new_arrival = '1' ) AND ( contract_2 = '1' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 21:57:01] /shop/index.php?action=index&area_id=2&cate_id=5241&ci=1_4&controller=cate&type=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '2' ) AND ( is_own_shop = '1' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 21:57:33] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=25&new=1&ci=2_3&yx=&key=1&order=2&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '25' ) AND ( is_own_shop = '1' ) AND ( is_new_arrival = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 21:57:58] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=1&new=&ci=2_1_4&yx=1&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '1' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 21:59:38] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=18&new=1&ci=2_1_4&yx=&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '18' ) AND ( is_new_arrival = '1' ) AND ( contract_2 = '1' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 22:00:10] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=29&new=1&ci=1&yx=&key=&order=&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '29' ) AND ( is_own_shop = '1' ) AND ( is_new_arrival = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 22:00:53] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=2&new=&ci=4_3&yx=&key=2&order=1&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '2' ) AND ( contract_4 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:03:09] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=15&new=&ci=2_4_3&yx=1&key=1&order=2&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '15' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:03:28] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=10&new=1&ci=3_2&yx=1&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '10' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 22:04:32] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=29&new=&ci=2&yx=1&key=1&order=1&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '29' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 22:04:58] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=24&new=&ci=4_2&yx=&key=2&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '24' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 22:05:11] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=25&new=1&ci=3_1_2&yx=1&key=1&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '25' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_1 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 22:06:38] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=11&new=1&ci=3&yx=1&key=2&order=1&gift=&type=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '11' ) AND ( is_own_shop = '1' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:06:58] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=1&new=&ci=1&yx=&key=1&order=2&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '1' ) AND ( is_own_shop = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 22:07:17] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=1&new=&ci=2_4_1&yx=1&key=2&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '1' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 22:08:49] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=12&new=&ci=2_3&yx=&key=&order=&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '12' ) AND ( is_own_shop = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:09:03] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=2&new=&ci=4_1&yx=&key=3&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '2' ) AND ( contract_4 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 22:10:53] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=24&new=1&ci=1_3&yx=1&key=1&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '24' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_1 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:13:05] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=&new=&ci=1_2_3&yx=1&key=3&order=2&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( is_select = '1' ) AND ( contract_1 = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:18:48] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=20&new=1&ci=2_4_1&yx=1&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '20' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 22:19:35] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=17&new=&ci=3_1_2&yx=1&key=2&order=1&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '17' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_1 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 22:20:29] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=17&new=&ci=4_2&yx=&key=3&order=1&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '17' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 22:20:39] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=28&new=&ci=1_3&yx=1&key=&order=&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '28' ) AND ( is_select = '1' ) AND ( contract_1 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:23:33] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=17&new=1&ci=3_4&yx=1&key=3&order=1&gift=1&type=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '17' ) AND ( is_own_shop = '1' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 22:23:42] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=&new=1&ci=1_3&yx=1&key=1&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_1 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:24:08] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=10&new=1&ci=1_4&yx=&key=1&order=1&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '10' ) AND ( is_new_arrival = '1' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 22:24:16] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=28&new=&ci=1_2_4&yx=&key=&order=&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '28' ) AND ( is_own_shop = '1' ) AND ( contract_1 = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 22:25:47] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=29&new=&ci=1&yx=&key=1&order=2&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '29' ) AND ( is_own_shop = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 22:29:04] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=3&new=&ci=2&yx=1&key=1&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '3' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 22:29:59] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=1&new=1&ci=2_4&yx=&key=3&order=1&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '1' ) AND ( is_new_arrival = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 22:30:38] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=16&new=&ci=1_2_3&yx=&key=2&order=2&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '16' ) AND ( is_own_shop = '1' ) AND ( contract_1 = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:31:31] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=24&new=&ci=2_1_4&yx=1&key=1&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '24' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 22:31:35] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=1&new=&ci=1&yx=&key=2&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 22:33:09] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=26&new=&ci=1_4_3_2&yx=&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '26' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 22:33:51] /shop/index.php?action=index&area_id=21&cate_id=3785&ci=2&controller=cate ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '21' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 22:33:54] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=23&new=1&ci=2_3&yx=&key=&order=&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '23' ) AND ( is_new_arrival = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:34:30] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=1&new=&ci=4_2&yx=&key=1&order=1&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '1' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 22:37:42] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=&new=&ci=2_4_3&yx=1&key=&order=&gift=&type=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( is_own_shop = '1' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:37:44] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=19&new=1&ci=2_1_4&yx=&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '19' ) AND ( is_new_arrival = '1' ) AND ( contract_2 = '1' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 22:41:01] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=23&new=1&ci=4_3&yx=&key=2&order=1&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '23' ) AND ( is_new_arrival = '1' ) AND ( contract_4 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:41:58] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=&new=1&ci=4_1_2&yx=&key=&order=&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( is_new_arrival = '1' ) AND ( contract_4 = '1' ) AND ( contract_1 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 22:43:55] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=20&new=&ci=2_3_1&yx=1&key=&order=&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '20' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 22:44:07] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=29&new=&ci=3&yx=&key=2&order=2&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '29' ) AND ( is_own_shop = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:44:09] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=26&new=&ci=4_2&yx=&key=2&order=2&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '26' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 22:44:09] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=23&new=&ci=4_1&yx=&key=1&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '23' ) AND ( contract_4 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 22:44:49] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=2&new=1&ci=2_4_1&yx=&key=1&order=2&gift=1&type=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '2' ) AND ( is_own_shop = '1' ) AND ( is_new_arrival = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 22:45:14] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=29&new=1&ci=4_1&yx=&key=&order=&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '29' ) AND ( is_own_shop = '1' ) AND ( is_new_arrival = '1' ) AND ( contract_4 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 22:45:35] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=12&new=&ci=4_2&yx=1&key=2&order=2&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '12' ) AND ( is_select = '1' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 22:47:39] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=20&new=&ci=1_2_3&yx=&key=3&order=1&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '20' ) AND ( contract_1 = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:48:04] /shop/index.php?controller=cate&action=index&cate_id=5443&yx=1&new=&key=2&order=2&ci=4&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( is_select = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 22:48:43] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=1&new=&ci=4_2&yx=1&key=3&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '1' ) AND ( is_select = '1' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 22:49:07] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=18&new=&ci=3&yx=1&key=3&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '18' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:50:02] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=24&new=1&ci=2_4_1_3&yx=1&key=&order=&gift=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '24' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) AND ( contract_1 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:51:05] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=2&new=&ci=4_1&yx=&key=&order=&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '2' ) AND ( contract_4 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 22:52:57] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=27&new=1&ci=2_4_3&yx=1&key=&order=&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '27' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 22:53:04] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=21&new=&ci=3_2_4&yx=1&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '21' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 22:53:12] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=29&new=&ci=2_1_4&yx=1&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '29' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 22:54:03] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=16&new=1&ci=2_1&yx=&key=&order=&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '16' ) AND ( is_new_arrival = '1' ) AND ( contract_2 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 22:55:42] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=2&new=&ci=4&yx=&key=2&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '2' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 22:57:01] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=25&new=&ci=2_3_1&yx=1&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '25' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 22:57:17] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=19&new=&ci=1&yx=&key=3&order=2&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '19' ) AND ( is_own_shop = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 22:57:55] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=&new=&ci=1_3_2&yx=&key=3&order=1&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( contract_1 = '1' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 23:03:22] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=29&new=1&ci=3_2&yx=1&key=2&order=2&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '29' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 23:06:54] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=10&new=1&ci=4_2&yx=1&key=&order=&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '10' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 23:07:06] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=28&new=1&ci=2_1&yx=1&key=1&order=1&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '28' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 23:08:19] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=24&new=&ci=3_2_4&yx=1&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '24' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 23:08:22] /shop/index.php?action=index&area_id=21&ci=2&controller=cate&yx= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( areaid_1 = '21' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 23:10:29] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=29&new=1&ci=3_4_2&yx=1&key=3&order=1&gift=1&type=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '29' ) AND ( is_own_shop = '1' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 23:10:47] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=3&new=&ci=2_4_3&yx=&key=2&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '3' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:11:30] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=13&new=&ci=3&yx=&key=&order=&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '13' ) AND ( is_own_shop = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:12:37] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=24&new=1&ci=3_4&yx=1&key=3&order=2&gift=&type=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '24' ) AND ( is_own_shop = '1' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 23:13:19] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=28&new=&ci=3&yx=1&key=3&order=1&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '28' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:13:36] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=18&new=1&ci=2_3&yx=&key=1&order=2&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '18' ) AND ( is_own_shop = '1' ) AND ( is_new_arrival = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:13:47] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=19&new=&ci=1_3&yx=1&key=&order=&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '19' ) AND ( is_select = '1' ) AND ( contract_1 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:14:30] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=26&new=&ci=2_4_1&yx=1&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '26' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 23:15:28] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=20&new=&ci=1_3&yx=&key=&order=&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '20' ) AND ( is_own_shop = '1' ) AND ( contract_1 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:16:46] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=26&new=&ci=1&yx=&key=3&order=2&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '26' ) AND ( is_own_shop = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 23:17:27] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=12&new=1&ci=2_4&yx=1&key=&order=&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '12' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 23:17:29] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=28&new=&ci=4_3_2&yx=&key=&order=&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '28' ) AND ( contract_4 = '1' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 23:21:03] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=29&new=1&ci=1&yx=&key=3&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '29' ) AND ( is_new_arrival = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 23:22:53] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=27&new=&ci=1&yx=&key=&order=&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '27' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 23:22:58] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=20&new=&ci=4_2&yx=&key=1&order=2&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '20' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 23:26:54] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=20&new=1&ci=3_4&yx=1&key=2&order=1&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '20' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 23:29:14] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=3&new=&ci=1&yx=&key=3&order=2&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '3' ) AND ( is_own_shop = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 23:30:30] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=28&new=&ci=1_2_3_4&yx=&key=&order=&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '28' ) AND ( is_own_shop = '1' ) AND ( contract_1 = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 23:31:07] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=20&new=&ci=4_1&yx=&key=&order=&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '20' ) AND ( contract_4 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 23:31:13] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=10&new=1&ci=1_2_3&yx=1&key=3&order=2&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '10' ) AND ( is_own_shop = '1' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_1 = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:32:11] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=10&new=1&ci=4_2&yx=&key=2&order=1&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '10' ) AND ( is_new_arrival = '1' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 23:33:13] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=18&new=&ci=1_4_3_2&yx=&key=3&order=1&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '18' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 23:33:27] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=28&new=&ci=2_3&yx=&key=&order=&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '28' ) AND ( is_own_shop = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:34:17] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=20&new=1&ci=2_1&yx=1&key=1&order=1&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '20' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 23:35:58] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=22&new=&ci=1_2_3&yx=&key=&order=&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '22' ) AND ( contract_1 = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:36:51] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=28&new=1&ci=3_2&yx=1&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '28' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 23:37:27] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=26&new=&ci=3_2_4&yx=1&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '26' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 23:37:59] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=18&new=&ci=1&yx=&key=1&order=2&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '18' ) AND ( is_own_shop = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 23:38:12] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=1&new=&ci=4_2_1&yx=1&key=2&order=2&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '1' ) AND ( is_own_shop = '1' ) AND ( is_select = '1' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 23:40:31] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=&new=1&ci=2_1_4&yx=&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( is_new_arrival = '1' ) AND ( contract_2 = '1' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 23:40:41] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=23&new=&ci=3&yx=1&key=3&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '23' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:41:05] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=21&new=&ci=3_2&yx=&key=3&order=2&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '21' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 23:41:09] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=28&new=1&ci=2&yx=&key=3&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '28' ) AND ( is_new_arrival = '1' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 23:41:41] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=18&new=1&ci=2_4_1_3&yx=1&key=&order=&gift=1 ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '18' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) AND ( contract_1 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:41:48] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=28&new=1&ci=3_2_4&yx=1&key=&order=&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '28' ) AND ( is_new_arrival = '1' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 23:46:10] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=15&new=&ci=2&yx=&key=1&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '15' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 23:49:05] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=10&new=&ci=3_2_4&yx=1&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_3' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '10' ) AND ( is_select = '1' ) AND ( contract_3 = '1' ) AND ( contract_2 = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 23:50:31] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=26&new=&ci=1_3&yx=&key=&order=&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '26' ) AND ( is_own_shop = '1' ) AND ( contract_1 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:51:02] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=23&new=&ci=1_4_3&yx=1&key=3&order=2&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '23' ) AND ( is_select = '1' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:53:00] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=18&new=&ci=1_3&yx=&key=&order=&type=1&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '18' ) AND ( is_own_shop = '1' ) AND ( contract_1 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:53:14] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=25&new=&ci=1_4_2_3&yx=&key=&order=&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '25' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:55:05] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=14&new=&ci=2&yx=&key=1&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '14' ) AND ( contract_2 = '1' ) LIMIT 1  
+[2019-12-08 23:55:09] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=&new=1&ci=1_3&yx=&key=3&order=1&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( is_new_arrival = '1' ) AND ( contract_1 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:55:31] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=10&new=&ci=1&yx=&key=2&order=2&type=&gift= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '10' ) AND ( contract_1 = '1' ) LIMIT 1  
+[2019-12-08 23:56:21] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=18&new=&ci=4&yx=&key=1&order=1&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '18' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 23:57:24] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=20&new=&ci=4&yx=1&key=1&order=1&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_4' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '20' ) AND ( is_select = '1' ) AND ( contract_4 = '1' ) LIMIT 1  
+[2019-12-08 23:58:51] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=16&new=&ci=1_4_2_3&yx=&key=&order=&gift=&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_1' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '16' ) AND ( contract_1 = '1' ) AND ( contract_4 = '1' ) AND ( contract_2 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  
+[2019-12-08 23:59:14] /shop/index.php?controller=cate&action=index&cate_id=1068&area_id=13&new=&ci=2_1_3&yx=&key=&order=&gift=1&type= ( act=cate&action=index ) 
+ERR: Db Error: Unknown column 'contract_2' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `goods_common` WHERE ( gc_id_1 = '1068' ) AND ( areaid_1 = '13' ) AND ( contract_2 = '1' ) AND ( contract_1 = '1' ) AND ( contract_3 = '1' ) LIMIT 1  

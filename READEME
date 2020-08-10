@@ -1,0 +1,52 @@
+# 安装
+> 将文件放到web根目录即可
+# 配置
+
+> 1.将 ``` /hiji/data/config/config.ini.php ``` 中的数据库设置成如下配置
+```
+$config['db']['1']['dbhost']       = '192.168.0.104';
+$config['db']['1']['dbport']       = '3306';
+$config['db']['1']['dbuser']       = 'hiji100';
+$config['db']['1']['dbpwd']        = '123456';
+$config['db']['1']['dbpwd']        = 'RgG!*z19AaWynI6e';
+$config['db']['1']['dbname']       = 'hiji';
+$config['db']['1']['dbcharset']    = 'UTF-8';
+```
+> 2.请将项目域名设置为``` http://server.hiji.lan ```
+>> 局域网访问设置 在访问用户端配置 hosts 文件	，在文件末尾追加一行 ```192.168.0.104	server.hiji.lan```
+
+
+
+系统支持动态网址和伪静态两种 URL 形式，CONFIG(data/config/config.ini.php)中，url_model 为 true 表示开启
+伪静态，url_mode 为 false 表示使用默认动态网址形式。系统伪静态是基于 PATHINFO 模式实现的，所以若开启伪
+静态，除更改 CONFIG 外，还需要配置 APACHE/NGINX 支持 PATHINFO 模式。
+注意：当开启伪静态时，CONFIG 中的各子模块 URL 网址必须全部配置并启用。
+# apache 配置
+# 编辑 httpd.conf，加载 mod_rewrite.so
+# 编辑 httpd.conf，让 Apache 支持.htaccess
+AllowOverride None 改为 AllowOverride All
+# 在商城目录下新建.htccess 文件，
+# 若以 php-cgi 运行，加入以下内容
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php [L,E=PATH_INFO:$1]
+</IfModule>
+# 若以 php5apache2_2.dll 方式运行，加入以下内容
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+</IfModule>
+# nginx 配置
+location / {
+if (!-e $request_filename)
+{
+rewrite ^/shop/(.*)$ /shop/index.php?$1;
+}
+}
+location ~ \.php$ {
+fastcgi_param PATH_INFO $request_uri;
+}

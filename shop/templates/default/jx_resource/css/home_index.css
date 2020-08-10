@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+	margin:0;
+	padding:0;
+}
+body { padding:0px;
+	font-size: 12px;
+	line-height: 1.5em;
+	font-family: tahoma, "宋体", Simsun, Mingliu, Arial, Helvetica;
+	color: #333333;
+	background:#fff;
+	width:100%;
+	overflow-x:hidden;
+}
+img {
+	border:0;
+	vertical-align:middle;
+}
+ul,li{
+	list-style-type: none;
+}
+table,td{ 
+	border-collapse:collapse
+}
+address,em{
+	font-style:normal;
+}
+a{
+	color:#7b7b7b;
+	text-decoration:none;
+}
+a:hover{
+	color: #000;
+	text-decoration:none;
+}
+.red{
+	color: #e44141;
+}
+input:focus{ outline: none;}
+button:focus{ outline: none;}
+textarea:focus{ outline: none;}
+
+
+/*通用样式结束*/
+
+/*首页*/
+
+
+.inmain{ background: #f6f6f6; height: auto; overflow: hidden; width: 100%;}
+.menu{ width: 1200px; height: auto; overflow: hidden; margin: 10px auto 0;}
+.menu ul{}
+.menu ul li{ width: 199px; height:92px; float: left; background: #fff; margin-right: 1px; position: relative;}
+.menu ul li a{ color: #000;}
+.menu .db{ width: 100%; height: auto; overflow: hidden;}
+.menu .db span{ width: 83px; height: 92px; float: left; display: inline-block;}
+.menu .db em{ width: 116px; text-indent: 10px; line-height: 92px; height: 92px; float: left; display: inline-block; font-size: 16px;}
+
+.menu ul li:hover .sm{ width: 100%; height: 62px; padding: 15px 0; background: rgba(0,0,0,0.5); display: block; font-size: 14px; position: absolute; top: 0px; left: 0px;}
+.menu ul li:hover .sm span{ width: 100%; height: 36px; line-height: 36px; text-align: center; display: block; color: #fff;}
+.menu ul li:hover .sm em{ width: 80px; height: 26px; margin: 0 auto; line-height: 26px; text-align: center; display: block; background: #9737df; border-radius: 13px; color: #fff;}
+
+.icon1{ background: url(../images/icon1.png) no-repeat right center;}
+.icon2{ background: url(../images/icon2.png) no-repeat right center;}
+.icon3{ background: url(../images/icon3.png) no-repeat right center;}
+.icon4{ background: url(../images/icon4.png) no-repeat right center;}
+.icon5{ background: url(../images/icon5.png) no-repeat right center;}
+.icon6{ background: url(../images/icon6.png) no-repeat right center;}
+
+
+
+
+.inmain-line{ width: 1200px; height: auto; overflow: hidden; margin:20px auto 0;}
+.inmain-line .more{ width: 29px; height: 60px; margin-right: 20px; display: block; float: right; background: url(../images/icon7.png) no-repeat center;}
+
+.line-tz{ width: 303px; height: auto; overflow: hidden; background: #fff; float: left; position: relative;}
+.line-tz h3{ width: 100%; height: 60px;}
+.line-tz h3 span{ height: 60px; line-height: 60px; margin-left: 15px; font-size: 18px;}
+.line-tz h3 em{ height: 60px; line-height: 60px; font-size: 18px; margin-left: 10px; font-weight: normal;}
+
+.line-tz2{ width: 545px; height: auto; overflow: hidden; background: #fff; float: left; position: relative; margin-left: 25px;}
+.line-tz2 h3{ width: 100%; height: 60px;}
+.line-tz2 h3 span{ height: 60px; line-height: 60px; margin-left: 15px; font-size: 18px;}
+.line-tz2 h3 em{ height: 60px; line-height: 60px; font-size: 18px; margin-left: 10px; font-weight: normal;}
+
+.line-tz3{ width: 303px; height: auto; overflow: hidden; background: #fff; float: right; position: relative;}
+.line-tz3 h3{ width: 100%; height: 60px;}
+.line-tz3 h3 span{ height: 60px; line-height: 60px; margin-left: 15px; font-size: 18px;}
+.line-tz3 h3 em{ height: 60px; line-height: 60px; font-size: 18px; margin-left: 10px; font-weight: normal;}
+
+.line-tz4{ width: 590px; height: auto; overflow: hidden; background: #fff; float: left; position: relative;}
+.line-tz4 h3{ width: 100%; height: 60px;}
+.line-tz4 h3 span{ height: 60px; line-height: 60px; margin-left: 15px; font-size: 18px;}
+.line-tz4 h3 em{ height: 60px; line-height: 60px; font-size: 18px; margin-left: 10px; font-weight: normal;}
+
+.line-tz5{ width: 590px; height: auto; overflow: hidden; background: #fff; float: right; position: relative;}
+.line-tz5 h3{ width: 100%; height: 60px;}
+.line-tz5 h3 span{ height: 60px; line-height: 60px; margin-left: 15px; font-size: 18px;}
+.line-tz5 h3 em{ height: 60px; line-height: 60px; font-size: 18px; margin-left: 10px; font-weight: normal;}
+
+.line-tz6{ width: 100%; height: auto; overflow: hidden; position: relative; margin-top: 10px; float: left;}
+.line-tz6 ul{}
+.line-tz6 ul li{ width: 290px; height: 155px; float: left; margin-right: 13px;}
+.line-tz6 ul li:last-child{ margin: 0;}
+.line-tz6 ul li img{ width: 290px; height: 155px;}
+
+.line-tz-img{ width: 100%; height: 410px;}
+.line-tz-img img{ width: 100%; height: 410px;}
+.line-tz-text{ width: auto; height: 50px; padding:10px 25px; background: rgba(0,0,0,0.5); color: #fff; position: absolute; left: 0px; bottom:52px}
+.line-tz-text span{ width: 100%; height: 25px; line-height: 25px; font-size: 20px; font-weight: bold; display: block;}
+.line-tz-text em{ width: 100%; height: 25px; line-height: 25px; font-size: 16px;}
+
+.guess{ width: 1200px; height: auto; margin:20px auto 10px; position: relative;}
+.guess h3{ width: 100%; height: 30px; line-height: 30px; text-align: center; font-size: 27px; color: #9737df; position: relative;}
+.guess h3:before{ content: ""; width: 12px; height: 4px; position: absolute; background: #9737DF; display: block; top:13px; left: 530px;}
+.guess h3:after{ content: ""; width: 12px; height: 4px; position: absolute; background: #9737DF; display: block; top:13px; right: 530px;}
+
+.guess h4{ width: 100%; height: 30px; list-style: 30px; text-align: center; color:#9737df; font-size: 20px; font-weight: normal;}
+.guess ul{ }
+.guess ul li{ border: 7px solid #fff; overflow: hidden; float: left; background: #fff; margin-right: 8px; transition: all 0.5s; box-shadow: none;}
+.guess ul li:hover{ box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.3);}
+.guess ul li:first-child{ width: 460px; height: 265px;}
+.guess ul li:nth-child(2){ width: 220px; height: 555px;}
+.guess ul li:nth-child(3){ width: 220px; height: 265px; margin-bottom: 10px;}
+.guess ul li:nth-child(4){ width: 220px; height: 265px; margin-bottom: 10px; float: right; margin-right: 0;}
+.guess ul li:nth-child(5){ width: 220px; height: 265px; margin-bottom: 10px;}
+.guess ul li:nth-child(6){ width: 220px; height: 265px; margin-bottom: 10px; margin-right: 0;}
+.guess ul li:nth-child(7){ width: 460px; height: 265px; position: absolute; top:350px; left: 0;}
+.guess ul li:nth-child(8){ width: 702px; height: 265px; margin-bottom: 10px;margin-right:0 ;}
+.guess ul li:nth-child(9){ width: 460px; height: 265px; margin-bottom: 10px; float: right; margin-right:0 ;}
+.guess ul li img{ width: 100%; max-height: 100%; line-height: 100%;}
+.guess .gg{ width: 100%; height: auto; overflow: hidden;transition: all 0.5s;}
+.guess .gg img{ width: 100%; height: auto;}
+.guess .gg:hover{ box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.3);}
+
+.line-lb{ width: 1200px; height: auto; overflow: hidden; margin: 0 auto;}
+.line-lb ul{}
+.line-lb ul li{ width: 218px; height: auot; margin-right: 10px; margin-bottom: 12px; overflow: hidden; float: left; background: #fff; border: 1px solid #fff; padding: 6px;}
+.line-lb ul li:hover{ border:1px solid #9737df;}
+.line-lb ul li:nth-child(5n){ margin-right: 0;}
+.line-lb-img{ width: 218px; height: 205px;}
+.line-lb-img img{ width: 218px; height: 205px;}
+.line-lb-text{ width: 100%; height: 30px; line-height: 30px; margin-top: 10px;overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap; font-size: 13px; color: #000;}
+.line-lb-price{ color: #e50000; font-size: 18px; height: 30px; line-height: 30px;}
+
+
+.fixedtool{ width: 82px; height: 350px; position: fixed; bottom:300px; left: 50%; margin-left: 630px;z-index: 999}
+.fixedtool .close{ width:21px; height: 21px; display: block; position: absolute; top:0px; right: 0; background: url(../images/icon12.png) no-repeat; margin-right: 3px;}
+.fixedtool ul{ width: 80px; height: auto; overflow: hidden; border:1px solid #dcdcdc; border-radius: 5px; background: #fff; margin-top: 10px;}
+.fixedtool ul li{ width: 80px; height: 80px; border-bottom: 1px solid #dcdcdc;}
+.fixedtool ul li a{ width: 80px; height: 80px; display: block; line-height: 120px; text-align: center; color: #9737DF; font-size: 14px;}
+.fixedtool ul li a:hover{ background: #9737DF; color: #fff;}
+
+.fixedtool ul li:last-child{border-bottom: 0px solid;}
+
+
+.fixedtool ul li .icon8{ background: url(../images/icon8.png) no-repeat center 10px #fff;}
+.fixedtool ul li .icon8:hover{ background: url(../images/icon8_8.png) no-repeat center 10px #9737DF;}
+
+.fixedtool ul li .icon9{ background: url(../images/icon9.png) no-repeat center 12px #fff;}
+.fixedtool ul li .icon9:hover{ background: url(../images/icon9_9.png) no-repeat center 10px #9737DF;}
+.fixedtool ul li .icon10{ background: url(../images/icon10.png) no-repeat center 12px #fff;}
+.fixedtool ul li .icon10:hover{ background: url(../images/icon10_10.png) no-repeat center 10px #9737DF;}
+.fixedtool ul li .icon11{ background: url(../images/icon11.png) no-repeat center 12px #fff;}
+.fixedtool ul li .icon11:hover{ background: url(../images/icon11_11.png) no-repeat center 10px #9737DF;}
+
+
+.end{ width: 1200px; height: 30px; line-height: 30px; text-align: center; font-size: 26px; color: #b8b8b8; position: relative; margin: 10px auto 20px;}
+.end:before{ content: ""; width: 12px; height: 4px; position: absolute; background: #b8b8b8; display: block; top:13px; left: 555px;}
+.end:after{ content: ""; width: 12px; height: 4px; position: absolute; background: #b8b8b8; display: block; top:13px; right: 555px;}
+
+
+
+
+
+
+
+
+
+
+
+

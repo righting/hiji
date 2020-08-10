@@ -1,0 +1,1 @@
+<?php defined('ByCCYNet') or exit('Access Invalid!');

@@ -1,0 +1,438 @@
+<style>
+    .layui-laypage-limits {
+        display: none !important;
+    }
+
+    .diamonds {
+        width: 24%;
+        background: #fff;
+        float: left;
+        padding: 10px;
+        border-radius: 5px;
+        margin-right: 1%;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+
+    .diamonds h3 {
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+    }
+
+    .diamonds-top {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .diamonds-top span {
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        font-size: 30px;
+        display: block;
+        text-align: center;
+        float: left;
+    }
+
+    .diamonds-top span em {
+        font-size: 20px;
+        font-style: normal;
+    }
+
+    .diamonds-bottom {
+        width: 50%;
+        text-align: center;
+        float: left;
+        margin-top: 20px;
+    }
+
+    .layui-btn {
+        margin-bottom: 20px;
+    }
+
+    .layui-btn + .layui-btn {
+        margin: 0;
+    }
+
+    .windows {
+        padding: 15px;
+    }
+</style>
+<div class="layui-card layadmin-header">
+    <div class="layui-breadcrumb" lay-filter="breadcrumb">
+        <a lay-href="">主页</a>
+        <a><cite>分红池管理</cite></a>
+    </div>
+</div>
+
+<div class="layui-fluid">
+    <div class="layui-form">
+        <div class="diamonds">
+            <h3>个人消费分红</h3>
+            <div class="diamonds-top">
+                <span>0<em>元</em></span>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary handle" data-type="1">操作</button>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary particulars" data-type="1">明细</button>
+            </div>
+        </div>
+        <div class="diamonds">
+            <h3> 团队/消费共享分红</h3>
+            <div class="diamonds-top">
+                <span>0<em>元</em></span>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary handle" data-type="2">操作</button>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary particulars" data-type="2">明细</button>
+            </div>
+        </div>
+        <div class="diamonds">
+            <h3> 个人微商/消费共享分红</h3>
+            <div class="diamonds-top">
+                <span>0<em>元</em></span>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary handle" data-type="3">操作</button>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary particulars" data-type="3">明细</button>
+            </div>
+        </div>
+        <div class="diamonds">
+            <h3>消费新人奖</h3>
+            <div class="diamonds-top">
+                <span>0<em>元</em></span>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary handle" data-type="4">操作</button>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary particulars" data-type="4">明细</button>
+            </div>
+        </div>
+        <div class="diamonds">
+            <h3>消费日分红</h3>
+            <div class="diamonds-top">
+                <span>0<em>元</em></span>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary handle" data-type="5">操作</button>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary particulars" data-type="5">明细</button>
+            </div>
+        </div>
+        <div class="diamonds">
+            <h3>消费明星日分红</h3>
+            <div class="diamonds-top">
+                <span>0<em>元</em></span>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary handle" data-type="6">操作</button>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary particulars" data-type="6">明细</button>
+            </div>
+        </div>
+        <div class="diamonds">
+            <h3>共享日分红</h3>
+            <div class="diamonds-top">
+                <span>0<em>元</em></span>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary handle" data-type="7">操作</button>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary particulars" data-type="7">明细</button>
+            </div>
+        </div>
+        <div class="diamonds">
+            <h3> 管理普惠周奖</h3>
+            <div class="diamonds-top">
+                <span>0<em>元</em></span>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary handle" data-type="8">操作</button>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary particulars" data-type="8">明细</button>
+            </div>
+        </div>
+        <div class="diamonds">
+            <h3>中层管理周分红</h3>
+            <div class="diamonds-top">
+                <span>0<em>元</em></span>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary handle" data-type="9">操作</button>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary particulars" data-type="9">明细</button>
+            </div>
+        </div>
+        <div class="diamonds">
+            <h3>至尊消费月分红</h3>
+            <div class="diamonds-top">
+                <span>0<em>元</em></span>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary handle" data-type="10">操作</button>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary particulars" data-type="10">明细</button>
+            </div>
+        </div>
+        <div class="diamonds">
+            <h3>销售精英月分红</h3>
+            <div class="diamonds-top">
+                <span>0<em>元</em></span>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary handle" data-type="11">操作</button>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary particulars" data-type="11">明细</button>
+            </div>
+        </div>
+        <div class="diamonds">
+            <h3>高层消费月分红</h3>
+            <div class="diamonds-top">
+                <span>0<em>元</em></span>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary handle" data-type="12">操作</button>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary particulars" data-type="12">明细</button>
+            </div>
+        </div>
+        <div class="diamonds">
+            <h3>供应商推荐奖金</h3>
+            <div class="diamonds-top">
+                <span>0<em>元</em></span>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary handle" data-type="13">操作</button>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary particulars" data-type="13">明细</button>
+            </div>
+        </div>
+        <div class="diamonds">
+            <h3>消费养老补贴</h3>
+            <div class="diamonds-top">
+                <span>0<em>元</em></span>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary handle" data-type="14">操作</button>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary particulars" data-type="14">明细</button>
+            </div>
+        </div>
+        <div class="diamonds">
+            <h3>车房梦想补贴</h3>
+            <div class="diamonds-top">
+                <span>0<em>元</em></span>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary handle" data-type="15">操作</button>
+            </div>
+            <div class="diamonds-bottom">
+                <button class="layui-btn layui-btn-primary particulars" data-type="15">明细</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- 操作弹框-->
+<script id="operation" type="text/html">
+    <div class="windows">
+        <form class="layui-form" action="" lay-filter="component-form-group">
+            <div class="layui-form-item layui-inline">
+                <label class="layui-form-label">操作类型</label>
+                <div class="layui-input-block">
+                    <input type="radio" name="operation_type" value="1" title="转出到其它分红池" checked=""  lay-filter="operation_type">
+                    <input type="radio" name="operation_type" value="2" title="从其它分红池转入"  lay-filter="operation_type">
+                </div>
+            </div>
+            <div class="layui-form-item layui-inline">
+                <label class="layui-form-label">分红池类型</label>
+                <div class="layui-input-inline">
+                    <select name="profit_select" id="profit_select"  lay-verify="required" lay-search="" lay-filter="turn_inwards_type">
+                        <option value="">全部</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="layui-form-item layui-inline">
+                <label class="layui-form-label">金额</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="price" id="price" value="" autocomplete="off" placeholder="请输入金额" class="layui-input" lay-verify="required">
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">备注</label>
+                <div class="layui-input-block">
+                    <textarea placeholder="请输入内容" id="remarks" class="layui-textarea"></textarea>
+                </div>
+            </div>
+        </form>
+    </div>
+</script>
+
+<!-- 明细弹框-->
+<script id="particulars" type="text/html">
+    <div class="windows">
+        <table id="particulars-table" lay-filter="particularsTable"></table>
+    </div>
+</script>
+
+<script>
+    layui.use(['admin', 'table', 'form', 'laydate', 'common'], function () {
+        var $ = layui.$
+            , admin = layui.admin
+            , element = layui.element
+            , laytpl = layui.laytpl
+            , form = layui.form
+            , table = layui.table
+            , laydate = layui.laydate;
+
+        var operation_type = '1'//操作类型
+        var profit_type = ''//分红池类型
+        var turn_inwards_type = ''//转出转入类型
+        var profit_list = [
+            {"value": "1", "name": "个人消费分红"},
+            {"value": "2", "name": "团队/消费共享分红"},
+            {"value": "3", "name": "个人微商/消费共享分红"},
+            {"value": "4", "name": "消费新人奖"},
+            {"value": "5", "name": "消费日分红"},
+            {"value": "6", "name": "消费明星日分红"},
+            {"value": "7", "name": "共享日分红"},
+            {"value": "8", "name": "管理普惠周奖"},
+            {"value": "9", "name": "中层管理周分红"},
+            {"value": "10", "name": "至尊消费月分红"},
+            {"value": "11", "name": "销售精英月分红"},
+            {"value": "12", "name": "高层消费月分红"},
+            {"value": "13", "name": "供应商推荐奖金"},
+            {"value": "14", "name": "消费养老补贴"},
+            {"value": "15", "name": "车房梦想补贴"},
+        ]
+        //弹出操作框
+        $('.handle').on('click', function () {
+            profit_type = $(this).attr("data-type")
+            laytpl(operation.innerHTML).render("操作", function (html) {
+                    var windows = layer.open({
+                        id: 'group-layer1',
+                        type: 1,
+                        min: false,
+                        max: false,
+                        title: '操作 ',
+                        content: html,
+                        area: ["600px", "400px"]
+                        , btn: ['确定', '取消']
+                        , yes: function (index, layero) {
+                            console.log(turn_inwards_type);
+                            var price = $("#price").val()
+                            var remarks = $("#remarks").val()
+                            if(!turn_inwards_type){
+                                layer.msg('请选择分红池类型！', {icon: 2, time: 1000})
+                                return false
+                            }else if(!price){
+                                layer.msg('请输入金额！', {icon: 2, time: 1000})
+                                return false
+                            }
+                            if(operation_type == 1){
+                                console.log("转出");
+                            }else {
+                                console.log("转入");
+                            }
+                            layer.msg('操作成功', {icon: 1, time: 1000}, function () {
+                                //执行重载
+                                layer.closeAll();
+                            });
+                        }
+                    });
+                    var option = '<option value="">请选择分红类型</option>';
+                    $.each(profit_list, function (key, val) {
+                        if (profit_type == val.value) {
+
+                        } else {
+                            option += '<option value="' + val.value + '">' + val.name + '</option>';
+                        }
+                    });
+                    $("#profit_select").html(option);
+                    form.render();
+                }
+            );
+        });
+
+        //获取操作类型
+        form.on('radio(operation_type)', function(data){
+            // console.log(data.elem); //得到radio原始DOM对象
+            operation_type = data.value
+        });
+
+        //获取转出/转入分红类型
+        form.on('select(turn_inwards_type)', function(data){
+            // console.log(data.elem); //得到radio原始DOM对象
+            turn_inwards_type = data.value
+        });
+
+        //明细
+        $('.particulars').on('click', function () {
+            laytpl(particulars.innerHTML).render("明细", function (html) {
+                    var windows2 = layer.open({
+                        id: 'group-layer2',
+                        type: 1,
+                        min: false,
+                        max: false,
+                        title: '明细 ',
+                        content: html,
+                        area: ["800px", "560px"]
+                    });
+                    form.render();
+                }
+            );
+            table.render({
+                elem: '#particulars-table'
+                , url: issUrl.profit
+                ,where:{
+                    name:"xrphfh",
+                    token: layui.data('admin').token,
+                }
+                , type: 'post'
+                , cols: [[
+                    {field: 'id', title: 'ID', align: 'center'}
+                    , {
+                        field: 'parent',
+                        title: '类型',
+                        align: 'center',
+                        templet: '<div>{{d.parent?d.parent.member_number:""}}</div>'
+                    }
+                    , {field: 'change_bonus', title: '金额', align: 'center'}
+                    , {field: 'change_bonus', title: '余额', align: 'center'}
+                    , {field: 'add_time', title: '时间', align: 'center'}
+                ]]
+                , page: {
+                    prev: '上一页',
+                    next: '下一页',
+                    layout: ['count', 'prev', 'page', 'next', 'limit']
+                }
+                , limit: 10
+                , limits: [10, 15, 20, 25, 30]
+            });
+        });
+
+    });
+
+</script>

@@ -1,0 +1,88 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0px;
+    font-size: 12px;
+    line-height: 1.5em;
+    font-family: tahoma, "Microsoft YaHei", Simsun, Mingliu, Arial, Helvetica;
+    color: #333;
+    background: #f6f6f6;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.business {
+    width: 509px;
+    height: 378px;
+    margin: 0 auto;
+    background: url(../images/business.png);
+    background-size: initial;
+    background-position: top;
+    margin-top: 20px;
+    color: #ae9b76;
+    font-weight: bold;
+
+}
+.business a {
+	color: #ae9b76;
+}
+
+.business-a {
+    position: absolute;
+    width: 235px;
+    height: 250px;
+    margin-top: 75px;
+    margin-left: 30px;
+}
+
+.business-a1 {
+    height: 37px;
+}
+
+.business-a1-a {
+    font-size: 25px;
+    
+}
+
+.business-a1-b {
+    font-size: 15px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+.business-b {
+    margin-top: 15px;
+    font-size: 15px;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.business-c {
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.business-c1 {
+    text-align: center;
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    border-radius: 9px;
+    border: 2px solid #ae9b76;
+    margin-left: 15px;
+}

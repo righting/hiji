@@ -1,0 +1,309 @@
+.ncgy-part1 {
+    width: 1200px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.ncgy-part1 .title,
+.ncgy-part2 .title {
+    height: 70px;
+    line-height: 70px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    color: #555;
+}
+
+.ncgy-part1 .title {
+    background: url(../images/ncgy/ncgy-bg-part1.png) center bottom no-repeat;
+}
+
+.ncgy-part2 .title {
+    background: url(../images/ncgy/ncgy-bg-part2.png) center bottom no-repeat;
+}
+
+.ncgy-part1 ul {
+    overflow: hidden;
+    margin-top: 28px;
+    margin-left: -20px;
+}
+
+.ncgy-part1 li {
+    float: left;
+    width: 224px;
+    height: 235px;
+    margin-left: 20px;
+    font-family: MicroSoft YaHei;
+}
+
+.ncgy-part1 li:first-child {
+    color: #43b6d3;
+    background: url(../images/ncgy/ncgy_01.png) no-repeat;
+}
+
+.ncgy-part1 li:nth-child(2) {
+    color: #fff;
+    background: url(../images/ncgy/ncgy_02.png) no-repeat;
+}
+
+.ncgy-part1 li:nth-child(3) {
+    color: #f2bb44;
+    background: url(../images/ncgy/ncgy_03.png) no-repeat;
+}
+
+.ncgy-part1 li:nth-child(4) {
+    color: #33cbcc;
+    background: url(../images/ncgy/ncgy_04.png) no-repeat;
+}
+
+.ncgy-part1 li:last-child {
+    color: #b6aad5;
+    background: url(../images/ncgy/ncgy_05.png) no-repeat;
+}
+
+.ncgy-part1 li h2 {
+    margin-top: 115px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.ncgy-part1 li p {
+    font-size: 14px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+    line-height: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.ncgy-part1 li a {
+    display: block;
+    width: 106px;
+    height: 32px;
+    margin: 18px auto 0;
+    line-height: 32px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.ncgy-part1 li:nth-child(2) a {
+    color: #ed6d6e;
+}
+
+.ncgy-part2 {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: MicroSoft YaHei;
+}
+
+.ncgy-part2 .img-wrap img {
+    width: 100%;
+    height: 100%;
+}
+
+.ncgy-part2-wrap {
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.ncgy-part2-wrap a {
+    position: relative;
+    float: left;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.ncgy-part2-wrap a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.ncgy-part2-wrap a i {
+    position: absolute;
+    top: 8px;
+    width: 115px;
+    height: 38px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    line-height: 38px;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.ncgy-part2-wrap a i.processing {
+    background: #f2bb44;
+}
+
+.ncgy-part2-wrap a i.processed {
+    background: #7f7b7b;
+}
+
+.ncgy-part2-wrap a i.planning {
+    background: #077b1f;
+}
+
+.ncgy-part2-wrap a h1 {
+    height: 38px;
+    margin-top: 4px;
+    padding: 0 10px;
+    line-height: 38px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    background: #4c4c4c;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ncgy-part2-left {
+    float: left;
+    width: 568px;
+}
+
+.ncgy-part2-mid {
+    float: left;
+    width: 376px;
+}
+
+.ncgy-part2-right {
+    float: left;
+    width: 260px;
+    margin-right: -4px;
+}
+
+.ncgy-mid {
+    width: 300px;
+    height: 266px;
+}
+
+.ncgy-mid .img-wrap {
+    width: 300px;
+    height: 224px;
+}
+
+.ncgy-large {
+    width: 372px;
+    height: 302px;
+}
+
+.ncgy-large .img-wrap {
+    width: 372px;
+    height: 260px;
+}
+
+.ncgy-small {
+    width: 260px;
+    height: 266px;
+}
+.ncgy-small .img-wrap {
+    width: 260px;
+    height: 224px;
+}
+
+.ncgy-micro {
+    width: 184px;
+    height: 230px;
+}
+.ncgy-micro .img-wrap {
+    width: 184px;
+    height: 188px;
+}
+
+.ncgy-part3 {
+    width: 1200px;
+    height: 292px;
+    margin: 35px auto 0;
+    overflow: hidden;
+}
+
+.ncgy-part3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.ncgy-part4 {
+    width: 100%;
+    height: 902px;
+    background: url(../images/ncgy/ncgy-bg-part4.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.ncgy-banner1 {
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+.ncgy-banner1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.grateful {
+    width: 1200px;
+    height: 438px;
+    margin: 20px auto 0;
+    overflow: hidden;
+}
+
+.grateful li {
+    float: left;
+    width: 362px;
+    height: 434px;
+    margin: 0 17px;
+    border: 2px solid #d42626;
+    border-radius: 10px;
+}
+
+.grateful li a:hover {
+    color: color: #2c2b2b;;
+    text-decoration: none;
+}
+
+.ncgy-part4-img {
+    width: 349px;
+    height: 270px;
+    margin: 7px auto 10px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.ncgy-part4-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.grateful li p {
+    padding: 0 15px;
+    height: 90px;
+    line-height: 30px;
+    overflow: hidden;
+    color: #2c2b2b;
+    font-family: "宋体";
+}
+
+.ncgy-part4-bottom {
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: MicroSoft YaHei;
+    color: #b22826;
+    overflow: hidden;
+}
+
+.ncgy-part4-bottom span {
+    float: left;
+    margin-left: 15px;
+}
+
+.ncgy-part4-bottom h2 {
+    float: right;
+    margin-right: 20px;
+}

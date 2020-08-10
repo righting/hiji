@@ -1,0 +1,1141 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>农耕优品-绿太食品</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="author" content="Saingo">
+<meta name="copyright" content="Saingo Inc. All Rights Reserved">
+<link rel="shortcut icon" href="" />
+<!--[if IE 6]>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<![endif]-->
+<style type="text/css">
+body {
+_behavior: url(css/csshover.htc);
+}
+</style>
+<link href="css/base.css" rel="stylesheet" type="text/css">
+<link href="css/header.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet" />
+<link href="css/zcdz.css" rel="stylesheet" type="text/css">
+<!--[if IE 7]>
+  <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+<![endif]-->
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+<script src="js/IE6_PNG.js"></script>
+<script>
+DD_belatedPNG.fix('.pngFix');
+</script>
+<script>
+// <![CDATA[
+if((window.navigator.appName.toUpperCase().indexOf("MICROSOFT")>=0)&&(document.execCommand))
+try{
+document.execCommand("BackgroundImageCache", false, true);
+   }
+catch(e){}
+// ]]>
+</script>
+<![endif]-->
+<script src="js/jquery.js"></script>
+<script src="js/common.js" charset="utf-8"></script>
+<script type="text/javascript">
+var PRICE_FORMAT = '&yen;%s';
+$(function(){
+	//首页左侧分类菜单
+	$(".category ul.menu").find("li").each(
+		function() {
+			$(this).hover(
+				function() {
+				    var cat_id = $(this).attr("cat_id");
+					var menu = $(this).find("div[cat_menu_id='"+cat_id+"']");
+					menu.show();
+					$(this).addClass("hover");
+					if(menu.attr("hover")>0) return;
+					menu.masonry({itemSelector: 'dl'});
+					var menu_height = menu.height();
+					if (menu_height < 60) menu.height(80);
+					menu_height = menu.height();
+					var li_top = $(this).position().top;
+					if ((li_top > 60) && (menu_height >= li_top)) $(menu).css("top",-li_top+50);
+					if ((li_top > 150) && (menu_height >= li_top)) $(menu).css("top",-li_top+90);
+					if ((li_top > 240) && (li_top > menu_height)) $(menu).css("top",menu_height-li_top+90);
+					if (li_top > 300 && (li_top > menu_height)) $(menu).css("top",60-menu_height);
+					if ((li_top > 40) && (menu_height <= 120)) $(menu).css("top",-5);
+					menu.attr("hover",1);
+				},
+				function() {
+					$(this).removeClass("hover");
+				    var cat_id = $(this).attr("cat_id");
+					$(this).find("div[cat_menu_id='"+cat_id+"']").hide();
+				}
+			);
+		}
+	);
+	$(".head-user-menu dl").hover(function() {
+		$(this).addClass("hover");
+	},
+	function() {
+		$(this).removeClass("hover");
+	});
+	$('.head-user-menu .my-mall').mouseover(function(){// 最近浏览的商品
+		load_history_information();
+		$(this).unbind('mouseover');
+	});
+	$('.head-user-menu .my-cart').mouseover(function(){// 运行加载购物车
+		load_cart_information();
+		$(this).unbind('mouseover');
+	});
+	$('#button').click(function(){
+	    if ($('#keyword').val() == '') {
+		    return false;
+	    }
+	});
+	$('a').click(function(){
+		if($(this).attr('href')=='')
+		{
+		showTips('功能模块正在建设中,感谢您的光临！', 200, 5)
+		return false;
+		}
+		
+		
+		})
+	$(function(){
+	$(".quick-menu dl").hover(function() {
+		$(this).addClass("hover");
+	},
+	function() {
+		$(this).removeClass("hover");
+	});
+
+});
+});
+</script>
+
+
+
+<style type="text/css">
+<!--
+.STYLE1 {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 24px;
+}
+-->
+</style>
+
+</head>
+<body>
+
+<!--header-->
+<div class="public-top-layout w">
+  <div class="topbar wrapper">  
+    <div class="user-entry">
+          您好，欢迎来到      <a href="" title="首页" alt="首页">海吉壹佰</a>
+       <span>[<a href="http://www.hiji100.com/member/index.php?controller=login&action=index">登录</a>]</span>
+        <span>[<a href="http://www.hiji100.com/member/index.php?controller=login&action=register">注册</a>]</span>
+        <span>[<a href="http://www.hiji100.com" >返回平台首页</a>]</span>
+    </div>
+    
+    <div class="quick-menu">
+      <dl>
+        <dt><a href=""><span class="orange">商家中心</span></a><i></i></dt>
+        <dd>
+          <ul>
+            <li><a href="">商家登录</a></li>
+            <li><a href="" title="申请商家入驻；已提交申请，可查看当前审核状态。">申请入驻</a></li>
+            <li><a href="">开店协议</a></li>
+          </ul>
+        </dd>
+      </dl>
+      <dl>
+        <dt><a href="">我的订单</a><i></i></dt>
+        <dd>
+          <ul>
+            <li><a href="">待付款订单</a></li>
+            <li><a href="">待确认收货</a></li>
+            <li><a href="">待评价交易</a></li>
+          </ul>
+        </dd>
+      </dl>
+      <dl>
+        <dt><a href="">我的收藏</a><i></i></dt>
+        <dd>
+          <ul>
+            <li><a href="">商品收藏</a></li>
+            <li><a href="">店铺收藏</a></li>
+          </ul>
+        </dd>
+      </dl>
+      <dl>
+        <dt>客户服务<i></i></dt>
+        <dd>
+          <ul>
+            <li><a href="">帮助中心</a></li>
+            <li><a href="">售后服务</a></li>
+            <li><a href="">客服中心</a></li>
+          </ul>
+        </dd>
+      </dl>
+      <dl>
+        <dt>站点导航<i></i></dt>
+        <dd>
+          <ul>
+            <li><a href="">网站地图</a></li>
+          </ul>
+        </dd>
+      </dl>
+          </div>
+  </div>
+</div>
+
+
+<div class="header-wrap">
+  <header class="public-head-layout wrapper">
+    <h1 class="site-logo"><a href="http://www.hiji100.com" ><img src="images/H_logo.jpg" class="pngFix" style="margin-right:8px;"></a><a href=""><img src="images/N_logo.jpg" class="pngFix"></a></h1>
+    <div class="head-search-bar">
+      <form action="" method="get" class="search-form">
+        <input name="act" id="search_act" value="search" type="hidden">
+        <input name="keyword" id="keyword" type="text" class="input-text" value="" maxlength="60" x-webkit-speech lang="zh-CN" onwebkitspeechchange="foo()" placeholder="请输入商品关键词" x-webkit-grammar="builtin:search" />
+        <input type="submit" id="button" value="搜索" class="input-submit">
+      </form>
+      <div class="keyword">热门搜索：        <ul>
+                    <li><a href="">有机大米</a></li>
+                    <li><a href="">坚果</a></li>
+                    <li><a href="">杂粮</a></li>
+                    <li><a href="">山楂酒</a></li>
+                    <li><a href="">绿太</a></li>
+                  </ul>
+      </div>
+    </div>
+    <div class="head-user-menu">
+      <dl class="my-mall">
+        <dt><span class="ico"></span>我的商城<i class="arrow"></i></dt>
+        <dd>
+          <div class="sub-title">
+            <h4></h4>
+            <a href="http://www.lvtaishop.com/shop/index.php?act=member_snsindex" class="arrow">我的用户中心<i></i></a></div>
+          <div class="user-centent-menu">
+            <ul>
+              <li><a href="">站内消息(<span>0</span>)</a></li>
+              <li><a href="" class="arrow">我的订单<i></i></a></li>
+              <li><a href="">咨询回复(<span id="member_consult">0</span>)</a></li>
+              <li><a href="" class="arrow">我的收藏<i></i></a></li>
+                            <li><a href="">代金券(<span id="member_voucher">0</span>)</a></li>
+                                          <li><a href="" class="arrow">我的积分<i></i></a></li>
+                          </ul>
+          </div>
+          <div class="browse-history">
+            <div class="part-title">
+              <h4>最近浏览的商品</h4>
+            </div>
+            <ul>
+              <li class="no-goods"><img class="loading" src="images/loading.gif" /></li>
+            </ul>
+          </div>
+        </dd>
+      </dl>
+      <dl class="my-cart">
+                <dt><span class="ico"></span>购物车结算<i class="arrow"></i></dt>
+        <dd>
+          <div class="sub-title">
+            <h4>最新加入的商品</h4>
+          </div>
+          <div class="incart-goods-box">
+            <div class="incart-goods"> <img class="loading" src="images/loading.gif" /> </div>
+          </div>
+          <div class="checkout"> <span class="total-price">共<i>0</i>种商品</span><a href="" class="btn-cart">结算购物车中的商品</a> </div>
+        </dd>
+      </dl>
+    </div>
+
+  </header>
+</div>
+
+
+
+<!--分类及导航菜单-->
+<nav class="public-nav-layout">
+  <div class="wrapper">
+    <div class="all-category">
+        
+      <div class="title">
+        <h3><a href="">农耕优品分类</a></h3>
+        <i class="arrow"></i></div>
+      <div class="category">
+        <ul class="menu">
+                              <li cat_id="1" class="odd" >
+            <div class="class">
+                            <span class="ico"><img src="images/category-pic-1.jpg"></span>
+                            <h4><a href="">米面粮油</a></h4>
+            <span class="arrow"></span> </div>
+            <div class="sub-class" cat_menu_id="1">
+                                          <dl>
+                <dt>
+                  <h3><a href="">大米</a></h3>
+                </dt>
+                <dd class="goods-class">
+                  <a href="">有机米</a>
+                                    <a href="">绿色米</a>
+                                    <a href="">功能米</a>
+                                    <a href="">营养米</a>
+                                    <a href="">特色米</a>
+                                    <a href="">进口大米</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">杂粮</a></h3>
+                </dt>
+                <dd class="goods-class">
+                  <a href="">绿色杂粮</a>
+                                    <a href="">有机杂粮</a>
+                                    <a href="">特色杂粮</a>
+                                    <a href="">进口杂粮</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">面食</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">面条</a>
+                                    <a href="">面粉</a>
+                                    <a href="">进口面粉</a>
+                                    <a href="">进口面条</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">油类</a></h3>
+                </dt>
+                <dd class="goods-class">
+                  <a href="">花生油</a>
+                                    <a href="">橄榄油</a>
+                                    <a href="">山茶油</a>
+                                    <a href="">大豆油</a>
+                                    <a href="">菜籽油</a>
+                                    <a href="">其他食用油</a>
+                                    <a href="">进口食用油</a>
+                                    <a href="">香榧油</a>
+                                    <a href="">玉米油</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">副食</a></h3>
+                </dt>
+                <dd class="goods-class">
+                  <a href="">乳制品</a>
+                                    <a href="">蜜制品</a>
+                                    <a href="">豆制品</a>
+                                    <a href="">糕点</a>
+                                    <a href="">腌制品</a>
+                                    <a href="">甜品</a>
+                                    <a href="">面制品</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">调料</a></h3>
+                </dt>
+                <dd class="goods-class">
+                  <a href="">酱油</a>
+                                    <a href="">蚝油</a>
+                                    <a href="">醋</a>
+                                    <a href="">鸡精</a>
+                                    <a href="">料酒</a>
+                                    <a href="">汤料</a>
+                                    <a href="">香油</a>
+                                    <a href="">食盐/食糖</a>
+                                    <a href="">进口调料</a>
+                                    <a href="">其他调料</a>
+                                                    </dd>
+                              </dl>
+                                        </div>
+          </li>
+                    <li cat_id="2" class="even" >
+            <div class="class">
+                            <span class="ico"><img src="images/category-pic-2.jpg"></span>
+                            <h4><a href="">时蔬水果</a></h4>
+            <span class="arrow"></span> </div>
+            <div class="sub-class" cat_menu_id="2">
+                                          <dl>
+                <dt>
+                  <h3><a href="">蔬菜</a></h3>
+                </dt>
+                <dd class="goods-class">
+                  <a href="">叶菜类</a>
+                                    <a href="">根茎类</a>
+                                    <a href="">茄果类</a>
+                                    <a href="">瓜类</a>
+                                    <a href="">香辛类·姜葱</a>
+                                    <a href="">豆角类</a>
+                                    <a href="">花菜类</a>
+                                    <a href="">菌菇类</a>
+                                    <a href="">包菜类</a>
+                                                    </dd>
+                                <dd class="brands-class">
+                  <h5>品牌：</h5>
+                                      <a href="">台湾水果</a>
+                                                        <a href="">咚咕街</a>
+                                                        <a href="">旺泰佳</a>
+                                                        <a href="">龙船水乡</a>
+                                                        <a href="">佳沛</a>
+                                                        <a href="">金峰水果</a>
+                                                        <a href="">香果人家</a>
+                                                        <a href="">昭通丑苹果</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">水果</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">苹果\梨类</a>
+                                    <a href="">桃李类</a>
+                                    <a href="">柑橘类</a>
+                                    <a href="">葡萄类</a>
+                                    <a href="">瓜类</a>
+                                    <a href="">水果组合</a>
+                                    <a href="">芒果\香蕉类</a>
+                                    <a href="">百香果</a>
+                                    <a href="">火龙果</a>
+                                    <a href="">释迦</a>
+                                    <a href="">莲雾</a>
+                                    <a href="">圣女果/小番茄</a>
+                                    <a href="">其他</a>
+                                    <a href="">进口水果</a>
+                                                    </dd>
+                              </dl>
+                                        </div>
+          </li>
+                    <li cat_id="3" class="odd" >
+            <div class="class">
+                            <span class="ico"><img src="images/category-pic-3.jpg"></span>
+                            <h4><a href="">肉禽蛋奶</a></h4>
+            <span class="arrow"></span> </div>
+            <div class="sub-class" cat_menu_id="3">
+                                          <dl>
+                <dt>
+                  <h3><a href="">水产类</a></h3>
+                </dt>
+                <dd class="goods-class">
+                  <a href="">鱼类</a>
+                                    <a href="">虾类</a>
+                                    <a href="">贝壳类</a>
+                                    <a href="">海藻类</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">肉类</a></h3>
+                </dt>
+                <dd class="goods-class">
+                  <a href="">有机猪肉</a>
+                                    <a href="">黑猪肉</a>
+                                    <a href="">牛羊肉</a>
+                                    <a href="">熟肉肠类</a>
+                                    <a href="">肉丸类</a>
+                                    <a href="">其他肉类</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">禽类</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">散养鸡</a>
+                                    <a href="">禽类分割品</a>
+                                    <a href="">其他禽类</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">蛋类</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">鸡蛋</a>
+                                    <a href="">鸭蛋</a>
+                                    <a href="">皮蛋</a>
+                                    <a href="">咸蛋</a>
+                                    <a href="">其他蛋类</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">奶类</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">酸奶</a>
+                                    <a href="">牛奶</a>
+                                    <a href="">黄油·乳酪</a>
+                                    <a href="">进口奶制品</a>
+                                    <a href="">豆奶</a>
+                                    <a href="">有机奶</a>
+                                                    </dd>
+                              </dl>
+                                        </div>
+          </li>
+                    <li cat_id="256" class="even" >
+            <div class="class">
+                            <span class="ico"><img src="images/category-pic-256.jpg"></span>
+                            <h4><a href="">酒水茶饮</a></h4>
+            <span class="arrow"></span> </div>
+            <div class="sub-class" cat_menu_id="256">
+                                          <dl>
+                <dt>
+                  <h3><a href="">酒类</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">白酒</a>
+                                    <a href="">葡萄酒</a>
+                                    <a href="">啤酒</a>
+                                    <a href="">茶酒</a>
+                                    <a href="">陈年老酒</a>
+                                    <a href="">进口酒</a>
+                                    <a href="">保健酒</a>
+                                    <a href="">果酒</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">茶类</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">茶叶</a>
+                                    <a href="">花茶</a>
+                                    <a href="">果茶</a>
+                                    <a href="">茶珍</a>
+                                    <a href="">进口茶类</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">饮料</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">饮用水</a>
+                                    <a href="">果汁</a>
+                                    <a href="">碳酸饮料</a>
+                                    <a href="">功能饮料</a>
+                                    <a href="">茶饮料</a>
+                                    <a href="">汽水</a>
+                                    <a href="">进口</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">冲调</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">咖啡</a>
+                                    <a href="">麦片</a>
+                                    <a href="">谷物冲调</a>
+                                    <a href="">蜂蜜果茶</a>
+                                    <a href="">进口咖啡/冲调</a>
+                                    <a href="">其他饮品</a>
+                                                    </dd>
+                              </dl>
+                                        </div>
+          </li>
+                    <li cat_id="308" class="odd" >
+            <div class="class">
+                            <span class="ico"><img src="images/category-pic-308.jpg"></span>
+                            <h4><a href="">山珍干货</a></h4>
+            <span class="arrow"></span> </div>
+            <div class="sub-class" cat_menu_id="308">
+                                          <dl>
+                <dt>
+                  <h3><a href="">山珍</a></h3>
+                </dt>
+                <dd class="goods-class">
+                  <a href="">菌菇</a>
+                                    <a href="">山珍</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">干货</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">干菜</a>
+                                    <a href="">粉丝腐竹</a>
+                                    <a href="">精选海味</a>
+                                    <a href="">特制腊味</a>
+                                    <a href="">干制果蔬</a>
+                                    <a href="">其 他</a>
+                                                    </dd>
+                              </dl>
+                                        </div>
+          </li>
+                    <li cat_id="470" class="even" >
+            <div class="class">
+                            <span class="ico"><img src="images/category-pic-470.jpg"></span>
+                            <h4><a href="">坚果零食</a></h4>
+            <span class="arrow"></span> </div>
+            <div class="sub-class" cat_menu_id="470">
+                                          <dl>
+                <dt>
+                  <h3><a href="">礼包</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">年货</a>
+                                    <a href="">特色礼包</a>
+                                                    </dd>
+                                <dd class="brands-class">
+                  <h5>品牌：</h5>
+                                      <a href="">M＆M’</a>
+                                                        <a href="">帝朵</a>
+                                                        <a href="">江南好</a>
+                                                        <a href="">康大国榧</a>
+                                                        <a href="">Amovo/魔吻</a>
+                                                        <a href="">Dove/德芙</a>
+                                                        <a href="">FERRERO ROCHER/费列罗</a>
+                                                        <a href="">宁安堡</a>
+                                                        <a href="">天山奇</a>
+                                                        <a href="">咚咕街</a>
+                                                                                                                                  </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">零食</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">糖果</a>
+                                    <a href="">薯片</a>
+                                    <a href="">饼干</a>
+                                    <a href="">膨化食品</a>
+                                    <a href="">巧克力</a>
+                                    <a href="">海产肉干</a>
+                                    <a href="">其他零食</a>
+                                    <a href="">进口零食</a>
+                                    <a href="">方便食品</a>
+                                    <a href="">雪糕</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">坚果</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">核桃</a>
+                                    <a href="">花生</a>
+                                    <a href="">瓜子</a>
+                                    <a href="">松子</a>
+                                    <a href="">板栗</a>
+                                    <a href="">榛子</a>
+                                    <a href="">碧根果</a>
+                                    <a href="">夏威夷果</a>
+                                    <a href="">其他坚果</a>
+                                    <a href="">开心果</a>
+                                    <a href="">礼包</a>
+                                    <a href="">杏仁</a>
+                                    <a href="">蚕豆</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">干果</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">枣</a>
+                                    <a href="">蓝莓</a>
+                                    <a href="">养生干果</a>
+                                    <a href="">其他干果</a>
+                                                    </dd>
+                              </dl>
+                                        </div>
+          </li>
+                    <li cat_id="530" class="odd" >
+            <div class="class">
+                            <span class="ico"><img src="images/category-pic-530.jpg"></span>
+                            <h4><a href="">营养保健</a></h4>
+            <span class="arrow"></span> </div>
+            <div class="sub-class" cat_menu_id="530">
+                                          <dl>
+                <dt>
+                  <h3><a href="">养生</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">养生茶</a>
+                                    <a href="">养生食品</a>
+                                    <a href="">五谷</a>
+                                    <a href="">饮品</a>
+                                    <a href="">蜂胶</a>
+                                    <a href="">蛋白粉</a>
+                                    <a href="">人参</a>
+                                    <a href="">螺旋藻</a>
+                                    <a href="">萃取品</a>
+                                    <a href="">调三高</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">滋补</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">蜂蜜</a>
+                                    <a href="">阿胶</a>
+                                    <a href="">冬虫夏草</a>
+                                    <a href="">燕窝海参</a>
+                                    <a href="">灵芝</a>
+                                    <a href="">鹿茸</a>
+                                    <a href="">肠胃养护</a>
+                                    <a href="">滋补</a>
+                                    <a href="">美容养颜</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">药膳</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">健脾祛湿</a>
+                                    <a href="">补血</a>
+                                    <a href="">滋阴养颜</a>
+                                    <a href="">清热凉血</a>
+                                    <a href="">生精补肾</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">熏香</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">线香</a>
+                                    <a href="">塔香</a>
+                                    <a href="">沉香</a>
+                                    <a href="">精油</a>
+                                    <a href="">盘香</a>
+                                    <a href="">檀香</a>
+                                    <a href="">黄杨木</a>
+                                                    </dd>
+                              </dl>
+                                        </div>
+          </li>
+                    <li cat_id="593" class="even" >
+            <div class="class">
+                            <span class="ico"><img src="images/category-pic-593.jpg"></span>
+                            <h4><a href="">母婴食品</a></h4>
+            <span class="arrow"></span> </div>
+            <div class="sub-class" cat_menu_id="593">
+                                          <dl>
+                <dt>
+                  <h3><a href="">孕妇</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">冲饮奶粉</a>
+                                    <a href="">孕期营养</a>
+                                    <a href="">月子营养</a>
+                                                    </dd>
+                              </dl>
+                            <dl>
+                <dt>
+                  <h3><a href="">婴童</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">DHA</a>
+                                    <a href="">益生菌/初乳</a>
+                                    <a href="">钙铁锌</a>
+                                    <a href="">维生素</a>
+                                    <a href="">米粉</a>
+                                    <a href="">果泥</a>
+                                    <a href="">宝宝零食</a>
+                                    <a href="">奶粉</a>
+                                                    </dd>
+                              </dl>
+                                        </div>
+          </li>
+                    <li cat_id="1288" class="odd" >
+            <div class="class">
+                            <span class="ico"><img src="images/category-pic-1288.jpg"></span>
+                            <h4><a href="">精致生活</a></h4>
+            <span class="arrow"></span> </div>
+            <div class="sub-class" cat_menu_id="1288">
+                                          <dl>
+                <dt>
+                  <h3><a href="">精品人生</a></h3>
+                </dt>
+                <dd class="goods-class">
+                                                      <a href="">器具</a>
+                                    <a href="">茶具</a>
+                                    <a href="">个人护理</a>
+                                    <a href="">家庭清洁</a>
+                                    <a href="">汽车用品</a>
+                                    <a href="">纸品</a>
+                                                    </dd>
+                              </dl>
+                                        </div>
+          </li>
+                            </ul>
+      </div>    </div>
+      
+      
+    <ul class="site-menu">
+      <span class="hot"></span><!--update@20150121-->
+      <li><a  href="index.html">首页</a></li>
+      <li><a  href="spyb.html"  >三品一标</a></li>
+      <li><a  href="zcdz.html" >众筹定制</a></li>                                    
+      <li><a  href="ltsp.html" class="current">绿太食品</a></li>
+      <li><a  href="nznj.html">农资农具</a></li>
+      <li><a  href="nlms.html">农旅民宿</a></li>
+      <li><a  href="ncgy.html">农村公益</a></li>
+      <li><a  href="xffp.html">消费扶贫</a></li>                                                                             
+    </ul>
+  </div>
+  
+  
+  
+</nav>
+
+<!--分类及导航菜单 END-->
+
+<!--header END-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="bodyer">
+     <img src="images/ltsp/ltsp_01.jpg"/>
+
+</div>
+<div class="bodyer">
+     <img src="images/ltsp/ltsp_03.jpg" usemap="#Map"/>
+     <map name="Map">
+       <area shape="rect" coords="40,31,308,186" href="#">
+       <area shape="rect" coords="324,29,478,182" href="#">
+       <area shape="rect" coords="494,30,643,183" href="#">
+       <area shape="rect" coords="657,29,808,183" href="#">
+       <area shape="rect" coords="823,26,972,185" href="#">
+     </map>
+
+</div>
+
+<div class="bodyer">
+  <img src="images/ltsp/ltsp_05.jpg" usemap="#Map2"/>
+  <map name="Map2">
+    <area shape="rect" coords="440,44,821,326" href="#">
+    <area shape="rect" coords="844,42,1018,320" href="#">
+    <area shape="rect" coords="1042,42,1219,320" href="#">
+    <area shape="rect" coords="249,37,431,321" href="#">
+    <area shape="rect" coords="30,180,226,410" href="#">
+    <area shape="rect" coords="251,342,421,572" href="#">
+    <area shape="rect" coords="468,355,611,565" href="#">
+    <area shape="rect" coords="648,347,808,565" href="#">
+    <area shape="rect" coords="854,344,1015,560" href="#">
+    <area shape="rect" coords="1048,340,1205,559" href="#">
+  </map>
+
+</div>
+
+<div class="bodyer">
+  <img src="images/ltsp/ltsp_06.jpg" usemap="#Map3"/>
+  <map name="Map3">
+    <area shape="rect" coords="445,56,829,333" href="#">
+    <area shape="rect" coords="843,54,1020,335" href="#">
+    <area shape="rect" coords="1040,49,1213,323" href="#">
+    <area shape="rect" coords="1041,348,1208,572" href="#">
+    <area shape="rect" coords="846,353,1010,575" href="#">
+    <area shape="rect" coords="642,351,816,575" href="#">
+    <area shape="rect" coords="445,341,619,580" href="#">
+    <area shape="rect" coords="251,353,428,573" href="#">
+    <area shape="rect" coords="249,43,417,327" href="#">
+    <area shape="rect" coords="36,214,228,413" href="#">
+  </map>
+
+</div>
+
+<div class="bodyer">
+  <img src="images/ltsp/ltsp_07.jpg" usemap="#Map4"/>
+  <map name="Map4">
+    <area shape="rect" coords="448,51,812,336" href="#">
+    <area shape="rect" coords="846,49,1008,328" href="#">
+    <area shape="rect" coords="651,353,811,573" href="#">
+    <area shape="rect" coords="844,352,1015,570" href="#">
+    <area shape="rect" coords="1040,349,1215,582" href="#">
+    <area shape="rect" coords="1040,44,1213,330" href="#">
+  </map>
+
+</div>
+
+<div class="bodyer">
+  <img src="images/ltsp/ltsp_08.jpg" usemap="#Map5"/>
+  <map name="Map5">
+    <area shape="rect" coords="453,55,805,332" href="#">
+    <area shape="rect" coords="842,51,1015,328" href="#">
+    <area shape="rect" coords="1041,51,1207,325" href="#">
+    <area shape="rect" coords="1040,357,1207,577" href="#">
+    <area shape="rect" coords="850,354,1021,582" href="#">
+    <area shape="rect" coords="650,363,817,574" href="#">
+    <area shape="rect" coords="441,359,618,573" href="#">
+    <area shape="rect" coords="251,356,415,576" href="#">
+    <area shape="rect" coords="29,187,232,413" href="#">
+  </map>
+
+</div>
+
+<div class="bodyer">
+  <img src="images/ltsp/ltsp_09.jpg" usemap="#Map6"/>
+  <map name="Map6">
+    <area shape="rect" coords="443,48,823,324" href="#">
+    <area shape="rect" coords="249,49,423,323" href="#">
+    <area shape="rect" coords="848,50,1022,324" href="#">
+    <area shape="rect" coords="1043,48,1203,322" href="#">
+    <area shape="rect" coords="1034,343,1206,581" href="#">
+    <area shape="rect" coords="845,349,1012,580" href="#">
+    <area shape="rect" coords="650,358,813,577" href="#">
+    <area shape="rect" coords="451,357,623,572" href="#">
+    <area shape="rect" coords="257,357,424,565" href="#">
+    <area shape="rect" coords="34,196,231,416" href="#">
+  </map>
+
+</div>
+
+<div class="bodyer">
+  <img src="images/ltsp/ltsp_10.jpg" usemap="#Map7"/>
+  <map name="Map7">
+    <area shape="rect" coords="472,82,820,346" href="#">
+    <area shape="rect" coords="873,85,1030,194" href="#">
+    <area shape="rect" coords="874,240,1024,352" href="#">
+    <area shape="rect" coords="61,85,434,349" href="#">
+  </map>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+    
+    
+  
+  
+
+  
+  
+ 
+    
+    
+    
+     
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<!--StandardLayout End-->
+  
+				
+<div style="clear: both;"></div>
+					<div id="web_chat_dialog" style="display: none;float:right;">
+					</div>
+					<a id="chat_login" href="javascript:void(0)" style="display: none;"></a> 
+					<div class="wrapper" style="display:none">
+    <div class="rg"></div>
+</div>
+<div id="faq" style="border-top:1px solid #9e0a06;">
+  <div class="wrapper">
+    <ul>
+           <li> <dl class="s1">
+      <dt>
+        会员政策      </dt>
+                  <dd><i></i><a href="" title="会员介绍"> 会员介绍 </a></dd>
+            <dd><i></i><a href="" title="如何购买"> 如何购买 </a></dd>
+            <dd><i></i><a href="" title="积分政策"> 积分政策 </a></dd>
+            <dd><i></i><a href="" title="查看已购商品"> 查看已购商品 </a></dd>
+            <dd><i></i><a href="" title="如何评价商品"> 如何评价商品 </a></dd>
+            <dd><i></i><a href="" title="如何找回密码"> 如何找回密码 </a></dd>
+                </dl></li>
+               <li> <dl class="s2">
+      <dt>
+        商家入驻      </dt>
+                  <dd><i></i><a href="" title="开店指南"> 开店指南 </a></dd>
+            <dd><i></i><a href="" title="费用标准"> 费用标准 </a></dd>
+            <dd><i></i><a href="" title="招商资质标准"> 招商资质标准 </a></dd>
+            <dd><i></i><a href="" title="合作协议"> 合作协议 </a></dd>
+            <dd><i></i><a href="" title="首页广告投放"> 首页广告投放 </a></dd>
+            <dd><i></i><a href="" title="管理店铺"> 管理店铺 </a></dd>
+                </dl></li>
+               <li> <dl class="s3">
+      <dt>
+        支付方式      </dt>
+                  <dd><i></i><a href="" title="在线支付"> 在线支付 </a></dd>
+            <dd><i></i><a href="" title="付款方式"> 付款方式 </a></dd>
+            <dd><i></i><a href="" title="分期付款"> 分期付款 </a></dd>
+                </dl></li>
+               <li> <dl class="s4">
+      <dt>
+        售后服务      </dt>
+                  <dd><i></i><a href="" title="退换货政策"> 退换货政策 </a></dd>
+            <dd><i></i><a href="" title="退换货流程"> 退换货流程 </a></dd>
+            <dd><i></i><a href="" title="退款流程"> 退款流程 </a></dd>
+                </dl></li>
+               <li> <dl class="s5">
+      <dt>
+        配送方式      </dt>
+                  <dd><i></i><a href="" title="快递送货"> 快递送货 </a></dd>
+            <dd><i></i><a href="" title="配送时间"> 配送时间 </a></dd>
+            <dd><i></i><a href="" title="商品签收"> 商品签收 </a></dd>
+                </dl></li>
+               <li> <dl class="s6">
+      <dt>
+        关于我们      </dt>
+                  <dd><i></i><a href="" title="商城简介"> 商城简介 </a></dd>
+            <dd><i></i><a href="" title="公司资质"> 公司资质 </a></dd>
+            <dd><i></i><a href="" title="联系我们"> 联系我们 </a></dd>
+            <dd><i></i><a href="" title="招聘英才"> 招聘英才 </a></dd>
+            <dd><i></i><a href="" title="合作洽谈"> 合作洽谈 </a></dd>
+                </dl></li>
+            
+           <li style="width:34%;">
+           <dl class="s6">
+                <dt>官方微信</dt>
+                <dd><img src="images/weixin.png" alt="微信"/></dd>
+            </dl>
+            </li>
+
+    </ul>
+      </div>
+</div>
+
+<div id="f_rz" class="wrapper">
+      <ul>
+      <li><a href=""><img src="images/f_rz-4_01.jpg" /></a></li>
+      <li><a href=""><img src="images/f_rz-4_02.jpg" /></a></li>
+      <li><a href=""><img src="images/f_rz-4_03.jpg" /></a></li>
+      <li><a href=""><img src="images/f_rz-4_04.jpg" /></a></li>
+      <li><a href=""><img src="images/f_rz-4_05.jpg" /></a></li>
+      <li><a href=""><img src="images/f_rz-4_06.jpg" /></a></li>
+      </ul>
+</div>
+
+<div id="flink" class="wrapper">
+	<div style="border:1px solid #fff; margin:10px auto; padding:10px; text-align:center;">
+	<h3 style=" margin:0 0 10px 0;border-bottom:1px solid #fff;">友情链接</h3><a href="http://www.cnfmg.com/" >中国食品传媒网</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.cnadc.com.cn/" >山丹军马场</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.cnadc.com.cn/" >中国农业发展有限公司</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn" >粤ICP备15046496号-1</a></div>
+</div>
+
+<div id="leftsead">
+	<ul>
+	     <li>
+			<a id="top_btn">
+				<img src="images/foot03/ll06.png" width="47" height="49" class="hides"/>
+				<img src="images/foot03/l06.png" width="47" height="49" class="shows" />
+			</a>
+		</li>
+
+		<li>
+			<a href="">
+				<img src="images/foot03/ll03.png"  width="47" height="49" class="hides"/>
+				<img src="images/foot03/l03.png" width="47" height="49" class="shows" />
+			</a>
+		</li>
+
+		<li>
+			<a href="">
+					<img src="images/foot03/ll02.png" width="166" height="49" class="hides"/>
+				<img src="images/foot03/l04.png" width="47" height="49" class="shows" />
+			</a>
+		</li>
+
+		<li>
+			<a class="youhui">
+				<img src="images/foot03/l02.png" width="47" height="49" class="shows" />
+				<img src="images/foot03/zfew.jpg" width="196" height="205" class="hides" usemap="#taklhtml"/>
+			</a>
+		</li>
+	
+	
+	
+	</ul>
+</div><!--leftsead end-->
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$("#leftsead a").hover(function(){
+		if($(this).prop("className")=="youhui"){
+			$(this).children("img.hides").show();
+		}else{
+			$(this).children("img.hides").show();
+			$(this).children("img.shows").hide();
+			$(this).children("img.hides").animate({marginRight:'0px'},'slow'); 
+		}
+	},function(){ 
+		if($(this).prop("className")=="youhui"){
+			$(this).children("img.hides").hide('slow');
+		}else{
+			$(this).children("img.hides").animate({marginRight:'-143px'},'slow',function(){$(this).hide();$(this).next("img.shows").show();});
+		}
+	});
+
+	$("#top_btn").click(function(){if(scroll=="off") return;$("html,body").animate({scrollTop: 0}, 600);});
+
+});
+</script>
+
+<script type="text/javascript" src="js/scroll.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/home_spyb.js" charset="utf-8"></script>
+
+
+</body>
+</html>

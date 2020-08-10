@@ -1,0 +1,259 @@
+blockquote,
+body,
+dd,
+div,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+input,
+li,
+ol,
+p,
+pre,
+ul {
+    padding: 0;
+    margin: 0
+}
+address,
+caption,
+cite,
+code,
+em,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+strong,
+table,
+td,
+th {
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400
+}
+strong {
+    font-weight: 700
+}
+ol,
+ul {
+    list-style: none outside none
+}
+fieldset,
+img {
+    border: medium none;
+    vertical-align: middle
+}
+caption,
+th {
+    text-align: left
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+body {
+    padding: 0px;
+    font-size: 12px;
+    line-height: 1.5em;
+    font-family: tahoma, "Microsoft YaHei", Simsun, Mingliu, Arial, Helvetica;
+    color: #333;
+    background: #f6f6f6;
+    width: 100%;
+    min-width: 1200px;
+}
+input,
+select,
+textarea {
+    font: 12px/20px Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif
+}
+cite,
+em,
+i {
+    font-style: normal
+}
+button,
+input,
+select,
+textarea {
+    outline: 0
+}
+html {
+    min-height: 101%
+}
+a {
+    color: #333;
+    text-decoration: none;
+    outline: medium none;
+    transition: color .3s ease;
+    -webkit-transition: color .3s ease;
+    -moz-transition: color .3s ease;
+    -ms-transition: color .3s ease;
+    -o-transition: color .3s ease;
+}
+a:active,
+a:link,
+a:visited {
+    text-decoration: none
+}
+a:hover {
+    color: #C81623;
+    text-decoration: none
+}
+.over_hidden {
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden
+}
+html[xmlns] .clearfix {
+    display: block
+}
+*html .clearfix {
+    height: 1%
+}
+time {
+    color: #777
+}
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block
+}
+.banner {
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+.main {
+    width: 1160px;
+    margin: 0 auto;
+    padding: 20px 20px 40px;
+    overflow: hidden;
+    zoom: 1;
+}
+.aside-nav {
+    float: left;
+    width: 185px;
+    border-radius: 15px 15px 0 0;
+    background: #fff;
+    height: 645px;
+}
+.aside-nav h5 {
+    height: 50px;
+    margin-bottom: 10px;
+    line-height: 42px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: url(/member/fixation/images/about/aside_nav_01.png) no-repeat;
+}
+.aside-nav h5 a {
+    color: #9737df;
+}
+.aside-nav-layout li {
+    height: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 44px;
+    background: url(/member/fixation/images/about/aside_nav_02.png) no-repeat;
+}
+.about-mid {
+    float: left;
+    width: 725px;
+    margin-left: 20px;
+    border-radius: 15px 0 0 15px;
+    background: #fff;
+}
+.about-mid .title {
+    height: 55px;
+    padding-left: 20px;
+    border-bottom: 1px solid #ddd;
+    line-height: 55px;
+    font-size: 16px;
+}
+.about-mid .title a {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.about-mid .title span {
+    margin: 0 5px;
+}
+.certificate,
+.honor {
+    padding-top: 15px;
+}
+.about-mid h2 {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.cer-wrap {
+    height:auto;
+    border-bottom: 1px solid #ddd;
+}
+.honor-wrap {
+    height: auto;
+}
+.about-right {
+    float: right;
+    width: 208px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.about-right .title {
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+}
+.about-right .title em {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin: 0 5px 3px 10px;
+    vertical-align: middle;
+    background: url(/member/fixation/images/about/miaosha.png) no-repeat;
+}
+.right-banner {
+    width: 208px;
+    height: 305px;
+    overflow: hidden;
+}
+.right-banner img {
+    width: 100%;
+    height: 100%;
+}

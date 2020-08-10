@@ -1,0 +1,18 @@
+.diagrammaticsketch {
+    width: 800px;
+    float: right;
+    font-size: 14px;
+}
+
+.diagrammaticsketch-a {
+    width: 100%;
+}
+
+.diagrammaticsketch-a img {
+    width: 100%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}

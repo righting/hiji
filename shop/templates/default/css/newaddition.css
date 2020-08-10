@@ -1,0 +1,107 @@
+.addition {
+    width: 139px;
+    height: 13px;
+    border: 1px solid #acaaaf;
+    border-radius: 7px;
+    overflow: hidden;
+    margin-left: 46px;
+    margin-top: 10px;
+    float: left;
+}
+
+.addition-zi {
+    margin-top: 11px;
+    margin-left: 7px;
+    overflow: hidden;
+    font-size: 0;
+    float: left;
+}
+
+.addition-a {
+    float: left;
+    margin-left: 45px;
+    overflow: hidden
+}
+
+.addition-data {
+    margin-top: 26px;
+    margin-left: 84px;
+    overflow: hidden;
+}
+
+.addition-dianzi {
+    margin-top: 5px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+.addition-xian {
+    float: left;
+    width: 1px;
+    height: 173px;
+    background-color: #acaaaf;
+    margin-top: 22px;
+}
+
+.sc-header {
+    display: none;
+}
+
+.lunar-day {
+    display: none;
+}
+
+.sc-body {
+    height: 100%;
+}
+
+.sc-week-item {
+    background-color: #f5f5f5;
+    border: none;
+}
+
+.addition-b {
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.addition-c {
+    float: left;
+    width: 230px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.addition-c p{
+    margin-top: 14px;
+}
+
+.addition-c1 {
+    color: #5e98e3;
+}
+
+.attendance {
+    vertical-align: middle;
+    display: inline-block;
+    width: 44px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-size: 12px;
+     margin-left: 23px;
+    background: url(../images/homepage_7.png);
+    background-size: cover;
+    background-position: center;
+    font-style:normal;
+}
+
+.addition-left {
+    width: 474px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}

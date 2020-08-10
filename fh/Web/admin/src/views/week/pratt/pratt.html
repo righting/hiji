@@ -1,0 +1,153 @@
+<style>
+    .search {
+        position: absolute;
+        right: 50px
+    }
+
+    .layui-form-label {
+        width: 120px !important;
+    }
+</style>
+<div class="layui-card layadmin-header">
+    <div class="layui-breadcrumb" lay-filter="breadcrumb">
+        <a lay-href="">主页</a>
+        <a><cite>分红统计</cite></a>
+        <a><cite>管理普惠周奖</cite></a>
+    </div>
+</div>
+<div class="main">
+    <div class="main-top">
+        <form class="layui-form" action="" lay-filter="component-form-group">
+            <div class="layui-form-item layui-inline">
+                <label class="layui-form-label">会员账号</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="member_number" value="" autocomplete="off"
+                           placeholder="请输入会员账号" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item layui-inline">
+                <label class="layui-form-label">开始时间</label>
+                <div class="layui-input-inline">
+                    <input type="text" id="start_time" name="start_time"  value=""
+                           autocomplete="off"
+                           placeholder="请选择时间" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item layui-inline">
+                <label class="layui-form-label">结束时间</label>
+                <div class="layui-input-inline">
+                    <input type="text" id="end_time" name="end_time"  value=""
+                           autocomplete="off"
+                           placeholder="请选择时间" class="layui-input">
+                </div>
+            </div>
+
+            <div class="layui-form-item layui-inline search">
+                <button class="layui-btn layui-btn-normal" lay-submit lay-filter="search">查询</button>
+            </div>
+
+        </form>
+    </div>
+    <div class="main-table">
+        <table id="main-table" lay-filter="table"></table>
+    </div>
+</div>
+
+<script type="text/html" id="tool">
+    <a class="layui-btn layui-btn-normal layui-btn-sm view" lay-event="look">详情</a>
+    <!--<a class="layui-btn layui-btn-danger layui-btn-sm" lay-event="del">删除</a>-->
+</script>
+
+
+<script>
+    layui.use(['admin', 'table', 'form', 'laydate', 'common'], function () {
+        var $ = layui.$
+            , admin = layui.admin
+            , element = layui.element
+            , form = layui.form
+            , table = layui.table
+            , laydate = layui.laydate;
+
+        var member_number = '',start_time ='',end_time=''
+        //开始日期
+        var insStart = laydate.render({
+            elem: '#start_time',
+            max: 0,
+            done: function (value, date) {
+                //更新结束日期的最小日期
+                insEnd.config.min = lay.extend({}, date, {
+                    month: date.month - 1
+                });
+                //自动弹出结束日期的选择器
+                insEnd.config.elem[0].focus();
+            }
+        });
+        //结束日期
+        var insEnd = laydate.render({
+            elem: '#end_time',
+            min: 0,
+            done: function (value, date) {
+                //更新开始日期的最大日期
+                insStart.config.max = lay.extend({}, date, {
+                    month: date.month - 1
+                });
+            }
+        });
+
+
+        table.render({
+            elem: '#main-table'
+            , url: issUrl.profit
+            ,where:{
+                name:"glphzfh",
+                token: layui.data('admin').token,
+            }
+            , type: 'post'
+            , cols: [[
+                {checkbox: true, fixed: true},
+                {field: 'id', title: '用户ID', align: 'center'}
+                , {field: 'parent', title: '邀请ID号', align: 'center',templet: '<div>{{d.parent?d.parent.member_number:""}}</div>'}
+                , {field: 'member', title: '账户', align: 'center', templet: '<div>{{d.member?d.member.member_name:""}}</div>'}
+                , {field: 'change_bonus', title: '分红金额', align: 'center'}
+                , {field: 'add_time', title: '创建时间', align: 'center'}
+                , {field: '', title: '分红类型', align: 'center',templet: '<div>管理普惠周分红</div>'}
+            ]]
+            , page: {
+                prev: '上一页',
+                next: '下一页',
+                layout: ['count', 'prev', 'page', 'next', 'limit']
+            }
+            , limit: 16
+            , limits: [10, 15, 20, 25, 30]
+        });
+        form.render();
+
+        function reload() {
+            //执行重载
+            table.reload('main-table', {
+                page: {
+                    curr: 1 //重新从第 1 页开始
+                }
+                , where: {
+                    member_number:member_number,
+                    start_time:start_time,
+                    end_time:end_time,
+                }
+            }, 'data');
+        }
+
+        //搜索
+        form.on('submit(search)', function (data) {
+            member_number = data.field.member_number
+            start_time = data.field.start_time
+            end_time = data.field.end_time
+            reload()
+            return false;
+        });
+        table.on('tool(table)', function (obj) {
+            var type = $(this).attr('lay-event');
+            active[type] && active[type].call(this, obj);
+        });
+    });
+
+</script>

@@ -1,0 +1,168 @@
+
+.stockholder-trader {
+    width: 975px;
+    float: left;
+}
+
+.stockholder-a {
+    width: 100%;
+    height: 60px;
+    background-color: #f3f0f9;
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
+}
+
+.stockholder-a1 {
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 24px;
+    width: 38px;
+    height: 38px;
+    background: url("../imges/stockholder5.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.stockholder-a2 {
+    font-size: 18px;
+    line-height: 60px;
+    position: absolute;
+    margin-left: 20px;
+    font-weight:bold;
+}
+
+.stockholder-a3 {
+    font-size: 14px;
+    line-height: 60px;
+    position: absolute;
+    margin-left: 220px;
+    font-weight:300;
+}
+
+.stockholder-b {
+    margin-top: 22px;
+    width: 100%;
+}
+
+.stockholder-b img {
+    width: 100%;
+}
+
+.stockholder-c {
+    margin-top: 25px;
+    width: 100%;
+    height: 345px;
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
+}
+
+.stockholder-c1 {
+    width: 100%;
+    height: 40px;
+    background-color: #f3f0f9;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.stockholder-c1-a {
+    display: inline-block;
+    margin-left: 22px;
+    margin-top: 7px;
+    width: 27px;
+    height: 27px;
+}
+
+.stockholder-c1-a img{
+    width: 100%;
+}
+
+.stockholder-c1-a1 {
+    position: absolute;
+    color: #724494;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 13px;
+}
+
+.stockholder-d {
+    margin-top: 20px;
+    border: 1px solid #dcdcdc;
+}
+
+.stockholder-d1-a {
+    width: 112px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    background-color: #9737df;
+    margin-top: 24px;
+    margin-left: 22px;
+    border-radius: 5px;
+}
+
+.stockholder-d1-b {
+    width: 95%;
+    font-size: 12px;
+    margin-left: 35px;
+    text-indent:25px;
+    padding: 10px 0px;
+}
+
+.stockholder-e1 {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.stockholder-e1 img{
+    width: 100%;
+}
+
+.stockholder-e2 {
+    width: 100%;
+}
+
+.stockholder-e2-a {
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    background-color: #9737df;
+    margin-top: 24px;
+    margin-left: 22px;
+    border-radius: 5px;
+}
+
+.stockholder-e2-b {
+    display: inline-block;
+    border-bottom: 3px solid #9737df;
+    width: 219px;
+    font-size: 13px;
+    text-align: center;
+    margin-left: -8px;
+    height: 21px;
+    color: #9737df;
+}
+
+.stockholder-d1-c {
+    width: 95%;
+    font-size: 12px;
+    margin-left: 35px;
+    text-indent:25px;
+}
+
+.stockholder-d1-d {
+    padding: 10px 0px;
+}
+
+.stockholder-f {
+    width: 100%;
+}
+
+.stockholder-f {
+    width: 100%;
+}

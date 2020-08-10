@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fixedtool {
+    width: 67px;
+    height: 275px;
+    position: fixed;
+    right: 0;
+    top: 30%;
+    z-index: 100
+}
+
+.fixedtool .close {
+    width: 21px;
+    height: 21px;  
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    background: url(../../images/home_index/icon12.png) no-repeat;
+    margin-right: 3px;
+}
+
+.fixedtool ul {
+    width: 65px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    background: #fff;
+    margin-top: 10px;
+}
+
+.fixedtool ul li {
+    width: 65px;
+    height: 65px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.fixedtool ul li a {
+    width: 65px;
+    height: 65px;
+    display: block;
+    line-height: 110px;
+    text-align: center;
+    color: #9737DF;
+    font-size: 12px;
+}
+
+.fixedtool ul li a:hover {
+    background: #9737DF;
+    color: #fff;
+}
+
+.fixedtool ul li:last-child {
+    border-bottom: 0px solid;
+}
+
+.fixedtool ul li .icon8 {
+    background: url(../../images/home_index/icon8.png) no-repeat center 10px #fff;
+}
+
+.fixedtool ul li .icon8:hover {
+    background: url(../../images/home_index/icon8_8.png) no-repeat center 10px #9737DF;
+}
+
+.fixedtool ul li .icon9 {
+    background: url(../../images/home_index/icon9.png) no-repeat center 12px #fff;
+}
+
+.fixedtool ul li .icon9:hover {
+    background: url(../../images/home_index/icon9_9.png) no-repeat center 10px #9737DF;
+}
+
+.fixedtool ul li .icon10 {
+    background: url(../../images/home_index/icon10.png) no-repeat center 12px #fff;
+}
+
+.fixedtool ul li .icon10:hover {
+    background: url(../../images/home_index/icon10_10.png) no-repeat center 10px #9737DF;
+}
+
+.fixedtool ul li .icon11 {
+    background: url(../../images/home_index/icon11.png) no-repeat center 12px #fff;
+}
+
+.fixedtool ul li .icon11:hover {
+    background: url(../../images/home_index/icon11_11.png) no-repeat center 10px #9737DF;
+}
+
+.fixedtool ul li .icon12 {
+    background: url(../../images/home_index/icon_user.png) no-repeat center 10px #fff;
+}
+
+.fixedtool ul li .icon12:hover {
+    background: url(../../images/home_index/icon_user_hover.png) no-repeat center 10px #9737DF;
+}
+
+.user-info-box {
+    width: 215px;
+    height: 160px;
+    display: block;
+    background-color: #FFF;
+    border: 1px solid #9737df;
+    border-radius: 4px;
+    position: relative;
+    right: 225px;
+    top: -400px;
+}
+
+.user-info-box .user-info-close-btn {
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: left;
+    position: fixed;
+    background: url(../../images/home_index/fixed_tool_close_btn.png) no-repeat;
+    margin: 5px;
+}
+
+.user-info-box .user-info {
+    width: 185px;
+    height: 130px;
+    display: block;
+    margin: 15px;
+    float: left;
+}
+
+.user-info-box .user-info .user-info-top {
+    width: 185px;
+    height: 85px;
+    display: block;
+    float: left;
+}
+
+.user-info-cover {
+    width: 85px;
+    height: 85px;
+    display: block;
+    background-color: #FFF;
+    float: left;
+}
+
+.user-info-cover .user-cover-img {
+    width: 65px;
+    height: 65px;
+    display: block;
+    background-color: #CCC;
+    float: left;
+    margin: 10px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.user-info-other {
+    width: 100px;
+    height: 85px;
+    display: block;
+    float: left;
+}
+
+.user-info-other .user-info-name {
+    width: 100px;
+    height: 40px;
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+
+.user-info-name .user-info-name-span {
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    font-family: "Microsoft Yahei", "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+    display: table-cell;
+    vertical-align: bottom
+}
+
+.user-info-other .user-info-level-name {
+    width: 100px;
+    height: 40px;
+    display: block;
+    float: left;
+    margin-top: 5px;
+}
+
+.user-info-other .user-info-level-name .user-info-level-name-span {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .25);
+    vertical-align: middle;
+    display: inline-block;
+    padding: 1px 3px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #9737df;
+    font-size: 12px;
+    font-family: "Microsoft Yahei", "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+    color: #FFF;
+}
+
+.user-info-box .user-info .user-info-bottom {
+    width: 185px;
+    height: 45px;
+    display: block;
+    float: left;
+}
+
+.user-info-bottom .user-info-level {
+    width: 140px;
+    height: 45px;
+    display: block;
+    background-color: #FFF;
+    float: left;
+}
+
+.user-level-top {
+    width: 140px;
+    height: 25px;
+    display: block;
+    float: left;
+}
+
+.user-level-top .level-name-left {
+    width: 70px;
+    height: 25px;
+    font-size: 12px;
+    background-color: #FFF;
+    float: left;
+    line-height: 25px;
+    text-align: left;
+}
+
+.user-level-top .level-name-right {
+    width: 70px;
+    height: 25px;
+    font-size: 12px;
+    float: right;
+    line-height: 25px;
+    text-align: right;
+}
+
+.user-level-bottom {
+    width: 140px;
+    height: 20px;
+    display: block;
+    float: left;
+}
+
+.user-level-bottom .user-level-progress {
+    width: 100%;
+    height: 10px;
+    display: block;
+    background-color: #CCC;
+    float: left;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.user-info-bottom .user-info-btn {
+    width: 45px;
+    height: 45px;
+    display: block;
+    float: left;
+}
+
+.user-info-btn .user-info-level-span {
+    width: 35px;
+    height: 35px;
+    display: block;
+    border: 1px solid #3F51B5;
+    float: left;
+    margin: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#show_user_info.top-active {
+    background: url(../../images/home_index/icon_user_hover.png) no-repeat center 10px #9737DF;
+    color: #fff;
+}

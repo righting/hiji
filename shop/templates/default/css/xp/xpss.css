@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+	margin:0;
+	padding:0;
+}
+body { padding:0px;
+	font-size: 12px;
+	line-height: 1.5em;
+	font-family: tahoma, "宋体", Simsun, Mingliu, Arial, Helvetica;
+	color: #333333;
+	background:#fff;
+	width:100%;
+	overflow-x:hidden;
+}
+img {
+	border:0;
+	vertical-align:middle;
+}
+ul,li{
+	list-style-type: none;
+}
+table,td{ 
+	border-collapse:collapse
+}
+address,em{
+	font-style:normal;
+}
+a{
+	color:#7b7b7b;
+	text-decoration:none;
+}
+a:hover{
+	color: #000;
+	text-decoration:none;
+}
+.red{
+	color: #e44141;
+}
+input:focus{ outline: none;}
+button:focus{ outline: none;}
+textarea:focus{ outline: none;}
+
+
+/*通用样式结束*/
+
+
+/*新品上市*/
+
+
+.xpss-main{ width: 100%; height: auto; overflow: hidden; background: url(../../images/xp/xpss_bg.png) no-repeat center top #f6f6f6;}
+.xpss-banner{ width:1170px; height: auto; padding: 15px; background:#fff; margin: 15px auto;}
+.listing{ width: 1200px; height: auto; overflow: hidden; margin: 0 auto 10px;}
+.listing h3{ width: 100%; height: 151px; text-align: center; margin-bottom: 15px;}
+
+.listing ul{}
+.listing ul li{ width: 288px; height: 285px; float: left; overflow: hidden; margin-right: 15px; margin-bottom: 10px;}
+.listing ul li img{ width: 288px; height: 285px; opacity: 1; transition: all 0.5s;}
+.listing ul li:hover img{ opacity: 0.8;}
+.listing ul li:nth-child(4){ margin-right: 0;}
+.listing ul li:nth-child(n+5){ width: 230px; height: 240px; margin-right: 11px;}
+.listing ul li:nth-child(n+5) img{ width: 230px; height: 240px;}
+.listing ul li:last-child{ margin-right: 0;}
+
+
+.selected{ width: 1200px; height: auto; overflow: hidden; margin: 0 auto;}
+.selected h2{ width: 100%; height: 30px; border-bottom: 1px solid #9737df;}
+.selected h2:before{content: ""; display: block; width: 30px; height: 3px; background: #9737df; margin: 10px auto;}
+.selected h3{ width: 190px; height: 40px; line-height: 40px; font-size: 30px; margin: -20px auto 0; color: #9737df; text-align: center; background: #f6f6f6;}
+.selected h4{ width: 100%; height: 25px; line-height: 25px; text-align: center; font-size: 11px; color: #a2a2a2; margin-bottom: 15px;}
+.selected ul{ position: relative;}
+.selected ul li{ float: left; margin-right: 10px; margin-bottom: 10px;}
+.selected ul li:first-child{ width: 100%; height:400px; }
+.selected ul li img{ width: 100%; height: 100%; opacity: 1; transition: all 0.5s;}
+.selected ul li:hover img{ opacity: 0.8;}
+.selected ul li:nth-child(2){ width:595px; height: 425px;}
+.selected ul li:nth-child(3){ width:292px; height: 425px;}
+.selected ul li:nth-child(4){ width:293px; height: 425px; margin-right: 0;}
+.selected ul li:nth-child(5){ width:293px; height: 425px;}
+.selected ul li:nth-child(6){ width:293px; height: 425px;}
+.selected ul li:nth-child(7){ width:292px; height: 283px;}
+.selected ul li:nth-child(8){ width:292px; height: 132px;}
+.selected ul li:nth-child(9){ width:292px; height: 138px; margin-right: 0; position: absolute; right: 0; top: 845px;}
+.selected ul li:nth-child(10){ width:292px; height: 138px; margin-right: 0; position: absolute; right: 0; top: 990px;}
+.selected ul li:nth-child(11){ width:292px; height: 132px; margin-right: 0; position: absolute; right: 0; top: 1138px;}
+.selected ul li:nth-child(12){ width:100%; height: 96px; margin-right: 0; }
+.selected ul li:nth-child(n+13){ width: 227px; height: 215px; background: #fff; margin-right: 16.2px; margin-bottom: 15px;}
+.selected ul li:nth-child(17){ margin-right: 0;}
+.selected ul li:last-child{ margin-right: 0;}
+
+
+.know{ width: 1200px; height: auto; overflow: hidden; margin: 0 auto;}
+.know h3{ width: 100%; height: 41px; background: url(../../images/xp/know.png) no-repeat center; margin-bottom: 10px;}
+.know ul li{ width: 288px; height: auto; float: left; overflow: hidden; margin-right: 16px; margin-bottom: 15px; background: #fff;}
+.know ul li:nth-child(4n){ margin-right: 0;}
+.know-img{ width:288px; height: 288px;}
+.know-img img{ width: 288px; height: 288px; opacity: 1; transition: all 0.5s;}
+.know-img:hover img{ opacity: 0.8;}
+.know-price{ width: 268px; height: 30px; line-height: 30px; padding: 0 10px; margin-top: 10px; overflow: hidden;}
+.know-price span{ color: #ce10b5; float: left; font-size: 18px; font-weight: bold; margin-right: 10px;}
+.know-price span b{ font-size: 12px; font-weight: normal;}
+.know-price em{ color: #9e9e9d; line-height: 30px; font-size: 12px; text-decoration:line-through;}
+
+.know-text{ width: 268px; height: 50px; line-height: 25px; color: #000; font-size: 14px; padding: 0 10px;}
+.know-text em{ color: #ff3f15;}
+.know-comment{ width: 268px; height: 25px; line-height: 25px; padding: 0 10px; color: #000; background: url(../../images/xp/know_comment.png) no-repeat 10px center; text-indent: 25px;}
+
+
+
+
+
+
+
+

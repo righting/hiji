@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+	margin:0;
+	padding:0;
+}
+body { padding:0px;
+	font-size: 12px;
+	line-height: 1.5em;
+	font-family: tahoma, "微软雅黑", Simsun, Mingliu, Arial, Helvetica;
+	color: #333333;
+	background:#fff;
+	width:100%;
+	overflow-x:hidden;
+}
+img {
+	border:0;
+	vertical-align:middle;
+}
+ul,li{
+	list-style-type: none;
+}
+table,td{ 
+	border-collapse:collapse
+}
+address,em{
+	font-style:normal;
+}
+a{
+	color:#7b7b7b;
+	text-decoration:none;
+}
+a:hover{
+	color: #000;
+	text-decoration:none;
+}
+.red{
+	color: #e44141;
+}
+input:focus{ outline: none;}
+button:focus{ outline: none;}
+textarea:focus{ outline: none;}
+
+
+/*通用样式结束*/
+
+
+/*精选品牌*/
+
+.sharp-main{ width: 100%; height: auto; overflow: hidden; background: #f6f6f6;}
+
+.sharp-banner{ width: 100%; height: 360px; margin-bottom: 20px;}
+.sharp-banner a{ display: block; width: 100%; height: 360px;}
+.sharp-banner a img{ display: block; width: 100%; height: 360px;}
+
+
+
+.sharp-adids{ width: 1200px; height: auto; overflow: hidden; margin: 0 auto 20px;}
+.sharp-adids ul{}
+.sharp-adids ul li{ width: 387px; height: 167px; float: left; margin-right: 19.5px; position: relative;}
+.sharp-adids ul li:last-child{ margin: 0;}
+.adids-img{ width: 387px; height: 167px;}
+.adids-img img{ width: 387px; height: 167px;}
+.adids-text{ width: 180px; color: #fff; height: 90px; padding: 5px 10px 10px 10px; background: rgba(0,0,0,0.5); position: absolute; top:28px; right: 0px;}
+.adids-text span{ width: 100%; height: 30px; line-height: 30px; font-size: 19px; display: block;}
+.adids-text em{ width: 100%; height: 30px; line-height: 30px; font-size: 24px; display: block; margin-bottom: 5px;}
+.adids-text b{ width: 80px; height: 28px; font-weight: normal; line-height: 28px; border: 1px solid #fff; display: block; color: #fff; text-align: center; font-size: 17px;}
+
+
+.sharp-gg{ width: 1200px; height: auto; overflow: hidden; margin: 0 auto 20px;}
+
+.sharp-lb{ width: 1200px; height: auto; overflow: hidden; margin: 0 auto;}
+.sharp-lb ul{}
+.sharp-lb ul li{ float: left; margin-right: 17px; margin-bottom: 15px; overflow: hidden;}
+.sharp-lb ul li img{ width: 100%; height: 100%; transition: all 0.5s; opacity: 1; }
+.sharp-lb ul li:hover img{ opacity: 0.8;}
+.sharp-lb ul li:first-child{ width: 287px; height: 560px;}
+.sharp-lb ul li:nth-child(2){ width: 287px; height: 272px;}
+.sharp-lb ul li:nth-child(3){ width: 287px; height: 272px;}
+.sharp-lb ul li:nth-child(4){ width: 287px; height: 272px; margin-right: 0;}
+.sharp-lb ul li:nth-child(5){ width: 287px; height: 272px;}
+.sharp-lb ul li:last-child{ width: 592px; height: 272px; margin-right: 0;}
+
+.sharp-yfcd{ width: 1200px; height: auto; overflow: hidden; margin: 0 auto 20px;}
+.sharp-yfcd ul li{ width: 188px; height: 255px; float: left; background: #fff; margin-right: 14.3px;}
+.sharp-yfcd ul li:last-child{ margin: 0;}
+.sharp-yfcd ul li span{ display: block; width: 188px; height: 180px; text-align: center; line-height: 180px; margin-top: 20px; transition: all 0.5s; margin-left: 0;}
+.sharp-yfcd ul li:hover span{ margin-left: 10px;}
+.sharp-yfcd ul li em{ display: block; width: 188px; height: 30px; font-size: 20px; color: #000; line-height: 30px; background: url(../../images/jx/sharp_icon.png) no-repeat 140px center; text-align: center;}
+
+
+.sharp-dz{ width: 1200px; height: auto; overflow: hidden; margin: 0 auto 0px; position: relative;}
+.sharp-dz ul{}
+.sharp-dz ul li{ float: left; margin-right: 17px; margin-bottom: 15px; overflow: hidden;}
+.sharp-dz ul li img{ width: 100%; height: 100%; transition: all 0.5s; opacity: 1; }
+.sharp-dz ul li:hover img{ opacity: 0.8;}
+.sharp-dz ul li:first-child{ width: 287px; height: 272px;}
+.sharp-dz ul li:nth-child(2){ width: 287px; height: 272px;}
+.sharp-dz ul li:nth-child(3){ width: 287px; height: 272px;}
+.sharp-dz ul li:nth-child(4){ width: 287px; height:560px; margin-right: 0; position: absolute; right: 0; top: 0;}
+.sharp-dz ul li:nth-child(5){ width: 287px; height: 272px;}
+.sharp-dz ul li:nth-child(6){ width: 593px; height: 272px;}
+.sharp-dz ul li:nth-child(7){ width: 287px; height: 272px;}
+
+.sharp-dz ul li.li-29{ width: 590px; height: 320px;}
+.sharp-dz ul li.li-30{ width: 590px; height: 320px;margin-right: 0;}
+
+
+
+.sharp-product{ width: 1200px; height: auto; overflow: hidden; margin: 0 auto;}
+.sharp-product ul{}
+.sharp-product ul li{ width: 590px; height: 245px; float: left; position: relative; background: #fff; margin-bottom: 20px;}
+.sharp-product ul li:nth-child(2n){ float: right;}
+
+.sharp-product-js{ width: 57px; height: 58px; position: absolute; top:0px; left: 0px; z-index: 15;}
+.sharp-product-xp{ width: 57px; height: 58px; position: absolute; top:0px; left: 0px; z-index: 15;}
+
+.sharp-pro-left{ width: 200px; height: 245px; float: left;}
+.sharp-pro-logo{ width: 100%; height: 40px; line-height: 0; text-align: center; margin-top: 37px;}
+.sharp-pro-title{ width: 100%; height: 30px; line-height: 30px; text-align: center; margin: 10px 0; font-size: 18px;}
+.sharp-pro-price{ width: 100%; height: 30px; line-height: 30px; text-align: center; font-size: 16px; margin-bottom: 15px;}
+.sharp-pro-price em{ color: #d9a33d; font-size: 30px;}
+.sharp-pro-date{ width: 100%; height: 30px; line-height: 30px; text-align: center; font-size: 16px; color: #000;}
+.sharp-pro-img{ width:390px; height: 245px; float: right; }
+.sharp-pro-img img{ width: 100%; height: 100%;transition: all 0.5s; opacity: 1;}
+.sharp-pro-img:hover img{ opacity: 0.8;}
+.sharp-pro-text{ width: 100%; height: 25px; background: rgba(0,0,0,0.3); position: absolute; left: 0; bottom: 0;}
+.sharp-pro-text span{ display: block; width: 200px; line-height: 25px; color: #fff; text-align: center; float: left;}
+.sharp-pro-text em{ display: block; width: 370px; line-height: 25px; color: #fff; text-align: right; float: left; padding-right: 20px;}

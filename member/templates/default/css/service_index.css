@@ -1,0 +1,110 @@
+.service-wrap {
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 15px 15px 15px 0;
+    background: #fff;
+}
+
+.service-icon {
+    float: left;
+    width: 140px;
+    line-height: 150px;
+    border-right: 1px dashed #ddd;
+    text-align: center;
+}
+
+.service-icon img {
+    vertical-align: middle;
+}
+
+.service-tips {
+    margin-left: 141px;
+    font-family: "方正黑体简体";
+}
+
+.service-tips h1 {
+    height: 30px;
+    padding-top: 15px;
+    line-height: 30px;
+    font-size: 24px;
+    color: #9737df;
+    text-align: center;
+}
+
+.service-tips h2 {
+    font-size: 18px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.service-tips em {
+    display: block;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #999;
+}
+
+.service-tips .xiaomi {
+    display: inline-block;
+    height: 26px;
+    padding: 0 10px;
+    border: 1px solid #9737df;
+    border-radius: 5px;
+    margin-left: 20px;
+    line-height: 26px;
+    font-size: 14px;
+}
+.service-tips .tools {
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-evenly;
+}
+
+.service-tips li a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-tips .tools li {
+    width: 68px;
+    height: 68px;
+    background: url(../images/tools.png) no-repeat;
+}
+
+.service-tips .tools li span {
+    font-size: 18px;
+    color: #9737df;
+}
+
+.service-tips li span {
+    color: #333;
+}
+
+.service-tips .circle,
+.service-tips .news {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+
+.service-tips li {
+    width: 81px;
+    height: 78px;
+}
+
+.service-tips .circle li {
+    background: url(../images/circle.png) no-repeat;
+}
+
+.service-tips .news li {
+    background: url(../images/news.png) no-repeat;
+}
+
+.service-tips li span {
+    font-size: 18px;
+}

@@ -1,0 +1,274 @@
+<style>
+    .layui-form-label {
+        width: 220px !important;
+    }
+
+    .layui-form-item .layui-input-inline {
+        width: 150px;
+    }
+</style>
+<div class="layui-card layadmin-header">
+    <div class="layui-breadcrumb" lay-filter="breadcrumb">
+        <a lay-href="">主页</a>
+        <a><cite>设置</cite></a>
+    </div>
+</div>
+
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-header">设置</div>
+                <div class="layui-card-body" pad15>
+
+                    <div class="layui-form" wid100 lay-filter="">
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">个人消费分红比例设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="grxffhbl"  lay-verify="number" value="" class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">%</div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">平台税率比例设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="ptslbl"  lay-verify="number" value="" class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">%</div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">消费日分红金额上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="xfrfhjesx" lay-verify="number" value="0" class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                            <!--<div class="layui-form-mid layui-word-aux">本地开发一般推荐设置为 0，线上环境建议设置为 10。</div>-->
+                        </div>
+
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">中层管理周分红金额上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="zcglzfhjesx" lay-verify="number" value="0" class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">至尊消费月分红金额上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="zzxfyfhjesx" lay-verify="number" value="0" class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">销售精英月分红金额上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="xsjyyfhjesx" lay-verify="number" value="0" class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">高层销售月分红金额上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="gcxsyfhjesx" lay-verify="number" value="0" class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">银尊会员销售新人奖金额上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="xsxrjjesx_2" lay-verify="number" value="0" class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">金尊会员销售新人奖金额上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="xsxrjjesx_3" lay-verify="number" value="0" class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">帝尊会员销售新人奖金额上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="xsxrjjesx_4" lay-verify="number" value="0" class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">天尊会员销售新人奖金额上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="xsxrjjesx_5" lay-verify="number" value="0" class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">至尊会员销售新人奖金额上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="xsxrjjesx_6" lay-verify="number" value="0" class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">共享日分红金额上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="gxrfhjesx" lay-verify="number" value="0" class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">销售管理普惠周奖金上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="xsglphzjjsx" lay-verify="number" value="0" class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">供应商推荐奖金上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="gystjjjsx" lay-verify="number" value="0" class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">团队销售分享分红金额上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="tdxsfxfhjesx" lay-verify="number" value="0"
+                                       class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">个人微商销售分红金额上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="grwsxsfhjesx" lay-verify="number" value="0"
+                                       class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">消费养老补贴分红金额上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="xfylbtfhjesx" lay-verify="number" value="0"
+                                       class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">车房梦想补贴分红金额上限设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="cfmxbtfhjesx" lay-verify="number" value="0"
+                                       class="layui-input">
+                            </div>
+                            <div class="layui-input-inline layui-input-company">元</div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">管理普惠周分红档次</label>
+                            <div class="layui-input-inline">
+                                <select name="glphzfhdc" id="glphzfhdc"  lay-verify="required" lay-search="" lay-filter="glphzfhdc">
+                                    <option value="0">0</option>
+                                    <option value="1">1%</option>
+                                    <option value="2">2%</option>
+                                    <option value="3">3%</option>
+                                    <option value="4">4%</option>
+                                    <option value="5">5%</option>
+                                    <option value="6">6%</option>
+                                    <option value="7">7%</option>
+                                    <option value="8">8%</option>
+                                    <option value="9">9%</option>
+                                    <option value="10">10%</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <div class="layui-input-block">
+                                <button class="layui-btn" lay-submit lay-filter="set_website">确认保存</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    layui.use(['admin', 'table', 'form', 'laydate', 'common'], function () {
+        var $ = layui.$
+            , admin = layui.admin
+            , element = layui.element
+            , form = layui.form
+            , table = layui.table
+            , laydate = layui.laydate;
+
+
+        var list = [
+            {"value":"1"},
+            {"value":"2"},
+            {"value":"3"},
+            {"value":"4"},
+            {"value":"5"},
+            {"value":"6"},
+            {"value":"7"},
+            {"value":"8"},
+            {"value":"9"},
+            {"value":"10"},
+        ]
+        var glphzfhdc = ''
+        admin.req({
+            url: issUrl.set
+            , type: 'post'
+            , done: function (res) {
+                var detail = res.data;
+                $("input[name='grxffhbl']").val(detail.grxffhbl);
+                $("input[name='ptslbl']").val(detail.ptslbl);
+                $("input[name='xfrfhjesx']").val(detail.xfrfhjesx);
+                $("input[name='zcglzfhjesx']").val(detail.zcglzfhjesx);
+                $("input[name='zzxfyfhjesx']").val(detail.zzxfyfhjesx);
+                $("input[name='xsjyyfhjesx']").val(detail.xsjyyfhjesx);
+                $("input[name='gcxsyfhjesx']").val(detail.gcxsyfhjesx);
+                $("input[name='xsxrjjesx_2']").val(detail.xsxrjjesx_2);
+                $("input[name='xsxrjjesx_3']").val(detail.xsxrjjesx_3);
+                $("input[name='xsxrjjesx_4']").val(detail.xsxrjjesx_4);
+                $("input[name='xsxrjjesx_5']").val(detail.xsxrjjesx_5);
+                $("input[name='xsxrjjesx_6']").val(detail.xsxrjjesx_6);
+                $("input[name='gxrfhjesx']").val(detail.gxrfhjesx);
+                $("input[name='xsglphzjjsx']").val(detail.xsglphzjjsx);
+                $("input[name='gystjjjsx']").val(detail.gystjjjsx);
+                $("input[name='tdxsfxfhjesx']").val(detail.tdxsfxfhjesx);
+                $("input[name='grwsxsfhjesx']").val(detail.grwsxsfhjesx);
+                $("input[name='xfylbtfhjesx']").val(detail.xfylbtfhjesx);
+                $("input[name='cfmxbtfhjesx']").val(detail.cfmxbtfhjesx);
+                glphzfhdc = detail.glphzfhdc
+                aaa(glphzfhdc)
+
+            }
+        })
+        form.render();
+        function  aaa(value) {
+            var option = '<option value="">请选择</option>';
+            console.log(value);
+            $.each(list,function(key,val) {
+                if(value == val.value){
+                    option += '<option value="'+val.value+'" selected="selected">'+val.value+'%</option>';
+                }else{
+                    option += '<option value="'+val.value+'">'+val.value+'%</option>';
+                }
+            });
+            $("#glphzfhdc").html(option);
+            form.render();
+        }
+        //搜索
+        form.on('submit(set_website)', function (data) {
+            admin.req({
+                url:issUrl.set_edit
+                , data: data.field
+                , type: 'post'
+                , done: function (res) {
+                    layer.msg('提交成功',{icon:1,time:2000})
+                }
+            })
+            return false;
+        });
+    });
+</script>

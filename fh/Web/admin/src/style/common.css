@@ -1,0 +1,37 @@
+#group-layer{
+  padding: 10px;
+}
+.main{
+  padding: 15px;
+  background: #fff;
+  margin: 15px;
+}
+.main-top{
+  min-height: 40px;
+}
+
+.layui-right{
+  float: right;
+  margin-bottom: 0;
+}
+
+.required{
+  padding-right: 15px;
+}
+
+.required:before{
+  content: '*';
+  color: red;
+  position: absolute;
+  right: 0;
+  font-size: 16px;
+  top:10px
+}
+.layui-table-page{
+  text-align: right;
+}
+.batch{
+  position: absolute;
+  top:4px;
+  left: 10px;
+}

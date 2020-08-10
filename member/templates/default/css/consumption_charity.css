@@ -1,0 +1,299 @@
+blockquote,
+body,
+dd,
+div,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+input,
+li,
+ol,
+p,
+pre,
+ul {
+	padding: 0;
+	margin: 0
+}
+address,
+caption,
+cite,
+code,
+em,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+strong,
+table,
+td,
+th {
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 400
+}
+strong {
+	font-weight: 700
+}
+ol,
+ul {
+	list-style: none outside none
+}
+fieldset,
+img {
+	border: medium none;
+	vertical-align: middle
+}
+caption,
+th {
+	text-align: left
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+body {
+	font: 12px/20px "Hiragino Sans GB", "Microsoft Yahei", arial, 宋体, "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+	color: #333;
+	background: #FFF none repeat scroll 0 0;
+	min-width: 1200px
+}
+input,
+select,
+textarea {
+	font: 12px/20px Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif
+}
+cite,
+em,
+i {
+	font-style: normal
+}
+button,
+input,
+select,
+textarea {
+	outline: 0
+}
+html {
+	min-height: 101%
+}
+a {
+	color: #333;
+	text-decoration: none;
+	outline: medium none;
+	transition: color .3s ease;
+	-webkit-transition: color .3s ease;
+	-moz-transition: color .3s ease;
+	-ms-transition: color .3s ease;
+	-o-transition: color .3s ease;
+}
+a:active,
+a:link,
+a:visited {
+	text-decoration: none
+}
+a:hover {
+	color: #C81623;
+	text-decoration: none
+}
+.over_hidden {
+	display: block;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden
+}
+html[xmlns] .clearfix {
+	display: block
+}
+*html .clearfix {
+	height: 1%
+}
+time {
+	color: #777
+}
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+	display: block
+}
+.banner {
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+.main {
+    width: 100%;
+    background: #f3f3f3;
+    font-family: "方正黑体简体";
+}
+.banner-bottom-text {
+    width: 100%;
+    height: 40px;
+    padding: 20px 0;
+    background: #feffef;
+}
+.banner-bottom-text h1 {
+    width: 800px;
+    height: 40px;
+    margin: 0 auto;
+    border-left: 3px solid #9737d9;
+    border-right: 3px solid #9737d9;
+    line-height: 40px;
+    font-size: 24px;
+    text-align: center;
+    color: #9737d9;
+    font-family: "方正黑体简体";
+}
+.csjj-detail {
+    width: 1200px;
+    height: 380px;
+    padding-top: 30px;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+}
+.csjj-left {
+    float: left;
+    width: 360px;
+    height: 290px;
+    padding: 0 20px;
+    border-right: 1px solid #ddd;
+}
+.csjj-left h1 {
+    position: relative;
+    height: 37px;
+    margin-bottom: 10px;
+    padding-left: 92px;
+    color: #9737d9;
+    line-height: 37px;
+    font-size: 18px;
+}
+.csjj-left h1::before {
+    content: "";
+    position: absolute;
+    left: 32px;
+    top: -10px;
+    width: 60px;
+    height: 49px;
+    background: url(./fixation/images/csjj/csjj_02.png) no-repeat;
+}
+.csjj-left p {
+    text-indent: 2em;
+}
+.csjj-mid {
+    float: left;
+    width: 400px;
+    padding: 0 20px;
+}
+.csjj-mid h1 {
+    height: 21px;
+    margin-bottom: 16px;
+    line-height: 21px;
+    font-size: 24px;
+    text-align: center;
+}
+.csjj-mid-banner {
+    width: 395px;
+    height: 320px;
+    overflow: hidden;
+}
+.csjj-mid-banner img {
+    width: 100%;
+    height: 100%;
+}
+.csjj-right {
+    float: left;
+    width: 319px;
+    padding: 0 20px;
+}
+.csjj-right h1 {
+    position: relative;
+    height: 37px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 37px;
+}
+.csjj-detail h1 span {
+    font-size: 39px;
+    font-weight: 700;
+}
+.csjj-news {
+    height: 100px;
+    overflow: hidden;
+}
+.csjj-news li {
+    padding-left: 15px;
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.csjj-news li::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #000;
+}
+.support-btn {
+    margin-top: 60px;
+    overflow: hidden;
+}
+.support-btn a {
+    float: right;
+    width: 100px;
+    border: 1px solid #9737df;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    color: #9737d9;
+}
+.support-btn a:hover {
+    background: #9737df;
+    color: #fff;
+}
+.support-month {
+    height: 38px;
+    line-height: 38px;
+}
+.support-once {
+    height: 32px;
+    margin-top: 6px;
+    margin-left: 10px;
+    line-height: 32px;
+}

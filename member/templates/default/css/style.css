@@ -1,0 +1,486 @@
+/* personal-setting */
+.personal-setting {
+    margin-left: 184px;
+    height: auto;
+    overflow: hidden;
+}
+.personal-setting-message {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.personal-setting-message-top {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 7px 25px;
+    background: #f3f0f9;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.personal-message {
+    float: left;
+    width: 300px;
+}
+
+.personal-message label {
+    width: 64px;
+    height: 64px;
+    float: left;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 3px;
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    margin-right: 15px;
+}
+
+.personal-message span {
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    color: #1f1f1f;
+    float: left;
+    margin-top: 5px;
+}
+
+.personal-message span i {
+    font-size: 14px;
+    font-style: normal;
+}
+
+.personal-message em {
+    float: left;
+    font-size: 12px;
+    color: #5a5a5a;
+    float: left;
+}
+.personal-level {
+    float: left;
+    width: 108px;
+    height: 32px;
+    margin-top: 20px;
+}
+.personal-level img {
+    vertical-align: middle;
+    margin-right: 7px;
+}
+.personal-attention {
+    margin-left: 130px;
+}
+.personal-after {
+    margin-left: 10px;
+}
+.personal-banner-1 {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.level-same {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.level-top {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 16px;
+    font-weight: 700;
+    color: #8764a4;
+    background: #f3f0f9;
+}
+.level-top i {
+    display: inline-block;
+    width: 24px;
+    height: 18px;
+    margin-bottom: 4px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.members-level .level-top i {
+    background: url("../images/vip-logo_03.png") 0 0 no-repeat;
+}
+.team-level .level-top i {
+    background: url("../images/vip-logo_10.png") 0 0 no-repeat;
+}
+.personal-banner-2 {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.profit-intro {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+.profit-intro-top i {
+    background: url("../images/vip-logo_03.png") 0 0 no-repeat;
+}
+.profit-intro-bottom {
+    padding: 20px 45px 0 20px;
+}
+.profit-intro-bottom h5 {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    background: #9737df;
+}
+.profit-intro-bottom p {
+    margin: 10px 0 20px 10px;
+    text-indent: 2em;
+    font-size: 14px;
+}
+.vip-favorite {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+.vip-favorite-top i {
+    height: 23px;
+    background: url("../images/vip-logo_13.png") 0 0 no-repeat;
+}
+.vip-favorite-bottom {
+    padding: 20px 0;
+    overflow: hidden;
+    margin-left: -26px;
+}
+.vip-favorite-bottom div {
+    float: left;
+    width: 174px;
+    height: 220px;
+    margin-left: 26px;
+    background: #f3f0f9;
+}
+/* personal-points-all */
+.clearfix::after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.personal-points-top {
+    width: 100%;
+    height: 160px;
+}
+.personal-points-person {
+    float: left;
+    width: 223px;
+    height: 100%;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    background: #f3f0f9;
+}
+.personal-points-person h2 {
+    margin: 10px 0 5px 10px;
+}
+.personal-points-person .personal-image-outer {
+    height: 64px;
+    width: 64px;
+    margin: 0 auto;
+    padding: 3px;
+    border: 1px solid #dcdcdc;
+    border-radius: 50%;
+    text-align: center;
+}
+.personal-image-outer img {
+    width: 65px;
+    height: 65px;
+    border-radius: 32px;
+}
+.progress-outer {
+    display: inline-block;
+    /* position: relative; */
+    width: 120px;
+    height: 12px;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: 1px solid #dcdcdc;
+    border-radius: 25px;
+    vertical-align: middle;
+}
+.progress-inner {
+    /* position: absolute;
+    left: 0; */
+    width: 120px;
+    height: 12px;
+    border-radius: 25px;
+    background: #9737df;
+    max-width:120px;
+
+}
+.personal-points-progress{
+    width:100%;
+    margin:8px auto;
+}
+
+.personal-points-progress em {
+    color: #b36de7;
+}
+.personal-points-progress i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+    background: url("../images/points_03.png") 0 0 no-repeat;
+}
+.personal-points-text {
+    position: relative;
+    width: 213px;
+    height: 15px;
+    line-height: 15px;
+    margin: 2px auto;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    text-align: center;
+}
+.personal-points-text::before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    border-left: 8px solid  transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #dcdcdc;
+}
+.personal-points-text::after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 7px solid #f3f0f9;
+}
+.personal-points-rules {
+    height: 148px;
+    margin-left: 235px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+.personal-points-rules .title {
+    font-size: 18px;
+    font-weight: 700;
+}
+.personal-points-mid {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    background: #f3f0f9;
+}
+.points-upgrade {
+    height: 40px;
+    padding: 20px 0;
+    border-bottom: 1px solid #dcdcdc;
+}
+.personal-points-mid ul {
+    position: relative;
+}
+.personal-points-mid li {
+    float: left;
+    box-sizing: border-box;
+    width: 33.3%;
+    height: 35px;
+    border-left: 1px solid #dcdcdc;
+    margin-left:-1px;
+}
+.personal-points-mid img {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    width:58px;
+    height: 58px;
+
+}
+.personal-points-mid span {
+    display: block;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    color: #3e3e3e;
+    font-size: 14px;
+}
+.personal-points-mid em {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #9737df;
+    text-align: center;
+}
+.personal-points-mid a {
+    display: block;
+    width: 98px;
+    height: 28px;
+    line-height: 28px;
+    margin: 3px auto;
+    border-radius: 3px;
+    background: #9737Df;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.points-normal {
+    height: 39px;
+    padding: 20px 0;
+}
+.personal-points-bottom p {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    font-size: 36px;
+}
+.personal-points-tab ul {
+    margin-left: 180px;
+    overflow: hidden;
+}
+.personal-points-tab li {
+    float: left;
+    width: 135px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.personal-points-selected {
+    color: #fff;
+    background: #9737DF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tab-box>li {
+    border: solid #9737DF;
+    border-width: 5px 1px 5px 1px;
+    border-radius: 5px;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.points-details-title li:first-child {
+    width: 210px;
+}
+.points-details-title li {
+    float: left;
+    width: 185px;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+}
+.details>div {
+    padding: 15px 0;
+}
+.details li {
+    box-sizing: border-box;
+    float: left;
+    width: 185px;
+    height: 50px;
+    line-height: 50px;
+    border-left: 1px solid #dcdcdc;
+    font-size: 14px;
+    text-align: center;
+}
+.details-top {
+    border-bottom: 1px solid #dcdcdc;
+}
+.details ul li:first-child {
+    width: 210px;
+    border-left: none;
+}
+.details li span {
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 auto;
+}
+.personal-pagination {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+.personal-pagination .pagination {
+    font-size: 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.personal-pagination .pagination li {
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    margin: 0 0 0 -1px;
+}
+.pagination li span {
+    font-size: 12px;
+    line-height: 25px;
+    color: #AAA;
+    background-color: #FFF;
+    text-align: center;
+    display: block;
+    min-width: 20px;
+    padding: 8px;
+    border: 1px solid #E6E6E6;
+    position: relative;
+    z-index: 1;
+}
+.pagination li:first-child {
+    margin-right: 8px;
+}
+.pagination li:last-child {
+    margin-left: 8px;
+}
+.pagination .current-pagination {
+    color: #FFF;
+    font-weight: 700;
+    background-color: #ED5564;
+    border-color: #DB4453;
+    position: relative;
+    z-index: 2;
+}
+.pagination-jump {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 25px;
+    color: #AAA;
+    text-align: center;
+}
+.pagination-jump input {
+    width: 46px;
+    height: 42px;
+    margin: 0 8px;
+    border: 1px solid #E6E6E6;
+}
+.pagination-jump span {
+    display: inline-block;
+    min-width: 20px;
+    padding: 8px;
+    margin-left: 8px;
+    border: 1px solid #E6E6E6;
+    position: relative;
+    z-index: 1;
+}

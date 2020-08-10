@@ -1,0 +1,1074 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*顶部*/
+
+.public-top-layout {
+    color: #777;
+    background-color: #FAFAFA;
+    border-bottom: solid 1px #F0F0F0;
+}
+
+.public-top-layout .topbar {
+    height: 30px;
+}
+
+.public-top-layout .user-entry {
+    width: 600px;
+    height: 20px;
+    float: left;
+    padding: 5px 0;
+}
+
+.public-top-layout .user-entry a {
+    color: #333333
+}
+
+.public-top-layout .seller-login {
+    background-color: #4FB602;
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid #4FB602;
+    border-radius: 3px;
+    box-shadow: 2px 2px 0 rgba(204, 204, 204, 0.65);
+}
+
+.public-top-layout .seller-login a {
+    line-height: 14px;
+    color: #FFF;
+    display: block;
+    height: 14px;
+    padding: 1px 4px;
+}
+
+.public-top-layout .seller-login a:hover {
+    text-decoration: none;
+    background-color: #ff6600;
+}
+
+.public-top-layout .seller-login i {
+    font-size: 14px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.public-top-layout .quick-menu {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+    text-align: right;
+    width: 400px;
+    height: 30px;
+    float: right;
+}
+
+.public-top-layout .quick-menu a {
+    color: #777 !important;
+}
+
+.public-top-layout .quick-menu dl {
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    *display: inline/*IE6、7*/
+    ;
+    width: 80px;
+    height: 30px;
+    position: relative;
+    z-index: 999;
+    *zoom: 1/*IE6、7*/
+    ;
+}
+
+.public-top-layout .quick-menu dl dt {
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 12px;
+}
+
+.public-top-layout .quick-menu dl dt a:hover {
+    text-decoration: none;
+    color: #ff6600;
+}
+
+.public-top-layout .quick-menu dl dt i {
+    background: url(../images/top_bg.png) no-repeat 0 0;
+    vertical-align: middle;
+    display: inline-block;
+    width: 6px;
+    height: 3px;
+    margin-left: 6px;
+    -webkit-transition: .2s ease-in;
+    -moz-transition: -webkit-transform .2s ease-in;
+    -o-transition: -webkit-transform .2s ease-in;
+    transition: .2s ease-in;
+}
+
+.public-top-layout .quick-menu dl.hover dt i {
+    FILTER: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    -moz-transform: rotate(180deg);
+    -moz-transform-origin: 50% 30%;
+    -webkit-transform: rotate(180deg);
+    -webkit-transform-origin: 50% 30%;
+    -o-transform: rotate(180deg);
+    -o-transform-origin: 50% 30%;
+    transform: rotate(180deg);
+    transform-origin: 50% 30%;
+}
+
+.public-top-layout .quick-menu dl dd {
+    background-color: #FFF;
+    display: none;
+    width: 78px;
+    border: solid 1px #F0F0F0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.public-top-layout .quick-menu dl.hover dd {
+    display: block;
+}
+
+.public-top-layout .quick-menu dl dd ul {
+    width: 78px;
+    margin: 30px 0 0 0;
+}
+
+.public-top-layout .quick-menu dl dd ul li a {
+    font-size: 12px;
+    line-height: 24px;
+    display: block;
+    clear: both;
+    padding: 2px 0 2px 11px;
+}
+
+.public-top-layout .quick-menu dl dd ul li a:hover {
+    text-decoration: none;
+    background-color: #F7F7F7;
+}
+
+/*页面整体宽度控制*/
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+/* 公用头部区域
+-------------------------------------- */
+
+.header-wrap {
+    background-color: #FFF;
+    width: 100%;
+}
+
+.public-head-layout {
+    height: 100px;
+    position: relative;
+}
+
+/* 站点logo */
+
+.public-head-layout .site-logo {
+    width: 385px;
+    height: 65px;
+    float: left;
+    margin: 15px 30px auto 0;
+}
+
+.public-head-layout .site-logo img {
+    height: 65px;
+}
+
+/* 头部搜索 */
+
+.head-search-bar {
+    width: 500px;
+    float: left;
+    margin: 25px 0 0;
+    overflow: hidden;
+}
+
+.head-search-bar .search-form {
+    background-color: #793dd5;
+    height: 36px;
+    padding: 1px;
+}
+
+.head-search-bar .input-text {
+    line-height: 24px;
+    color: #555;
+    width: 82%;
+    height: 24px;
+    float: left;
+    padding: 6px 1%;
+    border: none 0;
+}
+
+.head-search-bar .input-submit {
+    font-size: 16px;
+    font-family: "microsoft yahei";
+    color: #FFF;
+    background-color: transparent;
+    width: 15%;
+    line-height: 40px;
+    height: 40px;
+    float: right;
+    border: none;
+    cursor: pointer;
+}
+
+.head-search-bar .keyword {
+    line-height: 20px;
+    color: #999;
+    width: 500px;
+    height: 20px;
+    margin-top: 4px;
+    overflow: hidden;
+}
+
+.head-search-bar .keyword ul {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline/*IE6、7*/
+    ;
+}
+
+.head-search-bar .keyword ul li {
+    font-size: 12px;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    *display: inline/*IE6、7*/
+    ;
+    margin-right: 12px;
+}
+
+.head-search-bar .keyword ul li a {
+    color: #777;
+}
+
+/* 头部用户型菜单*/
+
+.head-user-menu {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+    float: right;
+    margin: 25px 0 0 0;
+}
+
+.head-user-menu dl {
+    font-size: 12px;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    *display: inline/*IE6、7*/
+    ;
+    margin-left: 10px;
+    position: relative;
+    z-index: 3;
+    *zoom: 1/*IE6、7*/
+    ;
+}
+
+.head-user-menu dl.my-mall {
+    width: 108px;
+}
+
+.head-user-menu dl.my-cart {
+    width: 124px;
+}
+
+.head-user-menu dl.hover {
+    z-index: 101;
+}
+
+.head-user-menu dl dt {
+    line-height: 20px;
+    color: #555;
+    background-color: #FAFAFA;
+    height: 20px;
+    padding: 10px;
+    border: solid 1px #F0F0F0;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.head-user-menu dl.my-mall dt {
+    width: 90px;
+}
+
+.head-user-menu dl.my-cart dt {
+    width: 106px;
+}
+
+.head-user-menu dl.hover dt {
+    background-color: #FFF;
+    border-width: 1px;
+    border-color: #F0F0F0 #F0F0F0 #FFF #F0F0F0;
+}
+
+.head-user-menu dl dt span.ico {
+    background: url(../images/top_bg.png) no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+}
+
+.head-user-menu dl.my-mall span.ico {
+    background-position: -100px 0;
+    margin-right: 4px;
+}
+
+.head-user-menu dl.my-cart span.ico {
+    background-position: -120px 0;
+    margin-right: 8px;
+}
+
+.head-user-menu dl dt i {
+    font-size: 0px;
+    line-height: 0;
+    vertical-align: middle;
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    margin-left: 8px;
+    border-width: 4px;
+    border-color: #777 transparent transparent transparent;
+    border-style: solid dashed dashed dashed;
+    -webkit-transition: .2s ease-in;
+    -moz-transition: -webkit-transform .2s ease-in;
+    -o-transition: -webkit-transform .2s ease-in;
+    transition: .2s ease-in;
+}
+
+.head-user-menu dl.hover dt i {
+    FILTER: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    -moz-transform: rotate(180deg);
+    -moz-transform-origin: 50% 30%;
+    -webkit-transform: rotate(180deg);
+    -webkit-transform-origin: 50% 30%;
+    -o-transform: rotate(180deg);
+    -o-transform-origin: 50% 30%;
+    transform: rotate(180deg);
+    transform-origin: 50% 30%;
+}
+
+.head-user-menu dl dd {
+    background-color: #FFF;
+    display: none;
+    border: solid 1px #F0F0F0;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    right: 0;
+}
+
+.head-user-menu dl.my-mall dd {
+    width: 308px;
+}
+
+.head-user-menu dl.my-cart dd {
+    width: 348px;
+}
+
+.head-user-menu dl.hover dd {
+    display: block;
+}
+
+.head-user-menu dl dd a {
+    color: #7d6f65;
+}
+
+.head-user-menu a.arrow i {
+    background: url(../images/top_bg.png) no-repeat -150px 0;
+    vertical-align: middle;
+    display: inline-block;
+    width: 4px;
+    height: 7px;
+    margin-left: 4px;
+}
+
+.head-user-menu dl dd .goods-thumb {
+    width: 50px;
+    height: 50px;
+}
+
+.head-user-menu dl dd .goods-thumb a {
+    line-height: 0;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    *display: block;
+    width: 48px;
+    height: 48px;
+    border: solid 1px #DDD;
+    overflow: hidden;
+}
+
+.head-user-menu dl dd .goods-thumb img {
+    max-width: 48px;
+    max-height: 48px;
+    margin-top: expression(48-this.height/2);
+    *margin-top: expression(24-this.height/2);
+}
+
+.head-user-menu dl dd .sub-title {
+    line-height: 28px;
+    height: 28px;
+    padding: 7px;
+    border-bottom: solid 1px #DDD;
+}
+
+.head-user-menu dl dd .sub-title h4 {
+    font-weight: 600;
+    float: left;
+}
+
+.head-user-menu dl dd .sub-title a {
+    float: right;
+}
+
+.head-user-menu dl dd .user-centent-menu {
+    width: 308px;
+    padding: 8px 0;
+    overflow: hidden;
+}
+
+.head-user-menu dl dd .user-centent-menu ul {
+    width: 310px;
+    margin-left: -2px;
+}
+
+.head-user-menu dl dd .user-centent-menu ul li {
+    width: 138px;
+    float: left;
+    padding: 4px 0 4px 16px;
+    border-left: solid 1px #EEE;
+}
+
+.head-user-menu dl dd .browse-history {
+    background-color: #FAFAFA;
+    width: 308px;
+    border-style: solid;
+    border-width: 1px 0 0;
+    border-color: #DDD transparent transparent;
+}
+
+.head-user-menu dl dd .browse-history .part-title {
+    height: 20px;
+    padding: 6px 8px;
+}
+
+.head-user-menu dl dd .browse-history .part-title h4 {
+    float: left;
+}
+
+.head-user-menu dl dd .browse-history .part-title a {
+    float: right;
+}
+
+.head-user-menu dl dd .browse-history ul {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+    padding: 0 7px 7px 7px;
+}
+
+.head-user-menu dl dd .browse-history ul li {
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    *display: inline/*IE6、7*/
+    ;
+    margin: 0 4px;
+    *zoom: 1;
+}
+
+.head-user-menu dl dd .browse-history li {
+    text-align: center;
+    display: inline-block;
+    width: 90px;
+    font-size: 12px;
+}
+
+.head-user-menu dl dd .browse-history .goods-title {
+    width: 90px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.head-user-menu dl dd .browse-history .goods-price {
+    font-size: 14px;
+    color: #ff6700;
+}
+
+.head-user-menu dl dd .browse-history a:hover,
+.head-user-menu dl dd .incart-goods a:hover {
+    text-decoration: none;
+}
+
+.head-user-menu dl dd .incart-goods-box {
+    display: block;
+    width: 348px;
+    overflow: hidden;
+    position: relative;
+}
+
+.head-user-menu dl dd .incart-goods {
+    width: 100%;
+}
+
+.head-user-menu dl dd .incart-goods .no-order {
+    margin: 20px 0;
+}
+
+.head-user-menu dl dd .incart-goods ul {
+    font-size: 0;
+    padding: 0 12px;
+}
+
+.head-user-menu dl dd .incart-goods li {
+    display: inline-block;
+    font-size: 12px;
+    width: 90px;
+    margin: 0 9px 9px 9px;
+    text-align: center;
+}
+
+.head-user-menu dl dd .incart-goods .goods-title {
+    width: 90px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.head-user-menu dl dd .incart-goods .goods-price {
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    color: #ff6700;
+}
+
+.head-user-menu dl dd .checkout {
+    background-color: #F0F0F0;
+    text-align: right;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.head-user-menu dl dd .checkout .total-price {
+    line-height: 20px;
+    display: block;
+}
+
+.head-user-menu dl dd .checkout .total-price i {
+    font-weight: 600;
+    color: #C00;
+    margin: 0 4px;
+}
+
+.head-user-menu dl dd .checkout .total-price em {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff6600;
+}
+
+.head-user-menu dl dd .checkout .btn-cart {
+    float: right;
+    clear: both;
+    line-height: 20px;
+    color: #FFF;
+    background-color: #56990B;
+    padding: 4px 8px;
+    margin-top: 4px;
+    border-radius: 4px;
+}
+
+.head-user-menu dl div.addcart-goods-num {
+    font: bold 11px/14px Verdana;
+    color: #FFF;
+    background: #F00;
+    text-align: center;
+    display: inline-block;
+    height: 16px;
+    min-width: 16px;
+    max-width: auto !important;
+    border: none 0;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 3;
+    top: -4px;
+    left: 20px;
+}
+
+/* 公用导航区域
+-------------------------------------- */
+
+.public-nav-layout {
+    background: linear-gradient(to right, #b229aa, #6b42e0);
+    width: 100%;
+    height: 40px;
+    position: relative;
+    z-index: 99;
+}
+
+/*站点导航菜单*/
+
+.public-nav-layout .site-menu {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+    float: left;
+    position: relative;
+}
+
+.public-nav-layout .site-menu .hot {
+    width: 31px;
+    height: 18px;
+    background: url(../images/hot.png) no-repeat;
+    background-size: 31px;
+    position: absolute;
+    left: 220px;
+    top: -10px;
+}
+
+/*update@2015-1-21*/
+
+.public-nav-layout .site-menu li {
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    *display: inline/*IE6、7*/
+    ;
+}
+
+.public-nav-layout .site-menu li a {
+    font-size: 15px;
+    font-family: "microsoft yahei";
+    font-weight: 600;
+    line-height: 40px;
+    color: #fff;
+    height: 40px;
+    padding: 0 20px;
+    display: inline-block;
+    *display: inline/*IE6、7*/
+    ;
+    zoom: 1;
+}
+
+.public-nav-layout .site-menu li a:hover {
+    text-decoration: none;
+    color: #fcfd02;
+}
+
+.public-nav-layout .site-menu li a.current {
+    color: #fcfd02;
+    background: url(../images/m_h_3.png) no-repeat center bottom;
+}
+
+/*分类导航菜单*/
+
+.public-nav-layout .all-category {
+    display: block;
+    width: 210px;
+    height: 40px;
+    float: left;
+    border: solid #FF6600;
+    border-width: 0 1px;
+    background: #FF6600
+}
+
+.public-nav-layout .all-category .title {
+    line-height: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+.public-nav-layout .all-category .title h3 a {
+    font-weight: 600;
+    color: #FFF;
+    float: left;
+    margin-left: 4px;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+}
+
+/*update@2015-1-22*/
+
+.public-nav-layout .all-category .title i {
+    font-size: 0px;
+    line-height: 0;
+    width: 0px;
+    height: 0px;
+    float: right;
+    margin: 8px 4px 0 0;
+    border-width: 5px;
+    border-color: #FFF transparent transparent transparent;
+    border-style: solid dashed dashed dashed;
+}
+
+.public-nav-layout .all-category .category {
+    display: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#19000000', endColorstr='#19000000');
+    background: rgba(79, 182, 2, 1);
+    width: 210px;
+    padding: 0 1px 1px;
+    margin-left: -1px;
+}
+
+.public-nav-layout .all-category:hover .category {
+    display: block;
+}
+
+.public-nav-layout .category .menu {
+    background-color: #FFF;
+    border-bottom: 3px solid #4fb602
+}
+
+.public-nav-layout .category .menu li {
+    background-color: #53c200;
+    width: 210px;
+    height: 52px;
+    *float: left;
+    *clear: left;
+    border-top: solid 1px #53c200;
+    position: relative;
+    z-index: 1;
+    zoom: 1;
+}
+
+.public-nav-layout .category .menu li.odd {
+    background-color: #4fb602;
+}
+
+.public-nav-layout .category .menu li.even {
+    background-color: #4fb602;
+}
+
+.public-nav-layout .category .menu li.hover {
+    z-index: 2;
+}
+
+.public-nav-layout .category .class {
+    border-style: solid;
+    border-width: 1px 0 1px 4px;
+    border-color: transparent;
+    display: block;
+    width: 178px;
+    height: 15px;
+    padding: 19px 15px 20px 15px;
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    left: -1px;
+}
+
+.public-nav-layout .category .hover .class {
+    height: 15px;
+    background-color: #fff !important;
+    border-color: #FF6600 transparent #FF6600 #FF6600;
+    z-index: 2;
+}
+
+/*update@2015-5-12  #367400*/
+
+.public-nav-layout .category .class span.ico {
+    width: 23px;
+    height: 23px;
+    float: left;
+    margin: -5px 10px 0 0;
+    padding: 3px 3px;
+    float: left;
+    filter: alpha(opacity=100)/*IE*/
+    ;
+    -moz-opacity: 1/*Moz+FF*/
+    ;
+    opacity: 1;
+}
+
+.public-nav-layout .category .menu li.hover .ico {
+    filter: alpha(opacity=100)/*IE*/
+    ;
+    -moz-opacity: 1/*Moz+FF*/
+    ;
+    opacity: 1;
+    background: #FF6600;
+    border-radius: 16px;
+}
+
+.public-nav-layout .category .class span.ico img {
+    max-width: 20px;
+    max-height: 20px;
+    -webkit-filter: grayscale(100%)/*Webkit*/
+    ;
+    -o-filter: grayscale(100%);
+    filter: gray;
+}
+
+.public-nav-layout .category .menu li.hover .ico img {
+    -webkit-filter: grayscale(0)/*Webkit*/
+    ;
+    -o-filter: grayscale(0);
+    filter: none;
+}
+
+.public-nav-layout .category .class h4 {
+    font-weight: 600;
+    line-height: 16px;
+    font-size: 13px;
+    color: #333;
+    font-family: "microsoft yahei";
+    height: 16px;
+    float: left;
+}
+
+/*update@2015-1-21*/
+
+.public-nav-layout .category .class h4 a {
+    color: #ffffff;
+}
+
+.public-nav-layout .category .menu li.hover .class h4 a {
+    color: #FF6600;
+}
+
+.public-nav-layout .category .class .recommend-class {
+    line-height: 16px;
+    width: 168px;
+    height: 16px;
+    float: left;
+    clear: both;
+    margin-top: 4px;
+    overflow: hidden;
+}
+
+.public-nav-layout .category .class .recommend-class a {
+    color: #999;
+    white-space: nowrap;
+    margin-right: 6px;
+}
+
+.public-nav-layout .category .class .arrow {
+    background: url(../images/top_bg.png) no-repeat -168px -10px;
+    width: 5px;
+    height: 9px;
+    float: right;
+    margin: 3px 0 0 0;
+}
+
+.public-nav-layout .category .menu li.hover .class .arrow {
+    background: url(../images/top_bg.png) no-repeat -168px 0px;
+}
+
+.public-nav-layout .category .sub-class {
+    background-color: #FFF;
+    display: none;
+    width: 763px;
+    padding: 0 7px;
+    border: solid 1px #FF6600;
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    left: 210px;
+}
+
+/*update@2015-1-21  532px*/
+
+.public-nav-layout .category li.hover .sub-class {
+    display: block;
+}
+
+.public-nav-layout .category .sub-class dl {
+    width: 750px;
+    margin: 8px;
+    float: left;
+}
+
+/*update@2015-1-21  250px*/
+
+.public-nav-layout .category .sub-class dl dt {
+    line-height: 24px;
+    border-bottom: solid 1px #f3f3f3;
+}
+
+/*update@2015-1-21*/
+
+.public-nav-layout .category .sub-class dl dt h3 {
+    font-weight: 600;
+    color: #333;
+}
+
+.public-nav-layout .category .sub-class dl dt h3 a {
+    font-weight: 600;
+    color: #FF6600;
+}
+
+/*update@2015-1-21*/
+
+.public-nav-layout .category .sub-class dl dd {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+    padding: 3px 0;
+}
+
+.public-nav-layout .category .sub-class dl dd.brands-class {
+    border: dotted 1px #f3f3f3;
+    background: #f3f3f3;
+    margin-top: 4px;
+}
+
+.public-nav-layout .category .sub-class dl dd a {
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 16px;
+    color: #555;
+    background: url(../images/top_bg.png) no-repeat right -24px;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    *display: inline/*IE6、7*/
+    ;
+    height: 16px;
+    padding-right: 7px;
+    margin: 2px 7px 2px 0;
+    *zoom: 1/*IE6、7*/
+    ;
+}
+
+.public-nav-layout .category .sub-class dl dd h5 {
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+    margin: 4px 0 2px 0;
+}
+
+/* 面包屑所在位置 */
+
+.nch-breadcrumb-layout {
+    text-align: center;
+}
+
+.nch-breadcrumb {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+    text-align: left;
+    height: 20px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.nch-breadcrumb span {
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    *display: inline/* IE6,7*/
+    ;
+    height: 20px;
+    zoom: 1;
+}
+
+.nch-breadcrumb i {
+    font-size: 14px;
+    color: #AAA;
+    margin-right: 4px;
+}
+
+.nch-breadcrumb span.arrow {
+    font-family: "宋体";
+    line-height: 20px;
+    color: #AAA;
+    margin: 0 6px;
+}
+
+.nch-breadcrumb a {
+    color: #777;
+    display: block;
+}
+
+.nch-breadcrumb a:hover {
+    color: #ff6600;
+}
+
+/*首页跑马灯 update@2015-3-6*/
+
+#hotConAd {
+    width: 246px;
+    height: 30px;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    overflow: hidden;
+}
+
+#hotConAd .conbox {
+    float: left;
+    width: 100000px;
+}
+
+#hotConAd #conlist,
+#conscroll {
+    float: left;
+}
+
+#hotConAd #conlist li,
+#conscroll li {
+    height: 30px;
+    color: #777777;
+    padding-left: 10px;
+    float: left;
+    line-height: 30px;
+}
+
+#hotConAd #conlist li a,
+#conscroll li a {
+    color: #777777;
+    font-family: "宋体";
+}
+
+#hotConAd #conlist li a:hover,
+#conscroll li a:hover {
+    color: #ff6600;
+}
+
+.keyword ul {
+    width: 436px;
+    white-space: nowrap;
+}
+
+

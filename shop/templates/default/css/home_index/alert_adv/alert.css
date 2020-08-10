@@ -1,0 +1,47 @@
+﻿@charset "utf-8";
+* { margin:0; padding:0;}
+.alert_adv_layer { position:fixed; left:330px; bottom:0; width:0; height:0; z-index:999;}
+
+.alert_adv_layer_cont { position:absolute; width:334px; height:272px; overflow:hidden; font-size:12px; right:0; bottom:0; display:none; background: url(../../../images/home_index/alert_adv/bg.png) no-repeat;}
+.alert_adv_layer_cont img {border:none; float:none; vertical-align:top;}
+.alert_adv_layer_cont ul,.alert_adv_layer_cont ol {list-style:none;}
+.alert_adv_layer_cont a,.alert_adv_layer_cont a:link,.alert_adv_layer_cont a:visited,.alert_adv_layer_cont a:hover,.alert_adv_layer_cont a:active { text-decoration:none;}
+.alert_adv_layer_close { width:20px; height:20px; background:url(../../../images/home_index/alert_adv/close.png) no-repeat; position:absolute; font-size:0px; right:8px; top:8px; cursor:pointer;}
+.alert_adv_layer_title { padding:13px 0; margin:0 auto; width:320px; height:60px; font:18px/24px "Microsoft YaHei"; overflow:hidden; color:#fff; overflow:hidden; white-space:nowrap;}
+.alert_adv_layer_btn { padding-left:15px; padding-top:10px; overflow:hidden; height:20px; }
+.alert_adv_layer_btn li { float:left; width:65px; height:20px; line-height:20px; text-align:center; overflow:hidden; margin-right: 10px; border-radius: 10px;}
+.alert_adv_layer_btn li a { display:inline-block; width:65px; overflow:hidden; white-space:nowrap; background: #fff; color:#9737df;}
+.alert_adv_layer_btn li a:link,.alert_adv_layer_btn li a:visited { color:#9737df;}
+.alert_adv_layer_btn li a:hover { background-color:#ff6600; color: #fff;}
+.alert_adv_layer_btn li.hover a,.alert_adv_layer_btn li.hover a:link,.alert_adv_layer_btn li.hover a:visited { background-color:#ff6600; color: #fff;}
+.alert_adv_layer_content {  padding:9px 0; width:100%; height:218px; overflow:hidden;}
+.alert_adv_layer_content li { margin:0 auto;  width:315px; height:230px; overflow:hidden; display:none; border-radius: 10px;}
+.alert_adv_layer_content li img { width:100%; height: 230px;}
+
+/*.alert_adv_layer_title { padding:13px 0; margin:0 auto; width:320px; height:24px; font:18px/24px "Microsoft YaHei"; overflow:hidden; color:#fff; overflow:hidden; white-space:nowrap;}*/
+
+
+
+
+@charset "utf-8";
+* { margin:0; padding:0;}
+.alert_adv_layer { position:fixed; left:330px; bottom:0; width:0; height:0; z-index:999;}
+
+.alert_adv_layer_cont { position:absolute; width:334px; height:272px; overflow:hidden; font-size:12px; right:0; bottom:0; display:none; background: url(../../../images/home_index/alert_adv/bg.png) no-repeat;}
+.alert_adv_layer_cont img {border:none; float:none; vertical-align:top;}
+.alert_adv_layer_cont ul,.alert_adv_layer_cont ol {list-style:none;}
+.alert_adv_layer_cont a,.alert_adv_layer_cont a:link,.alert_adv_layer_cont a:visited,.alert_adv_layer_cont a:hover,.alert_adv_layer_cont a:active { text-decoration:none;}
+.alert_adv_layer_close { width:20px; height:20px; background:url(../../../images/home_index/alert_adv/close.png) no-repeat; position:absolute; font-size:0px; right:8px; top:8px; cursor:pointer;}
+.alert_adv_layer_title { padding:13px 0; margin:0 auto; width:320px; height:60px; font:18px/24px "Microsoft YaHei"; overflow:hidden; color:#fff; overflow:hidden; white-space:nowrap;}
+.alert_adv_layer_btn { padding-left:15px; padding-top:10px; overflow:hidden; height:20px; }
+.alert_adv_layer_btn li { float:left; width:65px; height:20px; line-height:20px; text-align:center; overflow:hidden; margin-right: 10px; border-radius: 10px;}
+.alert_adv_layer_btn li a { display:inline-block; width:65px; overflow:hidden; white-space:nowrap; background: #fff; color:#9737df;}
+.alert_adv_layer_btn li a:link,.alert_adv_layer_btn li a:visited { color:#9737df;}
+.alert_adv_layer_btn li a:hover { background-color:#ff6600; color: #fff;}
+.alert_adv_layer_btn li.hover a,.alert_adv_layer_btn li.hover a:link,.alert_adv_layer_btn li.hover a:visited { background-color:#ff6600; color: #fff;}
+.alert_adv_layer_content {  padding:9px 0; width:100%; height:218px; overflow:hidden;}
+.alert_adv_layer_content li { margin:0 auto;  width:315px; height:230px; overflow:hidden; display:none; border-radius: 10px;}
+.alert_adv_layer_content li img { width:100%; height: 230px;}
+.king_logo{ width: 25px; height: 24px; float: left; margin-right: 20px;}
+.king_logo img{ width:25px; height: 24px; float: left; margin-left: 10px;}
+/*.alert_adv_layer_title { padding:13px 0; margin:0 auto; width:320px; height:24px; font:18px/24px "Microsoft YaHei"; overflow:hidden; color:#fff; overflow:hidden; white-space:nowrap;}*/

@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ===============
+ * 重新定义Html元素
+ * =============== */
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input { padding: 0; margin: 0;}
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, strong, table, th, td { font-size: 1em; font-style: normal; font-weight: normal;}
+strong { font-weight: bold;}
+ul, ol { list-style: none outside none;}
+fieldset, img { border: medium none;}
+caption, th {  text-align: left;}
+table { border-collapse: collapse; border-spacing: 0;}
+
+body { font: 12px/150% Arial,Verdana,"宋体"; color: #666666;  background: #FFF none repeat scroll 0 0; margin: 0; padding: 0;}
+a { color: #555; outline: medium none;}
+a:link, a:visited, a:active { text-decoration: none;}
+a:hover { color: #ff6600; text-decoration: underline;}
+i, cite, em { font-style: normal;}
+/* ==========================
+ * 为旧版本浏览器格式化Html5元素
+ * ========================== */
+article, aside, dialog, footer, header, section, footer, nav, figure, menu { display:block; }
+
+/* ==========================
+ * 常用宽度、高度、边距、边框属性
+ * ========================== */
+.w { width: 100%}
+.wrapper { width: 1200px; margin: auto;}
+
+.fl { float: left;}
+.fr { float: right;}
+
+.block { display: block;}
+.none { display: none;}
+
+.goods-price { font-family: Verdana;}
+.goods-price em { font-weight: 600; color: #ff6600;}
+
+
+div.bodyer{ width:100%; height:auto; margin:0 auto; overflow:hidden; text-align:center;}
+div.bodyer img{ margin:0 auto;}

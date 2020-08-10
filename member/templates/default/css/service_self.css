@@ -1,0 +1,303 @@
+.service-self-banner {
+    width: 100%;
+    height: 480px;
+    background: url(../images/service_self/banner.png) no-repeat;
+}
+
+.service-self-banner::before {
+    content: "";
+    display: table;
+}
+
+.xiaomi {
+    margin-top: 15px;
+    margin-left: 80%;
+}
+
+.xiaomi a {
+    display: inline-block;
+    width: 93px;
+    height: 35px;
+    background-image: url(../images/service_self/xiaomi.png);
+}
+
+.xiaomi a:hover {
+    background-position-y: -35px;
+}
+
+.smart {
+    margin-left: 15px;
+    background-position: 0 0;
+}
+
+.contact {
+    background-position: -93px 0;
+}
+
+.aside-nav {
+    float: left;
+    width: 185px;
+    border-radius: 15px 15px 0 0;
+}
+
+.subside-in .h3-title {
+    height: 55px;
+    margin-bottom: 6px;
+    line-height: 42px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #fff;
+    background: url(../images/service_self/aside_nav_01.png) no-repeat;
+}
+
+.subside-in .h3-title em {
+    display: inline-block;
+    width: 20px;
+    height: 21px;
+    margin: 0 15px 3px 35px;
+    vertical-align: middle;
+    background: url(../images/service_self/sort.png) no-repeat;
+}
+
+.subside-in .subside-mod .title {
+    height: 45px;
+    line-height: 45px;
+    padding-left: 17px;
+    background-color: #fff;
+    margin-top: 1px;
+    font-size: 16px;
+    font-family: "microsoft yahei";
+    position: relative;
+}
+
+.subside-in .subside-cnt {
+    display: none;
+    background-color: #eee;
+}
+
+.subside-in .subside-mod .icon02 {
+    border-style: solid dashed solid dashed;
+    border-color: #999 #0000 #999 #0000;
+    border-width: 5px 5px 0;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.subside-in .subside-list .list-item {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 45px;
+    font-size: 15px;
+}
+
+.subside-in .subside-list .list-item a {
+    color: #333;
+}
+
+.subside-in .on .subside-cnt {
+    display: block;
+}
+
+.subside-in .subside-mod .title:hover,
+.subside-in .on .title {
+    cursor: pointer;
+    background-color: #dadada;
+}
+
+.subside-in .on .icon02 {
+    border-width: 0 5px 5px;
+}
+
+.subside-in .subside-list .list-item.current a:link, .subside-in .subside-list .list-item.current a:visited {
+    font-weight: bold;
+    color: #9737df;
+}
+
+.subside-in .subside-list .list-item a:hover {
+    color: #9737df;
+    font-weight: bold;
+}
+
+.right-banner {
+    width: 185px;
+    height: 98px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.right-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.service-self-nav .title em {
+    display: inline-block;
+    width: 31px;
+    height: 28px;
+    margin: 0 9px 3px 30px;
+    vertical-align: middle;
+    background: url(../images/service_self/service_self.png) no-repeat;
+}
+
+.service-self-nav {
+    margin-top: 25px;
+    height: 290px;
+}
+
+.service-self-nav .title {
+    height: 55px;
+    margin-bottom: 6px;
+    line-height: 42px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #fff;
+    background: url(../images/service_self/aside_nav_01.png) no-repeat;
+}
+
+.service-self-nav li {
+    height: 50px;
+    margin-bottom: 3px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 1px;
+    background: url(../images/service_self/aside_nav_02.png) no-repeat;
+
+}
+
+.service-main {
+    margin-left: 205px;
+    background: #fff;
+}
+
+.service-layout {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.service-layout .title {
+    height: 32px;
+    margin-bottom: 15px;
+    color: #9737df;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.service-layout .title em {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.problem .title em {
+    margin-bottom: 3px;
+    margin-right: 10px;
+    width: 28px;
+    height: 28px;
+    background: url(../images/service_self/question.png) no-repeat;
+}
+
+.concern .title em {
+    margin-right: 14px;
+    margin-bottom: 8px;
+    width: 24px;
+    height: 21px;
+    background: url(../images/service_self/concern.png) no-repeat;
+}
+
+.resolve .title em {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 17px;
+    margin-bottom: 3px;
+    width: 21px;
+    height: 32px;
+    background: url(../images/service_self/resolve.png) no-repeat;
+}
+
+.service-layout li {
+    position: relative;
+    float: left;
+    width: 345px;
+    height: 24px;
+    padding-left: 10px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.service-layout li a {
+    color: #000;
+}
+
+.service-layout li a:hover {
+    color: #9737df;
+    text-decoration: underline;
+}
+
+.problem ul,
+.concern ul {
+    padding-left: 38px;
+    overflow: hidden;
+}
+
+.resolve ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.resolve {
+    padding: 15px 20px;
+}
+
+.resolve .title {
+    height: 32px;
+    margin-bottom: 15px;
+    color: #9737df;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.service-layout li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #000;
+}
+
+.resolve li {
+    width: 280px;
+    height: 110px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.resolve li dt {
+    height: 31px;
+    line-height: 31px;
+    padding-left: 40px;
+    font-size: 16px;
+    color: #000;
+    background: url(../images/service_self/safe.png) no-repeat;
+}
+
+.resolve li dd {
+    padding: 10px 40px;
+}
+
+.resolve a {
+    color: #666;
+}
+

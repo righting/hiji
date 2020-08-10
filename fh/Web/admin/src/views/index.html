@@ -1,0 +1,259 @@
+<style>
+  .ncap-stat-general { }
+  .ncap-stat-general .row { border: none !important; }
+  .ncap-stat-general ul { overflow: hidden; }
+  .ncap-stat-general li { width: 25%; height: 60px; float: left; position: relative; z-index: 1; border-top: dashed 1px #E7E7E7; border-left: dashed 1px #E7E7E7; margin: -1px 0 0 -1px; }
+  .ncap-stat-general li h4 { font-size: 14px; line-height: 20px; color: #555; position: absolute; z-index: 1; top: 10px; left: 3%; }
+  .ncap-stat-general li h6 { font-size: 12px; line-height: 20px; color: #999; font-weight: normal; position: absolute; z-index: 1; bottom: 10px; left: 3%; }
+  .ncap-stat-general li h2 { font-size: 20px; line-height: 40px; font-weight: normal; color: #2cbca3; position: absolute; z-index: 1; top: 10px; right: 5%; }
+
+  .layui-form h3{
+    height: 35px;line-height: 35px;text-align: center;font-size: 18px;
+  }
+  .layui-table, .layui-table-view{
+    margin: 0 0;
+  }
+  /*统计情报表*/
+</style>
+<div class="layui-card layadmin-header">
+  <div class="layui-breadcrumb" lay-filter="breadcrumb">
+    <a lay-href="/">主页</a>
+  </div>
+</div>
+
+<div class="layui-fluid">
+  <div class="layui-form" style="padding:5px 15px;background: #fff; margin-bottom: 15px">
+    <div class="ncap-form-all ncap-stat-general">
+      <div class="title">
+        <h3>2020-04-07最新情报</h3>
+      </div>
+      <dl class="row">
+        <dd class="opt">
+          <ul class="nc-row">
+            <li title="下单金额：0.00元">
+              <a href="/admin/modules/shop/index.php?controller=stat_member&amp;action=analyze">
+                <div>
+                  <h4>下单金额</h4>
+                  <h6>有效订单的总金额(元)</h6>
+                  <h2 class="timer" id="count-number" data-to="0.00" data-speed="1500">0</h2>
+                </div>
+              </a>
+            </li>
+            <li title="下单会员数：0">
+              <h4>下单会员数</h4>
+              <h6>有效订单的下单会员总数</h6>
+              <h2 class="timer" id="count-number" data-to="0" data-speed="1500">0</h2>
+            </li>
+            <li title="下单量：0">
+              <a href="/admin/modules/shop/index.php?controller=stat_member&amp;action=analyze">
+                <div>
+                  <h4>下单量</h4>
+                  <h6>有效订单的总数量</h6>
+                  <h2 class="timer" id="count-number" data-to="0" data-speed="1500">0</h2>
+                </div>
+              </a>
+            </li>
+            <li title="下单商品数：0">
+              <a href="/admin/modules/shop/index.php?controller=stat_member&amp;action=analyze">
+                <div>
+                  <h4>下单商品数</h4>
+                  <h6>有效订单包含的商品总数量</h6>
+                  <h2 class="timer" id="count-number" data-to="0" data-speed="1500">0</h2>
+                </div>
+              </a>
+            </li>
+            <li title="平均价格：0.00元">
+              <h4>平均价格</h4>
+              <h6>有效订单包含商品的平均单价（元）</h6>
+              <h2 class="timer" id="count-number" data-to="0.00" data-speed="1500">0</h2>
+            </li>
+            <li title="平均客单价：0.00元">
+              <h4>平均客单价</h4>
+              <h6>有效订单的平均每单的金额（元）</h6>
+              <h2 class="timer" id="count-number" data-to="0.00" data-speed="1500">0</h2>
+            </li>
+            <li title="新增会员：0">
+              <a href="/admin/modules/shop/index.php?controller=stat_member">
+                <div>
+                  <h4>新增会员</h4>
+                  <h6>期间内新注册会员总数</h6>
+                  <h2 class="timer" id="count-number" data-to="0" data-speed="1500">0</h2>
+                </div>
+              </a>
+            </li>
+            <li title="会员数量：3507">
+              <a href="/admin/modules/shop/index.php?controller=member">
+                <div>
+                  <h4>会员数量</h4>
+                  <h6>平台所有会员的数量</h6>
+                  <h2 class="timer" id="count-number" data-to="3507" data-speed="1500">0</h2>
+                </div>
+              </a>
+            </li>
+            <li title="新增店铺：0">
+              <h4>新增店铺</h4>
+              <h6>期间内新注册店铺总数</h6>
+              <h2 class="timer" id="count-number" data-to="0" data-speed="1500">0</h2>
+            </li>
+            <li title="店铺数量：5">
+              <a href="/admin/modules/shop/index.php?controller=store">
+                <div>
+                  <h4>店铺数量</h4>
+                  <h6>平台所有店铺的数量</h6>
+                  <h2 class="timer" id="count-number" data-to="5" data-speed="1500">0</h2>
+                </div>
+              </a>
+            </li>
+            <li title="新增商品：0">
+              <h4>新增商品</h4>
+              <h6>期间内新增商品总数</h6>
+              <h2 class="timer" id="count-number" data-to="0" data-speed="1500">0</h2>
+            </li>
+            <li title="商品数量：107">
+              <a href="/admin/modules/shop/index.php?controller=goods">
+                <div>
+                  <h4>商品数量</h4>
+                  <h6>平台所有商品的数量</h6>
+                  <h2 class="timer" id="count-number" data-to="107" data-speed="1500">0</h2>
+                </div>
+              </a>
+            </li>
+            <li title="平台提成：50155.00">
+              <a href="/admin/modules/shop/index.php?controller=get_platform_profit">
+                <div>
+                  <h4>平台提成</h4>
+                  <h6>平台历史总提成</h6>
+                  <h2 class="timer" id="count-number" data-to="50155.00" data-speed="1500">0</h2>
+                </div>
+              </a>
+            </li>
+            <li title="平台分红：187874.42">
+              <a href="/admin/modules/shop/index.php?controller=stat_bonus_log">
+                <div>
+                  <h4>平台分红</h4>
+                  <h6>平台历史总分红</h6>
+                  <h2 class="timer" id="count-number" data-to="187874.42" data-speed="1500">0</h2>
+                </div>
+              </a>
+            </li>
+            <li title="平台资金池：28154.58">
+              <h4>平台资金池</h4>
+              <h6>平台当前资金池总额</h6>
+              <h2 class="timer" id="count-number" data-to="28154.58" data-speed="1500">0</h2>
+            </li>
+          </ul>
+        </dd></dl>
+    </div>
+  </div>
+  <div class="layui-form" style="padding:5px 15px;background: #fff">
+    <h3>平台利润统计</h3>
+    <table id="main-table" lay-filter="table"></table>
+  </div>
+</div>
+
+<script>
+    layui.use(['admin', 'table', 'form', 'laydate', 'common'], function () {
+        var $ = layui.$
+            , admin = layui.admin
+            , element = layui.element
+            , form = layui.form
+            , table = layui.table
+            , laydate = layui.laydate;
+
+        var order_no = '',borrow_start_time ='',borrow_end_time='',return_start_time='',return_end_time='',status='',pay_status='',nickname='',openid='',register_from='',shop_name='',borrow_shop_id=''
+
+        table.render({
+            elem: '#main-table'
+            , url: issUrl.profit
+            ,where:{
+                name:"xrphfh",
+                token: layui.data('admin').token,
+            }
+            , type: 'post'
+            , cols: [[
+                {field: 'id', title: '分红期数', align: 'center'}
+                , {field: 'create_time', title: '开始时间', align: 'center'}
+                , {field: 'update_time', title: '结束时间', align: 'center'}
+                , {field: 'price', title: '税后总利润', align: 'center'}
+            ]]
+            , page: {
+                prev: '上一页',
+                next: '下一页',
+                layout: ['count', 'prev', 'page', 'next', 'limit']
+            }
+            , limit: 10
+            , limits: [10, 15, 20, 25, 30]
+        });
+        form.render(null, 'component-form-group');
+        //监听工具条
+        var active = {
+            //查看
+            look: function (obj) {
+                location.hash = '/order/orderIn/orderIn_add/id=' + obj.data.id;
+            },
+
+            //删除
+            del: function (obj) {
+                layer.confirm('您确定删除该订单吗？', function (index) {
+                    admin.req({
+                        url: issUrl.battery_order_delete
+                        , data: {id: obj.data.id}
+                        , type: 'post'
+                        , done: function (res) {
+                            layer.msg('操作成功');
+                            layer.close(index);
+                            obj.del();
+                        }
+                    })
+                })
+            },
+        };
+
+        function reload() {
+            //执行重载
+            table.reload('main-table', {
+                page: {
+                    curr: 1 //重新从第 1 页开始
+                }
+                , where: {
+                    order_no:order_no,
+                    borrow_start_time:borrow_start_time,
+                    borrow_end_time:borrow_end_time,
+                    return_start_time:return_start_time,
+                    return_end_time:return_end_time,
+                    status:status,
+                    pay_status:pay_status,
+                    nickname:nickname,
+                    openid:openid,
+                    register_from:register_from,
+                    shop_name:shop_name,
+                    borrow_shop_id:borrow_shop_id
+                }
+            }, 'data');
+        }
+
+        //搜索
+        form.on('submit(search)', function (data) {
+            order_no = data.field.order_no
+            borrow_start_time = data.field.borrow_start_time
+            borrow_end_time = data.field.borrow_end_time
+            return_start_time = data.field.return_start_time
+            return_end_time = data.field.return_end_time
+            status = data.field.status
+            pay_status = data.field.pay_status
+            nickname = data.field.nickname
+            openid = data.field.openid
+            register_from = data.field.register_from
+            shop_name = data.field.shop_name
+            borrow_shop_id = data.field.borrow_shop_id
+            reload()
+            return false;
+        });
+
+        table.on('tool(table)', function (obj) {
+            var type = $(this).attr('lay-event');
+            active[type] && active[type].call(this, obj);
+        });
+    });
+
+</script>

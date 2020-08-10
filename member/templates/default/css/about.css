@@ -1,0 +1,273 @@
+.aside-nav {
+    float: left;
+    width: 187px;
+    border-radius: 15px 15px 0 0;
+    background: #f6f6f6;
+}
+
+.aside-nav li {
+    width: 187px;
+    height: 52px;
+    margin-bottom: 10px;
+    line-height: 38px;
+    background: url(../images/about/navigation.png) 0 0 no-repeat;
+    overflow: hidden;
+}
+
+.aside-nav li a {
+    margin: 0 auto;
+    display: block;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-indent: 3px;
+    text-align: center;
+    width: 175px;
+    height: 42px;
+    margin-top: 4px;
+}
+
+.aside-nav .cur a,
+.aside-nav li:hover a {
+    background: #9737df;
+    color: #fff;
+    border-radius: 0!important;
+}
+
+.advertisement {
+    width: 100%;
+    height: 140px;
+}
+
+.advertisement img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.about-mid {
+    float: right!important;
+    width: 900px!important;
+    margin-left: 20px;
+    border-radius: 15px 0 0 15px;
+    background: #fff;
+}
+
+.about-mid .title {
+    height: 55px;
+    padding-left: 20px;
+    border-bottom: 1px solid #ddd;
+    line-height: 55px;
+    font-size: 16px;
+}
+
+.about-mid .title a {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.about-mid .title span {
+    margin: 0 5px;
+}
+
+.certificate,
+.honor {
+    padding-top: 15px;
+}
+
+.about-mid h2 {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.cer-wrap {
+    border-bottom: 1px solid #ddd;
+}
+
+
+.about-right {
+    float: right;
+    width: 208px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.about-right .title {
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    background: url(../images/about/share4.png) no-repeat;
+}
+
+.about-right .title em {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin: 0 5px 3px 10px;
+    vertical-align: middle;
+    background: url(../images/about/miaosha.png) no-repeat;
+}
+
+.right-banner {
+    width: 208px;
+    height: 305px;
+    overflow: hidden;
+}
+
+.right-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.share {
+    width: 100%!important;
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
+}
+
+.share-a {
+    width: 100%;
+    height: 40px;
+    background-color: #f3f0f9;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.share-a1 {
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 25px;
+    width: 25px;
+    height: 25px;
+    background: url(../images/about/share.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.share-a em{
+    position: absolute;
+    color: #724494c9;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 13px;
+}
+
+.share-a2 {
+    width: 95%;
+    font-size: 14px!important;
+    text-indent: 25px;
+    padding: 10px 0px;
+    margin: 0 auto;
+}
+
+.share-b {
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.share-b span {
+    display: inline-block;
+    width: 6px;
+    height: 22px;
+    background-color: #9537e3;
+}
+
+.share-b em {
+    position: absolute;
+    color: #724494;
+    font-size: 15px;
+    line-height: 22px;
+    margin-left: 13px;
+}
+
+.share-b1 {
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #1e1e1e;
+    height: 24px;
+    text-align: center;
+}
+
+.share-b2 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #323232e8;
+    height: 24px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.share-c {
+    width: 100%;
+}
+
+.share-c img{
+    width: 100%;
+}
+
+.share-video {
+    float: right;
+    width: 208px;
+    background: #fff;
+}
+
+.share-d1 {
+    width: 100%;
+    height: 41px;
+    background: url(../images/about/share4.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.share-d2 {
+    display: inline-block;
+    margin-top: 9px;
+    margin-left: 15px;
+    width: 23px;
+    height: 23px;
+    background: url(../images/about/miaosha.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.share-d3 {
+    display: inline-block;
+    margin-top: 9px;
+    margin-left: 15px;
+    width: 23px;
+    height: 23px;
+    background: url(../images/about/share1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.share-d4 {
+    display: inline-block;
+    margin-top: 9px;
+    margin-left: 15px;
+    width: 23px;
+    height: 23px;
+    background: url(../images/about/share2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.share-d1 em{
+    position: absolute;
+    font-size: 15px;
+    color: #1e1e1e;
+    line-height: 40px;
+    margin-left: 9px;
+}
+
+.share-e {
+    width: 100%;
+}
+
+.share-e img{
+    width: 100%;
+}

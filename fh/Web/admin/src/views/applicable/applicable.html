@@ -1,0 +1,117 @@
+<style>
+    .search {
+        position: absolute;
+        right: 50px
+    }
+
+    .layui-form-label {
+        width: 120px !important;
+    }
+</style>
+<div class="layui-card layadmin-header">
+    <div class="layui-breadcrumb" lay-filter="breadcrumb">
+        <a lay-href="">主页</a>
+        <a><cite>期数列表</cite></a>
+    </div>
+</div>
+<div class="main">
+
+    <div class="main-table">
+        <table id="main-table" lay-filter="table"></table>
+    </div>
+</div>
+
+<script type="text/html" id="tool">
+    <a class="layui-btn layui-btn-normal layui-btn-sm view" lay-event="look">详情</a>
+    <!--<a class="layui-btn layui-btn-danger layui-btn-sm" lay-event="del">删除</a>-->
+</script>
+
+
+<script>
+    layui.use(['admin', 'table', 'form', 'laydate', 'common'], function () {
+        var $ = layui.$
+            , admin = layui.admin
+            , element = layui.element
+            , form = layui.form
+            , table = layui.table
+            , laydate = layui.laydate;
+
+        var member_number = '',start_time ='',end_time=''
+        //开始日期
+        var insStart = laydate.render({
+            elem: '#start_time',
+            max: 0,
+            done: function (value, date) {
+                //更新结束日期的最小日期
+                insEnd.config.min = lay.extend({}, date, {
+                    month: date.month - 1
+                });
+                //自动弹出结束日期的选择器
+                insEnd.config.elem[0].focus();
+            }
+        });
+        //结束日期
+        var insEnd = laydate.render({
+            elem: '#end_time',
+            min: 0,
+            done: function (value, date) {
+                //更新开始日期的最大日期
+                insStart.config.max = lay.extend({}, date, {
+                    month: date.month - 1
+                });
+            }
+        });
+        
+
+        table.render({
+            elem: '#main-table'
+            , url: issUrl.applicable
+            , type: 'post'
+            , cols: [[
+                 {field: 'period_num', title: '期数', align: 'center',templet: '<div>{{d.period_num?"第"+d.period_num+"期":""}}</div>'}
+                , {field: 'start_time', title: '开始时间', align: 'center'}
+                , {field: 'end_time', title: '结束时间', align: 'center'}
+                , {field: 'shzlr', title: '税后总利润', align: 'center'}
+                , {field: 'sylr', title: '剩余利润', align: 'center'}
+                , {field: 'status', title: '状态', align: 'center',templet: '<div>{{d.status == 1?"已闭环":"进行中"}}</div>'}
+            ]]
+            , page: {
+                prev: '上一页',
+                next: '下一页',
+                layout: ['count', 'prev', 'page', 'next', 'limit']
+            }
+            , limit: 16
+            , limits: [10, 15, 20, 25, 30]
+        });
+        form.render();
+
+        function reload() {
+            //执行重载
+            table.reload('main-table', {
+                page: {
+                    curr: 1 //重新从第 1 页开始
+                }
+                , where: {
+                    member_number:member_number,
+                    start_time:start_time,
+                    end_time:end_time,
+                }
+            }, 'data');
+        }
+
+        //搜索
+        form.on('submit(search)', function (data) {
+            member_number = data.field.member_number
+            start_time = data.field.start_time
+            end_time = data.field.end_time
+            reload()
+            return false;
+        });
+
+        table.on('tool(table)', function (obj) {
+            var type = $(this).attr('lay-event');
+            active[type] && active[type].call(this, obj);
+        });
+    });
+
+</script>
